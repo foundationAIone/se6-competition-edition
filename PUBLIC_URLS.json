@@ -1,0 +1,15 @@
+{
+  "schema": "se6-public-destinations-v1",
+  "repository": "https://github.com/foundationAIone/se6-competition-edition",
+  "release": "https://github.com/foundationAIone/se6-competition-edition/releases/tag/v2026.10.29-competition",
+  "windows_test_build": "https://github.com/foundationAIone/se6-competition-edition/releases/download/v2026.10.29-competition/SE6_COMPETITION_WINDOWS_TEST_BUILD.zip",
+  "windows_sha256": "63eeb59163ec50aea83da82c2af90fd87eb4f1a6b84be40ac40d3de75f215e07",
+  "application_source_manifest_sha256": "cde739e3823b84e44085621a9737f0af19b7452acf628c8cfc07519e17f5445c",
+  "public_download_verification": "Unauthenticated HTTP downloads verified; 510 app source members unchanged",
+  "youtube": null,
+  "devpost": null,
+  "submission_status": "NOT_SUBMITTED",
+  "judge_model_access": "NOT_OPERATIONAL; no anonymous funded endpoint; no hosting expense authorized",
+  "default_new_provider_allowance": 0,
+  "production_entity_connected": false
+}
