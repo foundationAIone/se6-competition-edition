@@ -12,5 +12,7 @@
   "runtime_verification": "TWO_REAL_NEBIUS_NVIDIA_CALLS_COMPLETED; spent permit",
   "schema": "se6-competition-publication-status-v1",
   "source_manifest_sha256": "cde739e3823b84e44085621a9737f0af19b7452acf628c8cfc07519e17f5445c",
-  "youtube": "NOT_UPLOADED; destination unresolved"
+  "youtube": "https://www.youtube.com/watch?v=goHmbdW5NTo",
+  "youtube_channel": "https://www.youtube.com/channel/UCdgLyEy0Ko14I5VuHkdsEtw",
+  "youtube_status": "PUBLIC_VERIFIED; Studio PUBLIC receipt and anonymous metadata readback"
 }
