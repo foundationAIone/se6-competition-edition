@@ -28,6 +28,8 @@ The root LICENSE activates the owner-approved MIT license for this cleared Compe
 
 Repository: https://github.com/foundationAIone/se6-competition-edition
 
+Public 2:50 competition demo: https://www.youtube.com/watch?v=goHmbdW5NTo (Council of the Raven). This is the unchanged reviewed recording; both model conditions passed 5/6 stages, including the disclosed shared failure.
+
 For a source checkout, use the complete Windows Release ZIP for the offline wheelhouse, or install the hash-pinned requirements from app/requirements-windows-py314.lock using an appropriately configured Python package source. The checked-in app/README.md is preserved historical source; this root README and PUBLICATION_STATUS.json provide the current release status.
 
 No private owner decisions, credentials, live stores, raw provider transcripts or private video provenance are distributed. Judge-funded model access is not operational yet; a $20 inference budget alone does not establish a judge-authenticated endpoint. YouTube and Devpost URLs will be recorded only after successful publication/submission. No submitted status is claimed by this build.
