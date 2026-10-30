@@ -1,7 +1,7 @@
 {
   "alpha_changed": false,
   "application_modified": false,
-  "devpost": "NOT_SUBMITTED",
+  "devpost": "SUBMITTED_SITE_CONFIRMED",
   "invoice_usd": null,
   "judge_model_access": "NOT_OPERATIONAL; authenticated access and shared spending enforcement unresolved",
   "license": "MIT; upstream notices retained",
@@ -14,5 +14,9 @@
   "source_manifest_sha256": "cde739e3823b84e44085621a9737f0af19b7452acf628c8cfc07519e17f5445c",
   "youtube": "https://www.youtube.com/watch?v=goHmbdW5NTo",
   "youtube_channel": "https://www.youtube.com/channel/UCdgLyEy0Ko14I5VuHkdsEtw",
-  "youtube_status": "PUBLIC_VERIFIED; Studio PUBLIC receipt and anonymous metadata readback"
+  "youtube_status": "PUBLIC_VERIFIED; Studio PUBLIC receipt and anonymous metadata readback",
+  "devpost_url": "https://devpost.com/software/se6-verify",
+  "submitted_at_page": "2026-10-30 10:33 AM EDT",
+  "judge_access_limitation_disclosed": true,
+  "judge_access_required_through": "2026-12-23"
 }
