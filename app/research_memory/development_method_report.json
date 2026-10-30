@@ -1,0 +1,41 @@
+{
+  "schema": "se6-development-retrieval-method-report-v1",
+  "scope": "CLEANED_S_COMPLETE_ALL_ROLE_SESSIONS_RECALL_AT_5_DEVELOPMENT_ONLY",
+  "epistemic_status": "REPORTED",
+  "memory_status": "PROVISIONAL",
+  "authority_effect": "NONE",
+  "representation_version": "se6-source-reported-session-collection-v1",
+  "dataset_revision": "98d7416c24c778c2fee6e6f3006e7a073259d48f",
+  "old_result_sha256": "407d085a5f079293cc3f7cfff0289f9ca1e165ba8e94cd9c485279f3d4bc1ebb",
+  "old_capture_sha256": "63a65929a345cbd10ef0c34a020066d2d14d3155300630a39aecbe4b7247cf42",
+  "old_source_manifest_sha256": "c4526260523c50bc1d60deba3905f247fc364717d216a40e1402a9a8c6527784",
+  "aggregate": {
+    "cases": 20,
+    "legacy_recall_at_5": {
+      "numerator": 169,
+      "denominator": 200
+    },
+    "bm25_recall_at_5": {
+      "numerator": 93,
+      "denominator": 100
+    },
+    "legacy_all_evidence": 16,
+    "bm25_all_evidence": 18,
+    "se6_wins": 0,
+    "se6_losses": 3,
+    "ties": 17,
+    "legacy_failures": 0,
+    "bm25_failures": 0
+  },
+  "allowed_methods": [
+    "legacy-token-overlap-v1",
+    "official-flat-bm25-v1"
+  ],
+  "recommended_method": "official-flat-bm25-v1",
+  "choice_rule": "Use the higher aggregate evidence-recall method on the declared development task scope; do not choose per case or consume held-out feedback.",
+  "limitations": [
+    "Historical development report, not new task truth or World verification.",
+    "Shared BM25 foundation is not SE6 enhancement or superiority evidence.",
+    "No owner authorization, production authority, source acceptance or Alpha effect."
+  ]
+}

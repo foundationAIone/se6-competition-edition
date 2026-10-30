@@ -1,0 +1,347 @@
+{
+  "schema": "se6-frozen-offline-replays-v8",
+  "cases": [
+    {
+      "id": "first-linear/0",
+      "label": "first-linear/0",
+      "question": "Given:\nE1: 2p+q+r=29\nE2: p+r+s=17\nDerive the relationship between p, q, and s,\nand verify it.",
+      "se6_answer": "{\n  \"relation\": {\n    \"coefficients\": [\n      [\"p\", 1],\n      [\"q\", 1],\n      [\"s\", -1]\n    ],\n    \"rhs\": 12\n  },\n  \"steps\": [\n    {\n      \"id\": \"step1\",\n      \"weights\": {\n        \"E1\": 1,\n        \"E2\": -1\n      },\n      \"conclusion\": {\n        \"coefficients\": [\n          [\"p\", 1],\n          [\"q\", 1],\n          [\"s\", -1]\n        ],\n        \"rhs\": 12\n      }\n    }\n  ],\n  \"execution_receipts\": [],\n  \"unique_solution\": false,\n  \"world_facts_verified\": false\n}",
+      "baseline_answer": "{\n  \"relation\": {\n    \"coefficients\": {\n      \"p\": -3,\n      \"q\": 4,\n      \"s\": 5\n    },\n    \"rhs\": 60\n  },\n  \"steps\": [\n    {\n      \"id\": \"S1\",\n      \"weights\": {\n        \"E1\": 1,\n        \"E2\": -1\n      },\n      \"conclusion\": {\n        \"coefficients\": {\n          \"p\": 1,\n          \"q\": 1,\n          \"r\": 0,\n          \"s\": -1\n        },\n        \"rhs\": 12\n      }\n    },\n    {\n      \"id\": \"S2\",\n      \"weights\": {\n        \"E1\": 2,\n        \"S1\": -1\n      },\n      \"conclusion\": {\n        \"coefficients\": {\n          \"p\": 0,\n          \"q\": 1,\n          \"r\": 0,\n          \"s\": 1\n        },\n        \"rhs\": 46\n      }\n    },\n    {\n      \"id\": \"S3\",\n      \"weights\": {\n        \"S2\": 4,\n        \"E2\": -5\n      },\n      \"conclusion\": {\n        \"coefficients\": {\n          \"p\": -3,\n          \"q\": 4,\n          \"r\": 0,\n          \"s\": 5\n        },\n        \"rhs\": 60\n      }\n    }\n  ],\n  \"execution_receipts\": [],\n  \"unique_solution\": false,\n  \"world_facts_verified\": false\n}",
+      "scores": {
+        "lanes": {
+          "se6": {
+            "status": "UNASSESSABLE",
+            "score": null
+          },
+          "baseline": {
+            "status": "ASSESSABLE",
+            "score": 0,
+            "maximum_score": 3,
+            "correct_relation": false,
+            "valid_certificate": false,
+            "epistemic_discipline": false
+          }
+        },
+        "arithmetic_winner": null
+      },
+      "resources": {
+        "se6": {
+          "usage": {
+            "prompt_tokens": 1202,
+            "completion_tokens": 160,
+            "total_tokens": 1362,
+            "reasoning_tokens": 0
+          },
+          "metrics": {
+            "serialized_original_input_bytes": 3594,
+            "worker_elapsed_seconds": 2.028,
+            "transport_elapsed_seconds": null,
+            "tariff_estimate_usd": 0.0005046,
+            "actual_billed_usd": null
+          }
+        },
+        "baseline": {
+          "usage": {
+            "prompt_tokens": 269,
+            "completion_tokens": 341,
+            "total_tokens": 610,
+            "reasoning_tokens": 0
+          },
+          "metrics": {
+            "serialized_original_input_bytes": 1390,
+            "worker_elapsed_seconds": 2.533,
+            "transport_elapsed_seconds": null,
+            "tariff_estimate_usd": 0.00038760000000000004,
+            "actual_billed_usd": null
+          }
+        }
+      },
+      "evidence": {
+        "source": "Sanitized historical provider captures; source byte hashes are local anchors, not external signatures.",
+        "original_hash_anchors": {
+          "se6": {
+            "wire_request_sha256": "86523f9e467b907ef9a82f1d4156bb15336d210d7729853e2beeaf18c5eb7487",
+            "raw_provider_sha256": "858bf1a88d7baeaab645c42bc3d65cf5043a468bf9eb542036e645e9c8f96f19"
+          },
+          "baseline": {
+            "wire_request_sha256": "2ad3df8b2f5a86d6a238755592c8a55ec76ae1db1244b64687f098a82b3f1f05",
+            "raw_provider_sha256": "88eb37d9ad3523efc147ace873c91cab360c6826c7e1d1fb62164993afd62510"
+          }
+        },
+        "new_provider_calls": 0,
+        "current_problem_comparison": false,
+        "answer_quality_scope": "Exact existing functional rubric only; recommendations unscored."
+      },
+      "scope": "FROZEN_OFFLINE_REPLAY; exact historical responses and scores. Not current inference."
+    },
+    {
+      "id": "successor/linear-correction/0",
+      "label": "successor/linear-correction/0",
+      "question": "Given E1: p + q + r = 24 and E2: r + s = 12, derive the exact relation among p, q, s. Give an explicit row-weight certificate.\nReturn {answer:{relation:{coefficients:{variable:integer-or-fraction-string},rhs:integer-or-fraction-string},steps:[{id,weights:{public-equation-or-earlier-step-id:integer-or-fraction-string},conclusion:{coefficients,rhs}}],execution_receipts:[],unique_solution:false,world_facts_verified:false},retained_step_ids:[],invalidated_step_ids:[]}. Use empty retention lists in round 0; round 1 lists refer only to your own prior steps. At most eight steps.\nReturn JSON only. All facts are conditional on supplied inputs. No real-world verification or external actions have occurred.",
+      "se6_answer": "{\n  \"answer\": {\n    \"relation\": {\n      \"coefficients\": {\n        \"p\": 1,\n        \"q\": 1,\n        \"s\": -1\n      },\n      \"rhs\": 12\n    },\n    \"steps\": [\n      {\n        \"id\": \"step1\",\n        \"weights\": {\n          \"E1\": 1,\n          \"E2\": -1\n        },\n        \"conclusion\": {\n          \"coefficients\": {\n            \"p\": 1,\n            \"q\": 1,\n            \"r\": 0,\n            \"s\": -1\n          },\n          \"rhs\": 12\n        }\n      }\n    ],\n    \"execution_receipts\": [],\n    \"unique_solution\": false,\n    \"world_facts_verified\": false\n  },\n  \"retained_step_ids\": [],\n  \"invalidated_step_ids\": []\n}",
+      "baseline_answer": "{\n  \"answer\": {\n    \"relation\": {\n      \"coefficients\": {\n        \"p\": 1,\n        \"q\": 1,\n        \"s\": -1\n      },\n      \"rhs\": 12\n    },\n    \"steps\": [\n      {\n        \"id\": \"step1\",\n        \"weights\": {\n          \"E2\": 1\n        },\n        \"conclusion\": {\n          \"coefficients\": {\n            \"r\": 1,\n            \"s\": 1\n          },\n          \"rhs\": 12\n        }\n      },\n      {\n        \"id\": \"step2\",\n        \"weights\": {\n          \"E1\": 1,\n          \"step1\": -1\n        },\n        \"conclusion\": {\n          \"coefficients\": {\n            \"p\": 1,\n            \"q\": 1,\n            \"s\": -1\n          },\n          \"rhs\": 12\n        }\n      }\n    ],\n    \"execution_receipts\": [],\n    \"unique_solution\": false,\n    \"world_facts_verified\": false\n  },\n  \"retained_step_ids\": [],\n  \"invalidated_step_ids\": []\n}",
+      "scores": {
+        "lanes": {
+          "se6": {
+            "status": "ASSESSABLE",
+            "score": 3,
+            "maximum_score": 3,
+            "correct_relation": true,
+            "valid_certificate": true,
+            "epistemic_discipline": true,
+            "correction_retention_correct": null
+          },
+          "baseline": {
+            "status": "ASSESSABLE",
+            "score": 3,
+            "maximum_score": 3,
+            "correct_relation": true,
+            "valid_certificate": true,
+            "epistemic_discipline": true,
+            "correction_retention_correct": null
+          }
+        },
+        "arithmetic_winner": "TIE"
+      },
+      "resources": {
+        "se6": {
+          "usage": {
+            "prompt_tokens": 1433,
+            "completion_tokens": 190,
+            "total_tokens": 1623,
+            "reasoning_tokens": 0
+          },
+          "metrics": {
+            "serialized_original_input_bytes": 4379,
+            "transport_elapsed_seconds": 2.0007242999854498,
+            "native_pipeline_elapsed_seconds": 1.5600373000488617,
+            "tariff_estimate_usd": 0.0006009,
+            "actual_billed_usd": null
+          }
+        },
+        "baseline": {
+          "usage": {
+            "prompt_tokens": 437,
+            "completion_tokens": 248,
+            "total_tokens": 685,
+            "reasoning_tokens": 0
+          },
+          "metrics": {
+            "serialized_original_input_bytes": 2132,
+            "transport_elapsed_seconds": 2.0005295999580994,
+            "native_pipeline_elapsed_seconds": 0,
+            "tariff_estimate_usd": 0.0003543,
+            "actual_billed_usd": null
+          }
+        }
+      },
+      "evidence": {
+        "source": "Sanitized historical provider captures; source byte hashes are local anchors, not external signatures.",
+        "original_hash_anchors": {
+          "se6": {
+            "wire_request_sha256": "8b9d46a0a9e1985e6e2a292d16b2492e0e670fb97979071e9dfa399a4136bdc5",
+            "raw_provider_sha256": "f30ef0571e039a2ca73be5ad650da9ced2037f7fc55126ede41323bc747a7c85"
+          },
+          "baseline": {
+            "wire_request_sha256": "af1d205e15cd9dc4d2d7b2576a20203fbffd553ba6aad2ca64c6fbfeed3816bb",
+            "raw_provider_sha256": "b06d7b8aeadff6f2339bcd09d83f09bc0da716cf087f5eba9f4f0522dbe569a6"
+          }
+        },
+        "new_provider_calls": 0,
+        "current_problem_comparison": false,
+        "answer_quality_scope": "Exact existing functional rubric only; recommendations unscored."
+      },
+      "scope": "FROZEN_OFFLINE_REPLAY; exact historical responses and scores. Not current inference."
+    },
+    {
+      "id": "successor/linear-correction/1",
+      "label": "successor/linear-correction/1",
+      "question": "Given E1: p + q + r = 24 and E2: r + s = 12, derive the exact relation among p, q, s. Give an explicit row-weight certificate.\nReturn {answer:{relation:{coefficients:{variable:integer-or-fraction-string},rhs:integer-or-fraction-string},steps:[{id,weights:{public-equation-or-earlier-step-id:integer-or-fraction-string},conclusion:{coefficients,rhs}}],execution_receipts:[],unique_solution:false,world_facts_verified:false},retained_step_ids:[],invalidated_step_ids:[]}. Use empty retention lists in round 0; round 1 lists refer only to your own prior steps. At most eight steps.\nReturn JSON only. All facts are conditional on supplied inputs. No real-world verification or external actions have occurred.\n\nCorrection: E2 is now r + s = 15. E1 stays p + q + r = 24. Revise the relation among p, q, s, and classify every prior proof step as retained or invalidated by this replacement.\nReturn {answer:{relation:{coefficients:{variable:integer-or-fraction-string},rhs:integer-or-fraction-string},steps:[{id,weights:{public-equation-or-earlier-step-id:integer-or-fraction-string},conclusion:{coefficients,rhs}}],execution_receipts:[],unique_solution:false,world_facts_verified:false},retained_step_ids:[],invalidated_step_ids:[]}. Use empty retention lists in round 0; round 1 lists refer only to your own prior steps. At most eight steps.\nReturn JSON only. All facts are conditional on supplied inputs. No real-world verification or external actions have occurred.",
+      "se6_answer": "{\n  \"answer\": {\n    \"relation\": {\n      \"coefficients\": {\n        \"p\": 1,\n        \"q\": 1,\n        \"s\": -1\n      },\n      \"rhs\": 9\n    },\n    \"steps\": [\n      {\n        \"id\": \"step1\",\n        \"weights\": {\n          \"E1\": 1,\n          \"E2\": -1\n        },\n        \"conclusion\": {\n          \"coefficients\": {\n            \"p\": 1,\n            \"q\": 1,\n            \"r\": 0,\n            \"s\": -1\n          },\n          \"rhs\": 9\n        }\n      }\n    ],\n    \"execution_receipts\": [],\n    \"unique_solution\": false,\n    \"world_facts_verified\": false\n  },\n  \"retained_step_ids\": [],\n  \"invalidated_step_ids\": [\"step1\"]\n}",
+      "baseline_answer": "{\n  \"answer\": {\n    \"relation\": {\n      \"coefficients\": {\n        \"p\": 1,\n        \"q\": 1,\n        \"s\": -1\n      },\n      \"rhs\": 9\n    },\n    \"steps\": [\n      {\n        \"id\": \"step1\",\n        \"weights\": {\n          \"E2\": 1\n        },\n        \"conclusion\": {\n          \"coefficients\": {\n            \"r\": 1,\n            \"s\": 1\n          },\n          \"rhs\": 15\n        }\n      },\n      {\n        \"id\": \"step2\",\n        \"weights\": {\n          \"E1\": 1,\n          \"step1\": -1\n        },\n        \"conclusion\": {\n          \"coefficients\": {\n            \"p\": 1,\n            \"q\": 1,\n            \"s\": -1\n          },\n          \"rhs\": 9\n        }\n      }\n    ],\n    \"execution_receipts\": [],\n    \"unique_solution\": false,\n    \"world_facts_verified\": false\n  },\n  \"retained_step_ids\": [],\n  \"invalidated_step_ids\": [\"step1\", \"step2\"]\n}",
+      "scores": {
+        "lanes": {
+          "se6": {
+            "status": "ASSESSABLE",
+            "score": 3,
+            "maximum_score": 3,
+            "correct_relation": true,
+            "valid_certificate": true,
+            "epistemic_discipline": true,
+            "correction_retention_correct": true
+          },
+          "baseline": {
+            "status": "ASSESSABLE",
+            "score": 3,
+            "maximum_score": 3,
+            "correct_relation": true,
+            "valid_certificate": true,
+            "epistemic_discipline": true,
+            "correction_retention_correct": true
+          }
+        },
+        "arithmetic_winner": "TIE"
+      },
+      "resources": {
+        "se6": {
+          "usage": {
+            "prompt_tokens": 1816,
+            "completion_tokens": 191,
+            "total_tokens": 2007,
+            "reasoning_tokens": 0
+          },
+          "metrics": {
+            "serialized_original_input_bytes": 5887,
+            "transport_elapsed_seconds": 2.679390400007833,
+            "native_pipeline_elapsed_seconds": 6.886212499986868,
+            "tariff_estimate_usd": 0.0007166999999999999,
+            "actual_billed_usd": null
+          }
+        },
+        "baseline": {
+          "usage": {
+            "prompt_tokens": 887,
+            "completion_tokens": 253,
+            "total_tokens": 1140,
+            "reasoning_tokens": 0
+          },
+          "metrics": {
+            "serialized_original_input_bytes": 3879,
+            "transport_elapsed_seconds": 3.079327200015541,
+            "native_pipeline_elapsed_seconds": 0,
+            "tariff_estimate_usd": 0.0004938,
+            "actual_billed_usd": null
+          }
+        }
+      },
+      "evidence": {
+        "source": "Sanitized historical provider captures; source byte hashes are local anchors, not external signatures.",
+        "original_hash_anchors": {
+          "se6": {
+            "wire_request_sha256": "9c6815907c25327153ce84b5082b471e4a5ca8a7a85bc4dabfb2975b1212cf49",
+            "raw_provider_sha256": "5e8078ea926687dfc930bcf0053389f7b6c25413123f490e67726dd3169192df"
+          },
+          "baseline": {
+            "wire_request_sha256": "f09fa6abd7c3edd10a1052cfd4dfec2e35907c56561d53dd20990182af48f5b2",
+            "raw_provider_sha256": "49e0e9c010201e5a0ec2ce93b7e2eac36edc3fc34be0f9d7e18e99704edee190"
+          }
+        },
+        "new_provider_calls": 0,
+        "current_problem_comparison": false,
+        "answer_quality_scope": "Exact existing functional rubric only; recommendations unscored."
+      },
+      "scope": "FROZEN_OFFLINE_REPLAY; exact historical responses and scores. Not current inference."
+    },
+    {
+      "id": "successor/mixed-business/0",
+      "label": "successor/mixed-business/0",
+      "question": "You manage a cleaning service. \nROUTINE: 1.5 technician-hours, $12.50 materials cost, $67.25 customer revenue.\nDEEP: 3 technician-hours, $30.75 materials cost, $132.10 customer revenue.\nWe completed 10 jobs. The original log recorded 24 technician-hours. Later a correction showing 27 technician-hours arrived. The weekly materials budget is $260.\nCalculate original and corrected job allocations, revenue, materials, gross contribution, budget variance (materials minus budget) and whether the budget is exceeded.\nDetermine whether materials exceed budget.\nRecommend an action.\nShould spending be investigated? Provide a two-sentence recommendation separating arithmetic from facts needing verification.\nReturn {original:{routine,deep,revenue,materials,gross_contribution,budget_variance,budget_exceeded},corrected:{same fields},investigate_spending:true-or-false,world_facts_verified:false,recommendation:string}. Quantities must be integers or exact rational/decimal strings. No execution receipt claims.\nReturn JSON only. All facts are conditional on supplied inputs. No real-world verification or external actions have occurred.",
+      "se6_answer": "{\n  \"original\": {\n    \"routine\": 4,\n    \"deep\": 6,\n    \"revenue\": \"1061.60\",\n    \"materials\": \"234.50\",\n    \"gross_contribution\": \"827.10\",\n    \"budget_variance\": \"-25.50\",\n    \"budget_exceeded\": false\n  },\n  \"corrected\": {\n    \"routine\": 2,\n    \"deep\": 8,\n    \"revenue\": \"1191.30\",\n    \"materials\": \"271.00\",\n    \"gross_contribution\": \"920.30\",\n    \"budget_variance\": \"11.00\",\n    \"budget_exceeded\": true\n  },\n  \"investigate_spending\": true,\n  \"world_facts_verified\": false,\n  \"recommendation\": \"Arithmetic shows materials exceed budget by $11.00 under corrected allocation. Verify actual job counts and material invoices before concluding overspend.\"\n}",
+      "baseline_answer": "{\n  \"original\": {\n    \"routine\": 8,\n    \"deep\": 2,\n    \"revenue\": \"794.50\",\n    \"materials\": \"162.50\",\n    \"gross_contribution\": \"632.00\",\n    \"budget_variance\": \"-97.50\",\n    \"budget_exceeded\": false\n  },\n  \"corrected\": {\n    \"routine\": 6,\n    \"deep\": 4,\n    \"revenue\": \"855.50\",\n    \"materials\": \"212.50\",\n    \"gross_contribution\": \"643.00\",\n    \"budget_variance\": \"-47.50\",\n    \"budget_exceeded\": false\n  },\n  \"investigate_spending\": true,\n  \"world_facts_verified\": false,\n  \"recommendation\": \"The corrected allocation shows higher revenue and gross contribution despite increased labor hours. Verify actual job counts and material usage logs to confirm spending accuracy.\"\n}",
+      "scores": {
+        "lanes": {
+          "se6": {
+            "status": "ASSESSABLE",
+            "score": 16,
+            "maximum_score": 16,
+            "checks": {
+              "original.routine": true,
+              "original.deep": true,
+              "original.revenue": true,
+              "original.materials": true,
+              "original.gross_contribution": true,
+              "original.budget_variance": true,
+              "original.budget_exceeded": true,
+              "corrected.routine": true,
+              "corrected.deep": true,
+              "corrected.revenue": true,
+              "corrected.materials": true,
+              "corrected.gross_contribution": true,
+              "corrected.budget_variance": true,
+              "corrected.budget_exceeded": true,
+              "investigate_spending": true,
+              "world_facts_verified": true
+            },
+            "recommendation": "UNSCORED"
+          },
+          "baseline": {
+            "status": "ASSESSABLE",
+            "score": 3,
+            "maximum_score": 16,
+            "checks": {
+              "original.routine": false,
+              "original.deep": false,
+              "original.revenue": false,
+              "original.materials": false,
+              "original.gross_contribution": false,
+              "original.budget_variance": false,
+              "original.budget_exceeded": true,
+              "corrected.routine": false,
+              "corrected.deep": false,
+              "corrected.revenue": false,
+              "corrected.materials": false,
+              "corrected.gross_contribution": false,
+              "corrected.budget_variance": false,
+              "corrected.budget_exceeded": false,
+              "investigate_spending": true,
+              "world_facts_verified": true
+            },
+            "recommendation": "UNSCORED"
+          }
+        },
+        "arithmetic_winner": "se6"
+      },
+      "resources": {
+        "se6": {
+          "usage": {
+            "prompt_tokens": 3419,
+            "completion_tokens": 236,
+            "total_tokens": 3655,
+            "reasoning_tokens": 0
+          },
+          "metrics": {
+            "serialized_original_input_bytes": 10057,
+            "transport_elapsed_seconds": 1.7291324000107124,
+            "native_pipeline_elapsed_seconds": 3.0422371000167914,
+            "tariff_estimate_usd": 0.0012381000000000002,
+            "actual_billed_usd": null
+          }
+        },
+        "baseline": {
+          "usage": {
+            "prompt_tokens": 518,
+            "completion_tokens": 231,
+            "total_tokens": 749,
+            "reasoning_tokens": 0
+          },
+          "metrics": {
+            "serialized_original_input_bytes": 2568,
+            "transport_elapsed_seconds": 1.7416497000376694,
+            "native_pipeline_elapsed_seconds": 0,
+            "tariff_estimate_usd": 0.0003633,
+            "actual_billed_usd": null
+          }
+        }
+      },
+      "evidence": {
+        "source": "Sanitized historical provider captures; source byte hashes are local anchors, not external signatures.",
+        "original_hash_anchors": {
+          "se6": {
+            "wire_request_sha256": "94b2e3d9c27c020cfb67f2484f81e5ed20147f74bfc279109d0e35d9995b1f48",
+            "raw_provider_sha256": "6f4b4aad64d0d5de4265609dfa82d58553c104f6a88b11788f5036475f31fcfb"
+          },
+          "baseline": {
+            "wire_request_sha256": "e8f68420a7bb73754fd461df2a8d930b7908e69846c3eabecffc90929cfc339a",
+            "raw_provider_sha256": "10890f68a8feacdddea1634659b37aa09820d1ae43dab36b0d0fe57b9e7172ba"
+          }
+        },
+        "new_provider_calls": 0,
+        "current_problem_comparison": false,
+        "answer_quality_scope": "Exact existing functional rubric only; recommendations unscored."
+      },
+      "scope": "FROZEN_OFFLINE_REPLAY; exact historical responses and scores. Not current inference."
+    }
+  ],
+  "source_evidence_sha256": "c3d3983aa276b3c5ccdb572044ecbf2bf58415844d2a578dff440eee551d7621",
+  "scorer_sha256": "333b1dd94a3871a9379c242db3a54012227e9b69b4dc204923e96a1277492121"
+}

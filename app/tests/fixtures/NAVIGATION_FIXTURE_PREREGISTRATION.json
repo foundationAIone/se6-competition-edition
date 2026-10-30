@@ -1,0 +1,1659 @@
+{
+  "schema": "navigation-independent-fixtures-v1",
+  "seed": 616071026,
+  "created_utc": "2026-10-11T12:45:04.772749+00:00",
+  "cases": [
+    {
+      "id": "navigation-00",
+      "question": "Mapped public relationships for independent navigation fixture 0.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 0 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 0 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 0 node 2",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 0 node 3",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n4",
+            "route": "UNSUPPORTED",
+            "connected": true,
+            "input": "public relation fixture 0 node 4",
+            "depends_on": [
+              "n3"
+            ],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 0 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-01",
+      "question": "Mapped public relationships for independent navigation fixture 1.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 1 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "UNSUPPORTED",
+            "connected": true,
+            "input": "public relation fixture 1 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 1 node 2",
+            "depends_on": [],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 1 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-02",
+      "question": "Mapped public relationships for independent navigation fixture 2.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 2 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 2 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 2 node 2",
+            "depends_on": [
+              "n1"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 2 node 3",
+            "depends_on": [],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 2 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-03",
+      "question": "Mapped public relationships for independent navigation fixture 3.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 3 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 3 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 3 node 2",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 3 node 3",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n4",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 3 node 4",
+            "depends_on": [
+              "n0",
+              "n3"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n5",
+            "route": "UNSUPPORTED",
+            "connected": true,
+            "input": "public relation fixture 3 node 5",
+            "depends_on": [],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 3 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-04",
+      "question": "Mapped public relationships for independent navigation fixture 4.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 4 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "UNSUPPORTED",
+            "connected": false,
+            "input": "public relation fixture 4 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 4 node 2",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 4 node 3",
+            "depends_on": [
+              "n2"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n4",
+            "route": "UNSUPPORTED",
+            "connected": true,
+            "input": "public relation fixture 4 node 4",
+            "depends_on": [
+              "n0"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n5",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 4 node 5",
+            "depends_on": [
+              "n1",
+              "n2"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n6",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 4 node 6",
+            "depends_on": [
+              "n3",
+              "n4"
+            ],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 4 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-05",
+      "question": "Mapped public relationships for independent navigation fixture 5.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 5 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 5 node 1",
+            "depends_on": [
+              "n0"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "UNSUPPORTED",
+            "connected": true,
+            "input": "public relation fixture 5 node 2",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "UNSUPPORTED",
+            "connected": false,
+            "input": "public relation fixture 5 node 3",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n4",
+            "route": "UNSUPPORTED",
+            "connected": true,
+            "input": "public relation fixture 5 node 4",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n5",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 5 node 5",
+            "depends_on": [
+              "n1",
+              "n3",
+              "n4"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n6",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 5 node 6",
+            "depends_on": [
+              "n1",
+              "n2"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n7",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 5 node 7",
+            "depends_on": [
+              "n1",
+              "n3",
+              "n5"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n8",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 5 node 8",
+            "depends_on": [
+              "n7"
+            ],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 5 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-06",
+      "question": "Mapped public relationships for independent navigation fixture 6.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 6 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 6 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 6 node 2",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 6 node 3",
+            "depends_on": [],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 6 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-07",
+      "question": "Mapped public relationships for independent navigation fixture 7.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 7 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 7 node 1",
+            "depends_on": [
+              "n0"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 7 node 2",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 7 node 3",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n4",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 7 node 4",
+            "depends_on": [
+              "n3"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n5",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 7 node 5",
+            "depends_on": [
+              "n3"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n6",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 7 node 6",
+            "depends_on": [
+              "n1",
+              "n2",
+              "n3"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n7",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 7 node 7",
+            "depends_on": [
+              "n0"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n8",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 7 node 8",
+            "depends_on": [
+              "n2",
+              "n3",
+              "n5"
+            ],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 7 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-08",
+      "question": "Mapped public relationships for independent navigation fixture 8.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 8 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 8 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "UNSUPPORTED",
+            "connected": false,
+            "input": "public relation fixture 8 node 2",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 8 node 3",
+            "depends_on": [
+              "n2"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n4",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 8 node 4",
+            "depends_on": [
+              "n1"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n5",
+            "route": "UNSUPPORTED",
+            "connected": true,
+            "input": "public relation fixture 8 node 5",
+            "depends_on": [
+              "n0"
+            ],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 8 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-09",
+      "question": "Mapped public relationships for independent navigation fixture 9.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "UNSUPPORTED",
+            "connected": true,
+            "input": "public relation fixture 9 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 9 node 1",
+            "depends_on": [
+              "n0"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 9 node 2",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 9 node 3",
+            "depends_on": [
+              "n2"
+            ],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 9 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-10",
+      "question": "Mapped public relationships for independent navigation fixture 10.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 10 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 10 node 1",
+            "depends_on": [
+              "n0"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 10 node 2",
+            "depends_on": [
+              "n1"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 10 node 3",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n4",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 10 node 4",
+            "depends_on": [
+              "n3"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n5",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 10 node 5",
+            "depends_on": [
+              "n2"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n6",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 10 node 6",
+            "depends_on": [
+              "n0",
+              "n2",
+              "n4"
+            ],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 10 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-11",
+      "question": "Mapped public relationships for independent navigation fixture 11.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 11 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "UNSUPPORTED",
+            "connected": false,
+            "input": "public relation fixture 11 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 11 node 2",
+            "depends_on": [],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 11 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-12",
+      "question": "Mapped public relationships for independent navigation fixture 12.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 12 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 12 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 12 node 2",
+            "depends_on": [
+              "n1"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 12 node 3",
+            "depends_on": [],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 12 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-13",
+      "question": "Mapped public relationships for independent navigation fixture 13.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 13 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "UNSUPPORTED",
+            "connected": true,
+            "input": "public relation fixture 13 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 13 node 2",
+            "depends_on": [
+              "n0"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 13 node 3",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n4",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 13 node 4",
+            "depends_on": [
+              "n1",
+              "n2"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n5",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 13 node 5",
+            "depends_on": [
+              "n3",
+              "n4"
+            ],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 13 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-14",
+      "question": "Mapped public relationships for independent navigation fixture 14.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 14 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "UNSUPPORTED",
+            "connected": true,
+            "input": "public relation fixture 14 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 14 node 2",
+            "depends_on": [
+              "n0",
+              "n1"
+            ],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 14 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-15",
+      "question": "Mapped public relationships for independent navigation fixture 15.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 15 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 15 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 15 node 2",
+            "depends_on": [
+              "n0"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 15 node 3",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n4",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 15 node 4",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n5",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 15 node 5",
+            "depends_on": [],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 15 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-16",
+      "question": "Mapped public relationships for independent navigation fixture 16.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "UNSUPPORTED",
+            "connected": true,
+            "input": "public relation fixture 16 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 16 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 16 node 2",
+            "depends_on": [],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 16 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-17",
+      "question": "Mapped public relationships for independent navigation fixture 17.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 17 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 17 node 1",
+            "depends_on": [
+              "n0"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 17 node 2",
+            "depends_on": [
+              "n1"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 17 node 3",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n4",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 17 node 4",
+            "depends_on": [
+              "n3"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n5",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 17 node 5",
+            "depends_on": [
+              "n0",
+              "n3",
+              "n4"
+            ],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 17 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-18",
+      "question": "Mapped public relationships for independent navigation fixture 18.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 18 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 18 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 18 node 2",
+            "depends_on": [
+              "n1"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 18 node 3",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n4",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 18 node 4",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n5",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 18 node 5",
+            "depends_on": [
+              "n2"
+            ],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 18 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-19",
+      "question": "Mapped public relationships for independent navigation fixture 19.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 19 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 19 node 1",
+            "depends_on": [
+              "n0"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 19 node 2",
+            "depends_on": [
+              "n0",
+              "n1"
+            ],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 19 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-20",
+      "question": "Mapped public relationships for independent navigation fixture 20.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 20 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 20 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 20 node 2",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 20 node 3",
+            "depends_on": [
+              "n1"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n4",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 20 node 4",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n5",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 20 node 5",
+            "depends_on": [
+              "n2"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n6",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 20 node 6",
+            "depends_on": [
+              "n2"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n7",
+            "route": "UNSUPPORTED",
+            "connected": true,
+            "input": "public relation fixture 20 node 7",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n8",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 20 node 8",
+            "depends_on": [
+              "n1",
+              "n2"
+            ],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 20 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-21",
+      "question": "Mapped public relationships for independent navigation fixture 21.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 21 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 21 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 21 node 2",
+            "depends_on": [
+              "n0",
+              "n1"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 21 node 3",
+            "depends_on": [
+              "n1"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n4",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 21 node 4",
+            "depends_on": [],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 21 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-22",
+      "question": "Mapped public relationships for independent navigation fixture 22.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "UNSUPPORTED",
+            "connected": true,
+            "input": "public relation fixture 22 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 22 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 22 node 2",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n3",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 22 node 3",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n4",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 22 node 4",
+            "depends_on": [
+              "n0",
+              "n1"
+            ],
+            "source_spans": []
+          },
+          {
+            "id": "n5",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 22 node 5",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n6",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 22 node 6",
+            "depends_on": [
+              "n2"
+            ],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 22 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    },
+    {
+      "id": "navigation-23",
+      "question": "Mapped public relationships for independent navigation fixture 23.",
+      "plan": {
+        "nodes": [
+          {
+            "id": "n0",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 23 node 0",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n1",
+            "route": "RELATIONAL",
+            "connected": true,
+            "input": "public relation fixture 23 node 1",
+            "depends_on": [],
+            "source_spans": []
+          },
+          {
+            "id": "n2",
+            "route": "RELATIONAL",
+            "connected": false,
+            "input": "public relation fixture 23 node 2",
+            "depends_on": [],
+            "source_spans": []
+          }
+        ]
+      },
+      "changes": [
+        {
+          "kind": "initial"
+        },
+        {
+          "kind": "explicit_correction",
+          "node": "n0",
+          "replacement": "Correct public relation fixture 23 node 0."
+        },
+        {
+          "kind": "unaffected_retention"
+        }
+      ]
+    }
+  ],
+  "scope": "Public graph/input changes; native answer truth not inferred from syntheticplan; freshschema notyetreceived; expectedrouteeligibility separatelyevaluatedafterfrozenoutput"
+}

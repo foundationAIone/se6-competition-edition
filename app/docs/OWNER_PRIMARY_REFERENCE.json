@@ -1,0 +1,24 @@
+{
+  "schema": "se6-owner-primary-reference-v7.1",
+  "priority": "OWNER_OLDER_ACTION_DEPENDENT_COMPOSITION",
+  "owner_older_latex": "\\boxed{\\begin{aligned}\n(X_{t+1},\\Theta_{t+1},M_{t+1})\n&=R_{\\mathrm{renew}}\\circ I_{\\mathrm{return}}^{-1}\\circ\\operatorname{VerifyAssimilate}\\Bigg[\n\\operatorname{World}\\Bigg(X_t,\\underset{a\\in A_B}{\\arg\\max}\\;\\mathbb E\\Bigg[\n\\Delta V(X_t,a)-\\operatorname{Cost}(a)-\\operatorname{Risk}(a)-\\operatorname{Irreversibility}(a)\\\\\n&\\qquad\\Bigg|\\;\\Pi_B\\Big\\{P\\Big[S\\Big(Q_{\\mathrm{QPRE}}\\Big(T\\Big(K_{\\mathrm{Merkabah}}\\Big(D_{\\mathrm{substrate}}\\Big(F_{\\mathrm{FoL}}\\Big(C\\big([\\{01*\\}],X_t,\\Theta_t,M_t,E_t,U_t\\big)\\Big)\\Big)\\Big)\\Big)\\Big)\\Big)\\Big]\\Big\\},U_t\\Bigg]\\Bigg),\nE_t,M_t,\\Theta_t\\Bigg]\n\\end{aligned}}",
+  "source_operational_latex": "\n\\boxed{\n\\begin{aligned}\n\\left(X_{t+1},\\Theta_{t+1},M_{t+1}\\right)\n&=\n\\mathcal{R}_{\\mathrm{renew}}\n\\circ\n\\mathcal{I}^{-1}_{\\mathrm{return}}\n\\circ\n\\operatorname{VerifyAssimilate}\n\\Bigg[\n\\operatorname{World}\\!\\Bigg(\nX_t,\\;\n\\\\[-2pt]\n&\\qquad\n\\underset{a\\in\\mathcal A_B(X_t,\\Theta_t)}{\\operatorname{arg\\,max}}\n\\;\n\\mathbb{E}\\!\\Bigg[\n\\Delta V(X_t,\\Theta_t,a)\n-\n\\operatorname{Cost}(a)\n-\n\\operatorname{Risk}(a)\n-\n\\operatorname{Irreversibility}(a)\n\\\\[2pt]\n&\\qquad\\qquad\\qquad\n\\Bigg|\\;\n\\Pi_B\n\\Bigg\\{\n\\mathcal P\n\\Bigg[\n\\mathbb S\n\\Bigg(\n\\mathcal Q_{\\mathrm{QPRE}}\n\\Bigg(\n\\mathcal T\n\\Bigg(\n\\mathcal K_{\\mathrm{Merkabah}}\n\\Bigg(\n\\mathcal D_{\\mathrm{substrate}}\n\\Bigg(\n\\mathbb F_{\\mathrm{FoL}}\n\\Bigg(\n\\mathcal C\n\\Big(\n[\\,\\{01*\\}\\,],\nX_t,\n\\Theta_t,\nM_t,\nE_t,\nU_t\n\\Big)\n\\Bigg)\n\\Bigg)\n\\Bigg)\n\\Bigg)\n\\Bigg)\n\\Bigg)\n\\Bigg]\n\\Bigg\\},\nU_t\n\\Bigg]\n\\Bigg),\n\\\\[2pt]\n&\\qquad\nE_t,\\,\nM_t,\\,\n\\Theta_t\n\\Bigg]\n\\end{aligned}\n}\n",
+  "source_document": "docs/SYMBOLIC_EQUATION_V6.md",
+  "source_document_sha256": "c777248a57902008ac943aa5dde941005a5709f66bc13f7a63a785fb68c649be",
+  "transcription_status": "Mathematical transcription of the latest owner-supplied typeset expression. Balanced grouping/display whitespace normalized; not asserted character-identical to an original authoritative document.",
+  "differences": [
+    "Owner primary uses DeltaV(X_t,a); normative source uses DeltaV(X_t,Theta_t,a).",
+    "Owner primary uses unqualified A_B; normative source uses A_B(X_t,Theta_t).",
+    "Owner primary uses undecorated operator names; normative source decorates several operators.",
+    "Both place E_t,M_t,Theta_t outside World as explicit VerifyAssimilate arguments; neither the state nor evidence is discarded."
+  ],
+  "invariants": [
+    "The equation reference remains fixed while task state and verified retained knowledge evolve.",
+    "Cost(a), Risk(a), Irreversibility(a) remain action-dependent.",
+    "Formal equivalence with the separate integral expression is unestablished.",
+    "Displaying this expression does not implement every numerical operator or establish empirical reality fidelity."
+  ],
+  "implementation_contract_unchanged": "se6-symbolic-equation-v6.1.0",
+  "new_provider_calls": 0,
+  "production_connected": false
+}

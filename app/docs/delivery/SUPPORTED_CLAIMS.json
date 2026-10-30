@@ -1,0 +1,70 @@
+{
+  "schema": "se6-competition-supported-claims-v1",
+  "date": "2026-10-28",
+  "edition": "Isolated Competition Edition; no production Entity connection",
+  "claims": [
+    {
+      "id": "bounded-dependency-awareness",
+      "status": "PRESERVED_EXECUTION_EVIDENCE_INDEPENDENTLY_REVIEWED",
+      "claim": "A source-bound finite dependency operator used raw manifest relationships and actual working-root context to select a permitted integer configuration change, independently verify its CLI consequence, retain verified state and continue after a cold process restart.",
+      "evidence": "SE6_AWARENESS_RESULT.zip",
+      "sha256": "ff712b8072d193a3761089da682bb10b53b6b844373642858a34b24ce8d140ed",
+      "domain": "Public affine CLI gain*limit+offset; 2..8 manifest profiles; SET_INTEGER limit in [0,100]; test-only disposable roots",
+      "full_canonical": false,
+      "production_authority": false,
+      "limits": "Authored bounded operator, not autonomous primitive discovery, general learning or consciousness. Historical domain execution is separate from current application acceptance."
+    },
+    {
+      "id": "awareness-comparison",
+      "status": "TIE",
+      "retained_se6_successes": 3,
+      "memory_ablated_successes": 3,
+      "conventional_successes": 3,
+      "phases_per_arm": 3,
+      "actual_verified_effects_all_arms": 9,
+      "measured_advantage": "NOT_ESTABLISHED",
+      "limits": "Retained edges were consumed in phase 2; this did not improve goal completion over either control. Conventional execution used less measured worker CPU and wall time. These are nine correlated phase outcomes, not nine independent generalization tasks."
+    },
+    {
+      "id": "native-business-correction",
+      "status": "PREVIOUS_RELEASE_ACCEPTANCE_VERIFIED",
+      "claim": "Supported job-allocation proof and deterministic HOST financial arithmetic changed revenue from 1100 to 1180 after a timesheet correction, retained unaffected costs and independently recovered state across a fresh HTTP server process.",
+      "evidence": "Earlier source-bound clean-start acceptance; separately retained in the release evidence set",
+      "limits": "Conditional synthetic premises; no external timesheet authenticity, unrestricted business reasoning or production modification."
+    },
+    {
+      "id": "nvidia-nebius-integration",
+      "status": "RECORDED_LIVE_PROVIDER_INTEGRATION",
+      "provider": "Nebius Token Factory",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "recorded_pair_packet_sha256": "b36bc6c348701fabfb69286b70b9ecf29c1a5fe2c0430f9b0120e08b236107ea",
+      "recorded_source_manifest_sha256": "62a2184d2b08fea49b27cb22b2eedad7545ae5c0ddd2961e510d5421f99ef5c8",
+      "current_integrated_source_live_verification": "NOT_EXECUTED_NEW_COMPLETE_MANIFEST_DIFFERS",
+      "recorded_provider_calls": 2,
+      "new_call_authority": 0,
+      "tariff_estimate_usd": 0.0003714,
+      "actual_billed_usd": null,
+      "limits": "The assisted request included the complete correct conditional Native/HOST answer. It verifies the earlier source-bound API/product connection, not independent reasoning superiority, a field advantage or new paid authority. Copied wire/parser/context modules may match that source; the integrated complete manifest changes and has no new live run. Both model settings matched; assisted input was larger and had additional local computation."
+    },
+    {
+      "id": "current-awareness-application",
+      "status": "AWAITING_COORDINATOR_ACTUAL_INTEGRATED_ACCEPTANCE",
+      "claim": "The current application connection must be established by its own saved run, loaded source identity, exact effects, cold continuation and UI/export correspondence.",
+      "limits": "Historical archive review, unit tests and source installation alone do not establish current application execution."
+    }
+  ],
+  "not_claimed": [
+    "General intelligence or subjective awareness",
+    "Full owner equation or complete canonical realization",
+    "General learning, model-weight improvement or outside-catalog novelty",
+    "Superiority over a competent conventional resolver",
+    "Physical field effects or a demonstrated causal field advantage",
+    "New production authority, authenticated production adoption or public spending permission"
+  ],
+  "unknown_measurements": [
+    "Complete child-process CPU totals",
+    "Whole-system peak memory",
+    "Local monetary cost",
+    "Actual provider invoice amount"
+  ]
+}

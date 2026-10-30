@@ -1,0 +1,146 @@
+{
+  "schema": "se6-public-replay-v1",
+  "pairs": {
+    "first-linear/0": {
+      "lanes": {
+        "se6": {
+          "status": "UNASSESSABLE",
+          "score": null
+        },
+        "baseline": {
+          "status": "ASSESSABLE",
+          "score": 0,
+          "maximum_score": 3,
+          "correct_relation": false,
+          "valid_certificate": false,
+          "epistemic_discipline": false
+        }
+      },
+      "arithmetic_winner": null
+    },
+    "successor/linear-correction/0": {
+      "lanes": {
+        "se6": {
+          "status": "ASSESSABLE",
+          "score": 3,
+          "maximum_score": 3,
+          "correct_relation": true,
+          "valid_certificate": true,
+          "epistemic_discipline": true,
+          "correction_retention_correct": null
+        },
+        "baseline": {
+          "status": "ASSESSABLE",
+          "score": 3,
+          "maximum_score": 3,
+          "correct_relation": true,
+          "valid_certificate": true,
+          "epistemic_discipline": true,
+          "correction_retention_correct": null
+        }
+      },
+      "arithmetic_winner": "TIE"
+    },
+    "successor/linear-correction/1": {
+      "lanes": {
+        "se6": {
+          "status": "ASSESSABLE",
+          "score": 3,
+          "maximum_score": 3,
+          "correct_relation": true,
+          "valid_certificate": true,
+          "epistemic_discipline": true,
+          "correction_retention_correct": true
+        },
+        "baseline": {
+          "status": "ASSESSABLE",
+          "score": 3,
+          "maximum_score": 3,
+          "correct_relation": true,
+          "valid_certificate": true,
+          "epistemic_discipline": true,
+          "correction_retention_correct": true
+        }
+      },
+      "arithmetic_winner": "TIE"
+    },
+    "successor/mixed-business/0": {
+      "lanes": {
+        "se6": {
+          "status": "ASSESSABLE",
+          "score": 16,
+          "maximum_score": 16,
+          "checks": {
+            "original.routine": true,
+            "original.deep": true,
+            "original.revenue": true,
+            "original.materials": true,
+            "original.gross_contribution": true,
+            "original.budget_variance": true,
+            "original.budget_exceeded": true,
+            "corrected.routine": true,
+            "corrected.deep": true,
+            "corrected.revenue": true,
+            "corrected.materials": true,
+            "corrected.gross_contribution": true,
+            "corrected.budget_variance": true,
+            "corrected.budget_exceeded": true,
+            "investigate_spending": true,
+            "world_facts_verified": true
+          },
+          "recommendation": "UNSCORED"
+        },
+        "baseline": {
+          "status": "ASSESSABLE",
+          "score": 3,
+          "maximum_score": 16,
+          "checks": {
+            "original.routine": false,
+            "original.deep": false,
+            "original.revenue": false,
+            "original.materials": false,
+            "original.gross_contribution": false,
+            "original.budget_variance": false,
+            "original.budget_exceeded": true,
+            "corrected.routine": false,
+            "corrected.deep": false,
+            "corrected.revenue": false,
+            "corrected.materials": false,
+            "corrected.gross_contribution": false,
+            "corrected.budget_variance": false,
+            "corrected.budget_exceeded": false,
+            "investigate_spending": true,
+            "world_facts_verified": true
+          },
+          "recommendation": "UNSCORED"
+        }
+      },
+      "arithmetic_winner": "se6"
+    }
+  },
+  "resources": {
+    "first-linear": {
+      "selected_capture_count": 2,
+      "original_input_bytes_reported": 4984,
+      "completion_tokens_reported": 501,
+      "total_tokens_reported": 1972,
+      "tariff_estimate_usd": 0.0008922,
+      "actual_billed_usd": null,
+      "within_declared_caps": true,
+      "source": "Sanitized selected metrics; original reservation/authorization records remain private"
+    },
+    "successor": {
+      "selected_capture_count": 6,
+      "original_input_bytes_reported": 28902,
+      "completion_tokens_reported": 1349,
+      "total_tokens_reported": 9859,
+      "tariff_estimate_usd": 0.0037671,
+      "actual_billed_usd": null,
+      "within_declared_caps": true,
+      "source": "Sanitized selected metrics; original reservation/authorization records remain private"
+    }
+  },
+  "overall_winner": null,
+  "replay_inference_calls": 0,
+  "scope": "Arithmetic from sanitized public captures; no native/vendor/private provenance verification"
+}

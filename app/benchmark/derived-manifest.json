@@ -1,0 +1,12 @@
+{
+  "schema": "se6-public-derived-files-v1",
+  "files": {
+    "BENCHMARK_EVIDENCE.json": "c3d3983aa276b3c5ccdb572044ecbf2bf58415844d2a578dff440eee551d7621",
+    "PUBLIC_SCORECARD.json": "3887382524ba1e0831251abde48d6751cd70d86bf649e6acd04499ce3e89a32e",
+    "public_scorer.py": "333b1dd94a3871a9379c242db3a54012227e9b69b4dc204923e96a1277492121",
+    "README.md": "de5436952c020af3aaa4abf2be6cee1ef3346bccbae7a87cf8e7514ce37144b4",
+    "SANITIZATION_MANIFEST.json": "c3989a5725e582198103e72ff012229ded284650f76376bfa1c3fd5778195663",
+    "test_public_evidence.py": "3ddc51f664d4e14b179aed1939566899656a857d7877e05c489ae06763c209d8"
+  },
+  "hash_scope": "Sanitized public derivatives only; original anchors are separately labeled"
+}

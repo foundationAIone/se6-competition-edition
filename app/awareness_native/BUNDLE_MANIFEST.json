@@ -1,0 +1,639 @@
+{
+  "dependencies": [
+    "Python>=3.11",
+    "pydantic>=2,<3",
+    "pytest (unchanged test-helper genesis imports)"
+  ],
+  "files": {
+    "work/codex-vscode-research/alpha-continuation/engine/durable_attempts.py": {
+      "reason": "Exact original independently pinned Native lifecycle dependency",
+      "sha256": "9ef6b4d5ccca8725d901c3ae13385fadcdf41343e27ddee894de3bae57e77d04",
+      "source_sha256": "9ef6b4d5ccca8725d901c3ae13385fadcdf41343e27ddee894de3bae57e77d04"
+    },
+    "work/codex-vscode-research/operational-realization/engine/typed_composer.py": {
+      "reason": "Exact original independently pinned Native lifecycle dependency",
+      "sha256": "3f219886ee35c863ef81ec485c9ace22287951cb95690112dff70eb242fcb409",
+      "source_sha256": "3f219886ee35c863ef81ec485c9ace22287951cb95690112dff70eb242fcb409"
+    },
+    "work/qpre-calibration-integration-20261026/dev/scripts/__init__.py": {
+      "reason": "Generated namespace only",
+      "sha256": "f464fdb4a9e92fd4c51897e5d445e180686805d35569bcb131d526030c4a85d7"
+    },
+    "work/qpre-calibration-integration-20261026/dev/scripts/run_dependency_awareness.py": {
+      "development_modified": true,
+      "reason": "Reviewed bounded existing Native agent configuration and independently witnessed Becoming capability/applicability memory; no new authority or general nursery.",
+      "sha256": "80ceac0e04a835a6a4063fd28175eb9af9b766203bc3b978352603d10be84d6e",
+      "source_sha256": "21687fb36d420169e8ca233ae1ef21ffc47e2583f466ae29e92f260e1cfd9054"
+    },
+    "work/qpre-calibration-integration-20261026/dev/scripts/run_native_qpre_learning.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "af80be0f7f6ef57718a12b50f2d14dc960c2e42ea07a430e1b87dc03ab59f1da",
+      "source_sha256": "af80be0f7f6ef57718a12b50f2d14dc960c2e42ea07a430e1b87dc03ab59f1da"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/__init__.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "9d9ddac9597ec0d0a76e0e18e448eb2b5b265988dd2feb88dc21f189a08ed9c1",
+      "source_sha256": "9d9ddac9597ec0d0a76e0e18e448eb2b5b265988dd2feb88dc21f189a08ed9c1"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/assimilation_revelation.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "b653f643f99c4dadc091fc43a2871d18c08daabaff6912f51f5bc5dc58910a18",
+      "source_sha256": "b653f643f99c4dadc091fc43a2871d18c08daabaff6912f51f5bc5dc58910a18"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/audit_store.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "c06044a0bde78d7ea9f24443b2b4d11726986788d12f4dc54cfd93344f16026d",
+      "source_sha256": "c06044a0bde78d7ea9f24443b2b4d11726986788d12f4dc54cfd93344f16026d"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/boundary_explain.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "bc75a9a12933c36fa2d0eef156f8001c88aea79414b8fbc8d2eb2e05e0c1f6e8",
+      "source_sha256": "bc75a9a12933c36fa2d0eef156f8001c88aea79414b8fbc8d2eb2e05e0c1f6e8"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/candidate_state_transition.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "0aea95b037be0d4bcaaaa04ab8a94072c3d696ae0ad05d645f141d36378c99d6",
+      "source_sha256": "0aea95b037be0d4bcaaaa04ab8a94072c3d696ae0ad05d645f141d36378c99d6"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/canonical_contracts.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "b02e53f72f01dce53b2faed91ced6fbe52564bdf9c32838c9ce5d5a22f88b62a",
+      "source_sha256": "b02e53f72f01dce53b2faed91ced6fbe52564bdf9c32838c9ce5d5a22f88b62a"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/canonical_runtime.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "e27b1d547df8e2956ffdef01d1953b61e5594608f1f2982c71cd8584e8035f30",
+      "source_sha256": "e27b1d547df8e2956ffdef01d1953b61e5594608f1f2982c71cd8584e8035f30"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/canonical_shadow.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "dac69b92174060cbed683048568c9ebd7272f737120a4c97f6e6ba5edfcbeb07",
+      "source_sha256": "dac69b92174060cbed683048568c9ebd7272f737120a4c97f6e6ba5edfcbeb07"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/continuation_engine.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "d1cf56875d675853960ea2df7fa3dea727d03fe9f1f20d8643e304000fc5830a",
+      "source_sha256": "d1cf56875d675853960ea2df7fa3dea727d03fe9f1f20d8643e304000fc5830a"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/dashboard_read_timing.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "9e40d7844fab95366c732bc12c39b2f36eece215d9393daf8d528dd6fb4ecf89",
+      "source_sha256": "9e40d7844fab95366c732bc12c39b2f36eece215d9393daf8d528dd6fb4ecf89"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/decision_comparison.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "2f1a154891e91439dae9cea049157256b4415373dafdef167ffa403417fcee31",
+      "source_sha256": "2f1a154891e91439dae9cea049157256b4415373dafdef167ffa403417fcee31"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/embodiment_lifecycle.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "5944b2e100139249e4705df48902e551dccfc5b18f0c193cfb5ca577a56d8cf6",
+      "source_sha256": "5944b2e100139249e4705df48902e551dccfc5b18f0c193cfb5ca577a56d8cf6"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/entity_activation.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "9776a622663b51db79a38c4726a9dadd74f429f6285eb14dff93bf3323c269ff",
+      "source_sha256": "9776a622663b51db79a38c4726a9dadd74f429f6285eb14dff93bf3323c269ff"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/entity_capability_gateway.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "41c4bb9f42b514b56cce7d432c50f611ab7d495f0597632f22a10ae8697d8ebc",
+      "source_sha256": "41c4bb9f42b514b56cce7d432c50f611ab7d495f0597632f22a10ae8697d8ebc"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/entity_cognition.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "afab9c573953d9854eb15317efc5d5a75b2b15c8b78186ebbb6e35e3eaac5c78",
+      "source_sha256": "afab9c573953d9854eb15317efc5d5a75b2b15c8b78186ebbb6e35e3eaac5c78"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/entity_cognition_store.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "af0e4a5ede3024fc5b9185c87f029ce57013b43f545e2e1371a9be75c10ceecc",
+      "source_sha256": "af0e4a5ede3024fc5b9185c87f029ce57013b43f545e2e1371a9be75c10ceecc"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/entity_events.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "20ddc276903920f7cbc20b46bd9fc926f78f0ebc559aaf26fc9a3334da2e172d",
+      "source_sha256": "20ddc276903920f7cbc20b46bd9fc926f78f0ebc559aaf26fc9a3334da2e172d"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/entity_relational_learning.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "d3a2092f7935ddfa74cc785e3c85519ea1401bed145e302fbe44c1588a3607cf",
+      "source_sha256": "d3a2092f7935ddfa74cc785e3c85519ea1401bed145e302fbe44c1588a3607cf"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/entity_research_bridge.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "6c7e1e1d41c6f5c3299bf0e93f65ef93fa52d2f0eb46d5664455a02494c9a8da",
+      "source_sha256": "6c7e1e1d41c6f5c3299bf0e93f65ef93fa52d2f0eb46d5664455a02494c9a8da"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/entity_runtime.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "8743ad857f87900e458f5d8a9e0ce225dd08aeb9488120cf0a372ce339c37c99",
+      "source_sha256": "8743ad857f87900e458f5d8a9e0ce225dd08aeb9488120cf0a372ce339c37c99"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/entity_simulation.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "12d970cb735678b0c0baaaa3b596f858b35ada972ffc7b46cf8e8993c07c95fe",
+      "source_sha256": "12d970cb735678b0c0baaaa3b596f858b35ada972ffc7b46cf8e8993c07c95fe"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/entity_state.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "f903acd5ef4d34b54674e956fd3afad0634d7678819b5cf8ff3a42a4f25d4c3d",
+      "source_sha256": "f903acd5ef4d34b54674e956fd3afad0634d7678819b5cf8ff3a42a4f25d4c3d"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/entity_store.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "280add1fd542f09e217918bb5615e7db9e95e733dc9986d1fc91f4a6b3abd043",
+      "source_sha256": "280add1fd542f09e217918bb5615e7db9e95e733dc9986d1fc91f4a6b3abd043"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/epistemic_status.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "7ea23f22945cd03d2ca15a0ace7c03d79de46a7a62956069cfb1b32d983a278f",
+      "source_sha256": "7ea23f22945cd03d2ca15a0ace7c03d79de46a7a62956069cfb1b32d983a278f"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/equation.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "f4a5a464dbe2d42764d174cf47859e5b1f8567a6f2fe7db23e4112a3c0f9705b",
+      "source_sha256": "f4a5a464dbe2d42764d174cf47859e5b1f8567a6f2fe7db23e4112a3c0f9705b"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/flower_of_life_lattice.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "b9d65bf19ca973c002641441378a41eb9946c221f1bdba0720906d27bc267b61",
+      "source_sha256": "b9d65bf19ca973c002641441378a41eb9946c221f1bdba0720906d27bc267b61"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/grounded_canonical_context.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "2a9209f56986d4912c2001f45a0aba75d07879d9c961913e1321e6f0d2d32a58",
+      "source_sha256": "2a9209f56986d4912c2001f45a0aba75d07879d9c961913e1321e6f0d2d32a58"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/grounded_canonical_selection.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "a86d7a03227cc90c5a4e53c9a6ae3f8c33b67e8ce8657a54884d8570869af97c",
+      "source_sha256": "a86d7a03227cc90c5a4e53c9a6ae3f8c33b67e8ce8657a54884d8570869af97c"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/grounded_general_action_cycle.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "e0f4ee80f8c8c8bd58675eaabffdfcb8a95aa004c9aa8298de77a8a72e69185e",
+      "source_sha256": "e0f4ee80f8c8c8bd58675eaabffdfcb8a95aa004c9aa8298de77a8a72e69185e"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/grounded_general_operator_port.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "005d47e92c566eef955020359b2b163a2ae6db0df976bd17ae674e04a9019ae5",
+      "source_sha256": "005d47e92c566eef955020359b2b163a2ae6db0df976bd17ae674e04a9019ae5"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/grounded_general_state.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "54a2e649e8d73236364ecb962a736dd7d9d962e6eebd6735bc82fe638fd9fb44",
+      "source_sha256": "54a2e649e8d73236364ecb962a736dd7d9d962e6eebd6735bc82fe638fd9fb44"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/grounded_native_input.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "692209bee35f062247975867e36990c8b2c4b45bcdff204853ca4ebdc2d8e9f8",
+      "source_sha256": "692209bee35f062247975867e36990c8b2c4b45bcdff204853ca4ebdc2d8e9f8"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/grounded_owner_math_port.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "a1527530d60023dd7926056f202f857e4c99f501557afb281059dd3ed301cbcb",
+      "source_sha256": "a1527530d60023dd7926056f202f857e4c99f501557afb281059dd3ed301cbcb"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/grounded_qpre_expected_value_v1.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "69eae82befa245dcc095dcc42c8c2ed4df06d2fc7a73b956e82a64e23bdbfae4",
+      "source_sha256": "69eae82befa245dcc095dcc42c8c2ed4df06d2fc7a73b956e82a64e23bdbfae4"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/intention_centering.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "7c65055062b53708920305abdea8dd71b010ef8ebc90997b71c582a8869e48bd",
+      "source_sha256": "7c65055062b53708920305abdea8dd71b010ef8ebc90997b71c582a8869e48bd"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/internet_adapter.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "2f61590ee41c2fcb53d49cf794391b393884c7675ce6b5f1274d7be3b92863d8",
+      "source_sha256": "2f61590ee41c2fcb53d49cf794391b393884c7675ce6b5f1274d7be3b92863d8"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/live_loop_config.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "e864d6140778d990dc14a992a64332e1632527bcdfc7c5879964662b7a81d09c",
+      "source_sha256": "e864d6140778d990dc14a992a64332e1632527bcdfc7c5879964662b7a81d09c"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/live_loop_contracts.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "b36705289fd5f9d40e50f8e0777e85a7998178363f25a1a44ff87b8c29bf83e4",
+      "source_sha256": "b36705289fd5f9d40e50f8e0777e85a7998178363f25a1a44ff87b8c29bf83e4"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/live_loop_diff.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "a94b5c2aa9ca5a11cf19cbd11897b1312748a64e876a25db9741a0685d55fdc2",
+      "source_sha256": "a94b5c2aa9ca5a11cf19cbd11897b1312748a64e876a25db9741a0685d55fdc2"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/local_entity_observers.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "ffc5c370ddc3c7c08f42578acf0ba4627f957c7353c7b4d74c870170ea9255f3",
+      "source_sha256": "ffc5c370ddc3c7c08f42578acf0ba4627f957c7353c7b4d74c870170ea9255f3"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/master_boundary.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "b6a8bc3d4ca67311795a270f2f318038b15aa20b8abe362dbd495da36d3e9643",
+      "source_sha256": "b6a8bc3d4ca67311795a270f2f318038b15aa20b8abe362dbd495da36d3e9643"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/merkabah_rotation.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "e41b98ae973c58d2249f7deccd6fabbf70138ebba6eeff24b7ef4169574f88cc",
+      "source_sha256": "e41b98ae973c58d2249f7deccd6fabbf70138ebba6eeff24b7ef4169574f88cc"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/merkabah_traversal.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "afebb7187788f53230a6a58ef535cde02e11fb0914bcda83c7740a32ef7771f0",
+      "source_sha256": "afebb7187788f53230a6a58ef535cde02e11fb0914bcda83c7740a32ef7771f0"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/native_dependency_agent.py": {
+      "development_modified": true,
+      "reason": "Reviewed bounded existing Native agent configuration and independently witnessed Becoming capability/applicability memory; no new authority or general nursery.",
+      "sha256": "f986ee7cbde4e4a1f88c99498c0eb38acc1a601883a90f296be719829ba5270e"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/native_dependency_relation_v1.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "7bf2107c2555afa55182d8a7cee3452824f83ee1792009c04b3dfa805a8cac47",
+      "source_sha256": "7bf2107c2555afa55182d8a7cee3452824f83ee1792009c04b3dfa805a8cac47"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/native_expected_value.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "25c315d02d0111715fcc4e342dc5708f27084d3c471f3fbc9abf8bc10566ce1b",
+      "source_sha256": "25c315d02d0111715fcc4e342dc5708f27084d3c471f3fbc9abf8bc10566ce1b"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/native_reflection_consequences.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "70d66fc41603fed447bdc714093bb3b34e6df7340d9933018b74cc9e4d92125b",
+      "source_sha256": "70d66fc41603fed447bdc714093bb3b34e6df7340d9933018b74cc9e4d92125b"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/native_self_features.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "7d0bcef8b28fb5c4484a7f21915af8fb85f8452bbee2e0db87c371493af7dd9f",
+      "source_sha256": "7d0bcef8b28fb5c4484a7f21915af8fb85f8452bbee2e0db87c371493af7dd9f"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/native_situated_awareness.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "c761e6371cc758057eb0a9c69ea44f7294d11e6cafd9476b79c34e1d55cdd974",
+      "source_sha256": "c761e6371cc758057eb0a9c69ea44f7294d11e6cafd9476b79c34e1d55cdd974"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/native_valuation_history.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "8046a46d4c457d8d30a3f69b3f2c8fd01f986ef61602d6f9842a72061c7a55bf",
+      "source_sha256": "8046a46d4c457d8d30a3f69b3f2c8fd01f986ef61602d6f9842a72061c7a55bf"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/next_state_projector.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "e5df29ed5c01ffb9f388046069f6537c5ebf623ce32c17dd2cb0369de3beb889",
+      "source_sha256": "e5df29ed5c01ffb9f388046069f6537c5ebf623ce32c17dd2cb0369de3beb889"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/observation_grounding.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "8d3f21cf43b44f5ad0e76a7ef7b471442d0ed76d02b06acbb739b3e2cd66b698",
+      "source_sha256": "8d3f21cf43b44f5ad0e76a7ef7b471442d0ed76d02b06acbb739b3e2cd66b698"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/operational_awareness.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "fee4772ad1d6648ba4489ca9e676c20009308624364d300da2a2accb0bedf546",
+      "source_sha256": "fee4772ad1d6648ba4489ca9e676c20009308624364d300da2a2accb0bedf546"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/owner_equation_math_v1.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "34078c7fb5238ea7dde0ec0b4885d1128a7221ec63da762f31d63a7a38d02847",
+      "source_sha256": "34078c7fb5238ea7dde0ec0b4885d1128a7221ec63da762f31d63a7a38d02847"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/periodic_classifier.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "c77f4654d0bc5d1b0dd864b94b0dd9e809f135bc9e00fc4da0b4d231bd2ae0b6",
+      "source_sha256": "c77f4654d0bc5d1b0dd864b94b0dd9e809f135bc9e00fc4da0b4d231bd2ae0b6"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/production_state_paths.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "7d2f0ad1a95f2c52e09f608c0d0adef3ee7a74f9309308874e7da336aadadd4f",
+      "source_sha256": "7d2f0ad1a95f2c52e09f608c0d0adef3ee7a74f9309308874e7da336aadadd4f"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/project_memory.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "0157eb5c2deeea1955b46070e15f1310df7300c6110f47d32c0dc3c5fb8e473b",
+      "source_sha256": "0157eb5c2deeea1955b46070e15f1310df7300c6110f47d32c0dc3c5fb8e473b"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/public_adapter.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "c12f752abacb5d7067aca63d6eedb268eb74085928997bd55ab526aa96f913b2",
+      "source_sha256": "c12f752abacb5d7067aca63d6eedb268eb74085928997bd55ab526aa96f913b2"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/qpre.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "03f69a0b411331c6673a87687102427413c4c451acfb1bb52a58c7fef6dfaef1",
+      "source_sha256": "03f69a0b411331c6673a87687102427413c4c451acfb1bb52a58c7fef6dfaef1"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/qpre_calibration_v1.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "21e0be3addc782ff92cad8b753c90674f85e5550067735abf6a3bd8a6fbd8631",
+      "source_sha256": "21e0be3addc782ff92cad8b753c90674f85e5550067735abf6a3bd8a6fbd8631"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/qpre_native_learning.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "a7090a2dbe31b2da93cbaa90dbab2e040b80debde4b9e18662df479255f2eec0",
+      "source_sha256": "a7090a2dbe31b2da93cbaa90dbab2e040b80debde4b9e18662df479255f2eec0"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/realization_frame.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "42f16bf5497623044a07d5541876d817ae815d4de8abfef902d37cfdb71dc561",
+      "source_sha256": "42f16bf5497623044a07d5541876d817ae815d4de8abfef902d37cfdb71dc561"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/reference_continuity.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "d91f5b0542faf27b8c3a98865ec0df9f35e2c306b52d5383568d96302fe8c6ac",
+      "source_sha256": "d91f5b0542faf27b8c3a98865ec0df9f35e2c306b52d5383568d96302fe8c6ac"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/se6triad_kernel.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "34d91d2af629efd40064ac6b5e6d47265accf1699347bf1abb303df0eac19351",
+      "source_sha256": "34d91d2af629efd40064ac6b5e6d47265accf1699347bf1abb303df0eac19351"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/shadow_instrumentation.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "246a6c6fbe9cdc7cc37df975d85ce10ad9b9b771ca3f574ff3f578803565df4f",
+      "source_sha256": "246a6c6fbe9cdc7cc37df975d85ce10ad9b9b771ca3f574ff3f578803565df4f"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/shadow_ledger.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "6c1c24f9855d0cee6f60be0636c1f7d80b4680f770216b0b8499f090d8f8be8b",
+      "source_sha256": "6c1c24f9855d0cee6f60be0636c1f7d80b4680f770216b0b8499f090d8f8be8b"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/shadow_telemetry.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "f5bec59a46a17b1c278d208319c0e1beb67b76badd31c02e88a6ebb82258215f",
+      "source_sha256": "f5bec59a46a17b1c278d208319c0e1beb67b76badd31c02e88a6ebb82258215f"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/situated_entity.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "cc0541f56b3b9011aed50b13373677c140945816a951bd855b991417d002969b",
+      "source_sha256": "cc0541f56b3b9011aed50b13373677c140945816a951bd855b991417d002969b"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/source_trust.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "e024088885ebded6d8cc00297f44c74c6f63d3e720a0c2ffca921c44c0771d18",
+      "source_sha256": "e024088885ebded6d8cc00297f44c74c6f63d3e720a0c2ffca921c44c0771d18"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/sphere_of_mirrors.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "1e93008193ddd1b36585a60b3ef9e888ba9cd0830896a0d701e5b73d0d85fe96",
+      "source_sha256": "1e93008193ddd1b36585a60b3ef9e888ba9cd0830896a0d701e5b73d0d85fe96"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/symbolic_realization.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "9f2fa3b04c2ce9605cb2bb6041f1ca70dc8c311e91b81f48df6f71410bb5994a",
+      "source_sha256": "9f2fa3b04c2ce9605cb2bb6041f1ca70dc8c311e91b81f48df6f71410bb5994a"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/three_loop_entity.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "698c3af1c4975a8f9c26059d2bd23ca33bc753c25de2fcb0d644b7048e8c90a7",
+      "source_sha256": "698c3af1c4975a8f9c26059d2bd23ca33bc753c25de2fcb0d644b7048e8c90a7"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/transaction_snapshot.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "f162629b808411cf3f80f2a8edbde6cdd0eaa8d0ecfe97cb5714711c04867e7e",
+      "source_sha256": "f162629b808411cf3f80f2a8edbde6cdd0eaa8d0ecfe97cb5714711c04867e7e"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/typed_valuation.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "38379fc68b88633de1e8779cd0d4c6c7af87bde1ac4c9166a812135e232fe525",
+      "source_sha256": "38379fc68b88633de1e8779cd0d4c6c7af87bde1ac4c9166a812135e232fe525"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/typed_valuation_policy.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "e0613d338b23ad2ac61c4e30466cb90f1d7fdde7c8df2c4db3178a6347c332bb",
+      "source_sha256": "e0613d338b23ad2ac61c4e30466cb90f1d7fdde7c8df2c4db3178a6347c332bb"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/universal_mapper.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "a8d07450f4e36ea844c6ca098a51e23e169f5eafd2c3782d3a6b67524f804fd7",
+      "source_sha256": "a8d07450f4e36ea844c6ca098a51e23e169f5eafd2c3782d3a6b67524f804fd7"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se666_core/untrusted_content.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "8ee1b094fc5f1b6f8a4b964acb0c68c61e86117b2b2ef92f861c9c9c86fcbd1c",
+      "source_sha256": "8ee1b094fc5f1b6f8a4b964acb0c68c61e86117b2b2ef92f861c9c9c86fcbd1c"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se_core/__init__.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "be25b3311502fce970f13f7a936af672f7b754a104336dcb2d2a49c6f3f9a3c5",
+      "source_sha256": "be25b3311502fce970f13f7a936af672f7b754a104336dcb2d2a49c6f3f9a3c5"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se_core/kernel.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "7c6b48b11dcffb1a2524f5475167768a438af03245ad57cf58b52db05a643674",
+      "source_sha256": "7c6b48b11dcffb1a2524f5475167768a438af03245ad57cf58b52db05a643674"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se_core/mathematics.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "853bf994f5db6f61f20381a39dcef9f3db81be1f3eeedab029e2df3a7d7c7f14",
+      "source_sha256": "853bf994f5db6f61f20381a39dcef9f3db81be1f3eeedab029e2df3a7d7c7f14"
+    },
+    "work/qpre-calibration-integration-20261026/dev/se_core/realization.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "265f0b0173b8e5b2f7bdd8aca8b9cb9577aebe6f50eabae77e34318999754a64",
+      "source_sha256": "265f0b0173b8e5b2f7bdd8aca8b9cb9577aebe6f50eabae77e34318999754a64"
+    },
+    "work/qpre-calibration-integration-20261026/dev/tests/__init__.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "work/qpre-calibration-integration-20261026/dev/tests/test_entity_cognition_layer.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "01c0cdbb26ad0f7b58455301956314441b846bc6947422543ff92172971b3777",
+      "source_sha256": "01c0cdbb26ad0f7b58455301956314441b846bc6947422543ff92172971b3777"
+    },
+    "work/qpre-calibration-integration-20261026/dev/tests/test_local_entity_runtime.py": {
+      "reason": "Actual runtime import dependency",
+      "sha256": "bddc541cfb17b1012d307c5136b12d6ced4e10e22a9d6b51507a2b6d055ba165",
+      "source_sha256": "bddc541cfb17b1012d307c5136b12d6ced4e10e22a9d6b51507a2b6d055ba165"
+    },
+    "work/qpre-calibration-integration-20261026/dev/tests/test_native_dependency_relation_v1.py": {
+      "reason": "Unchanged runner source identity contract (not executed as a test)",
+      "sha256": "54453119731b3471da39b081b3f1b7b71bd190e593d1920e311f708ab3b8520d",
+      "source_sha256": "54453119731b3471da39b081b3f1b7b71bd190e593d1920e311f708ab3b8520d"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/CANONICAL_HANDOFF.md": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "fd57de9d6c151e749af05494588cbdee2944e88608d3bdefd74f8d21275b1806",
+      "source_sha256": "fd57de9d6c151e749af05494588cbdee2944e88608d3bdefd74f8d21275b1806"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/PACKAGE_MANIFEST.json": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "7e11883b012bc1f1069a56fc6ee4d7b4f1cea5aa35a18cf98f9132c93f1f43e9",
+      "source_sha256": "7e11883b012bc1f1069a56fc6ee4d7b4f1cea5aa35a18cf98f9132c93f1f43e9"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/README.md": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "6da78b8d888f3c6bb2b500451c5dc96f7ed0644fd8f2f27c939a3dc8cb11e676",
+      "source_sha256": "6da78b8d888f3c6bb2b500451c5dc96f7ed0644fd8f2f27c939a3dc8cb11e676"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/SOURCE_PINS.json": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "68fbcab4a2af7f5d9587cf68b367d2a6759d5a2f25927bfc695b04b3e43c6acd",
+      "source_sha256": "68fbcab4a2af7f5d9587cf68b367d2a6759d5a2f25927bfc695b04b3e43c6acd"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/evidence/CODE_FREEZE.json": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "b4130b72ac42922f7766f468f9330481045597f1836409ebaf773d8226faa4dd",
+      "source_sha256": "b4130b72ac42922f7766f468f9330481045597f1836409ebaf773d8226faa4dd"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/evidence/DEMO_REPORT.txt": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "cd1906a3aa048f5669706f3a918f866804b0a6c1f9fb469cf75fb051510f4273",
+      "source_sha256": "cd1906a3aa048f5669706f3a918f866804b0a6c1f9fb469cf75fb051510f4273"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/evidence/DEMO_RESULT.json": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "67b2f588fb995eb5e0f7486efa3c340838a208f849c11785e7e31c5a5bae3eb6",
+      "source_sha256": "67b2f588fb995eb5e0f7486efa3c340838a208f849c11785e7e31c5a5bae3eb6"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/evidence/LINUX_EXECUTION_EVIDENCE.zip": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "5f2379fd3f6caae682dc6811942e10555c60296e942b1c719c7f87c151a9aa04",
+      "source_sha256": "5f2379fd3f6caae682dc6811942e10555c60296e942b1c719c7f87c151a9aa04"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/evidence/LOCAL_BUILD_RESULT.json": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "1c68abdd990d008d4d9fbeb82b58c9406627f2f60bc9c2b25fb0cc9b334925e3",
+      "source_sha256": "1c68abdd990d008d4d9fbeb82b58c9406627f2f60bc9c2b25fb0cc9b334925e3"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/evidence/LOCAL_SETUP_RESULT.json": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "edc77b7406790f295c137e0f6de129844dd9fffd1b7ed06e5fdb4f38e8bb57bf",
+      "source_sha256": "edc77b7406790f295c137e0f6de129844dd9fffd1b7ed06e5fdb4f38e8bb57bf"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/evidence/LOCAL_TEST_OUTPUT.txt": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "9c287ae387485cb25c71ae7e9b25c007f358dbc0f465d009ca7f4cdbaa22d8f1",
+      "source_sha256": "9c287ae387485cb25c71ae7e9b25c007f358dbc0f465d009ca7f4cdbaa22d8f1"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/run_reference.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "5bff6d74ba4c506db60f686af800fe198c9192042fd9a3f24819fb35c1e93726",
+      "source_sha256": "5bff6d74ba4c506db60f686af800fe198c9192042fd9a3f24819fb35c1e93726"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/se6_reference/__init__.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "97e59ea07210c32d517610d53e071a0bece94b9df5b462595e9b8d4e68a7c7ce",
+      "source_sha256": "97e59ea07210c32d517610d53e071a0bece94b9df5b462595e9b8d4e68a7c7ce"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/se6_reference/canonical.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "1c2a4627f8717f2dfdc91fd27f7b07c57ab078a59ff540884050ffdb6964314f",
+      "source_sha256": "1c2a4627f8717f2dfdc91fd27f7b07c57ab078a59ff540884050ffdb6964314f"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/se6_reference/codec.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "eb9bf76a4a792292076c65851780b180d213dfbefcd91c0ed556592a354f507d",
+      "source_sha256": "eb9bf76a4a792292076c65851780b180d213dfbefcd91c0ed556592a354f507d"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/se6_reference/demo.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "000e9ae6188cbea14ef3b58047040155cf33c0f21a4cd91e6a682fce3900089e",
+      "source_sha256": "000e9ae6188cbea14ef3b58047040155cf33c0f21a4cd91e6a682fce3900089e"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/se6_reference/engine.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "0b55ad65b19baa4e21f25fe63d0bcebe9fae4af0aac24cced6d24b66910ab322",
+      "source_sha256": "0b55ad65b19baa4e21f25fe63d0bcebe9fae4af0aac24cced6d24b66910ab322"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/se6_reference/geometry.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "98dd4afab77f0276a67068d8812b25331b9db5c9e1044f3146a94499b9dd9f66",
+      "source_sha256": "98dd4afab77f0276a67068d8812b25331b9db5c9e1044f3146a94499b9dd9f66"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/se6_reference/storage.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "7ca18cf9502a3a4a9e396f62d5972cd0d3be10f05dfeefd965f3bd6938575d64",
+      "source_sha256": "7ca18cf9502a3a4a9e396f62d5972cd0d3be10f05dfeefd965f3bd6938575d64"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/setup_and_run.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "07ca179bc9d0116d2716e0d0f727e9e0d47a9557c38887b35270349fb5bd5251",
+      "source_sha256": "07ca179bc9d0116d2716e0d0f727e9e0d47a9557c38887b35270349fb5bd5251"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/tests/test_geometry.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "b52bbafd4f3339e50608a9314bafb4f688e94a47c03003cff8a054b59f714c58",
+      "source_sha256": "b52bbafd4f3339e50608a9314bafb4f688e94a47c03003cff8a054b59f714c58"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/tests/test_reference.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "9f5dc7c16f055a14e2b55705a5a6ac1b0d074a29ea5e03b1492cacfdcdd7f4f2",
+      "source_sha256": "9f5dc7c16f055a14e2b55705a5a6ac1b0d074a29ea5e03b1492cacfdcdd7f4f2"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/vendor/se666_core/__init__.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "c5c579506e3d878ab5997ef5854f0b9ee5541ad6255bcbc94ff6b2269ae94c21",
+      "source_sha256": "c5c579506e3d878ab5997ef5854f0b9ee5541ad6255bcbc94ff6b2269ae94c21"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/vendor/se666_core/canonical_contracts.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "b02e53f72f01dce53b2faed91ced6fbe52564bdf9c32838c9ce5d5a22f88b62a",
+      "source_sha256": "b02e53f72f01dce53b2faed91ced6fbe52564bdf9c32838c9ce5d5a22f88b62a"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/vendor/se666_core/epistemic_status.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "7ea23f22945cd03d2ca15a0ace7c03d79de46a7a62956069cfb1b32d983a278f",
+      "source_sha256": "7ea23f22945cd03d2ca15a0ace7c03d79de46a7a62956069cfb1b32d983a278f"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/vendor/se666_core/realization_frame.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "42f16bf5497623044a07d5541876d817ae815d4de8abfef902d37cfdb71dc561",
+      "source_sha256": "42f16bf5497623044a07d5541876d817ae815d4de8abfef902d37cfdb71dc561"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/vendor/se666_core/universal_mapper.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "a8d07450f4e36ea844c6ca098a51e23e169f5eafd2c3782d3a6b67524f804fd7",
+      "source_sha256": "a8d07450f4e36ea844c6ca098a51e23e169f5eafd2c3782d3a6b67524f804fd7"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/vendor/se_core/__init__.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "be25b3311502fce970f13f7a936af672f7b754a104336dcb2d2a49c6f3f9a3c5",
+      "source_sha256": "be25b3311502fce970f13f7a936af672f7b754a104336dcb2d2a49c6f3f9a3c5"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/vendor/se_core/kernel.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "7c6b48b11dcffb1a2524f5475167768a438af03245ad57cf58b52db05a643674",
+      "source_sha256": "7c6b48b11dcffb1a2524f5475167768a438af03245ad57cf58b52db05a643674"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/vendor/se_core/mathematics.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "853bf994f5db6f61f20381a39dcef9f3db81be1f3eeedab029e2df3a7d7c7f14",
+      "source_sha256": "853bf994f5db6f61f20381a39dcef9f3db81be1f3eeedab029e2df3a7d7c7f14"
+    },
+    "work/se6-reference-continuity-v010-448349319aa1/SE6_Reference_Continuity_v0.1.0/vendor/se_core/realization.py": {
+      "reason": "Required by unchanged reference package integrity validator",
+      "sha256": "265f0b0173b8e5b2f7bdd8aca8b9cb9577aebe6f50eabae77e34318999754a64",
+      "source_sha256": "265f0b0173b8e5b2f7bdd8aca8b9cb9577aebe6f50eabae77e34318999754a64"
+    }
+  },
+  "lazy_import_seeds": [
+    "scripts.run_dependency_awareness",
+    "scripts.run_native_qpre_learning",
+    "tests.test_entity_cognition_layer",
+    "tests.test_local_entity_runtime",
+    "se666_core.reference_continuity",
+    "se666_core.grounded_native_input",
+    "se666_core.grounded_canonical_context",
+    "se666_core.candidate_state_transition",
+    "se666_core.qpre_native_learning",
+    "se666_core.native_reflection_consequences",
+    "se666_core.native_situated_awareness",
+    "se666_core.native_expected_value",
+    "se666_core.native_valuation_history",
+    "se666_core.grounded_canonical_selection",
+    "se666_core.native_dependency_relation_v1",
+    "se_core.kernel",
+    "se_core.mathematics",
+    "se_core.realization"
+  ],
+  "original_frozen_archive_sha256": "ff712b8072d193a3761089da682bb10b53b6b844373642858a34b24ce8d140ed",
+  "roots_relative": true,
+  "schema": "se6-awareness-runtime-bundle-v1",
+  "source_revision": "Installed October28 dependency-awareness development source",
+  "source_scope": "Actual import closure plus files required by unchanged integrity validators; no production stores or credentials."
+}

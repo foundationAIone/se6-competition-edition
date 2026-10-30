@@ -1,0 +1,16 @@
+# 170-second demonstration — recording script
+
+This is a script and capture plan. It is not playable footage or an uploaded video. Record the actual Competition application and preserve current-execution versus recorded-evidence labels. Show the running source identity or evidence export without exposing private paths, sessions, permits or credentials. Do not use uncleared music/assets.
+
+| Time | Actual screen | Narration |
+|---|---|---|
+| 00–15 | Existing Competition interface and supported scenario | “A useful assistant must follow the active dependency, verify what changed, and continue from evidence. This is SE6 Competition Edition, a bounded local application.” |
+| 15–35 | Start supported dependency scenario once; show raw manifest, active root and task limits | “This disposable task exposes a manifest, configurations and a failing command. The observer supplies raw evidence, not a correct repair. The actual working directory is part of the context.” |
+| 35–60 | Actual Native selection, candidate relationship and action | “SE6 resolves entry to profile to configuration, computes a conditional integer prediction and selects a permitted action through its existing Native and Boundary path. These are authored finite operators, not the entire symbolic equation.” |
+| 60–85 | Exact file change, independent CLI result and receipt | “One setting changes. A separate process observes the real command result. The witness, Native decision and Entity commit are cross-referenced. A selected action or an optimistic prediction alone is not success.” |
+| 85–110 | Cold-continuation phases after dependency/root changes; retained/invalidation evidence | “Retained evidence survives a fresh interpreter. When the manifest or working root changes, the next choice follows the current context. We show what was reused and what was invalidated.” |
+| 110–130 | Current comparison and clearly labelled frozen archive | “The preserved three-phase test tied: retained SE6 three of three, memory ablation three of three, conventional resolver three of three. Conventional processing used less measured worker CPU. Advantage is not established.” |
+| 130–155 | Authentic recorded Nemotron/Nebius pair with usage and answer-context disclosure | “NVIDIA Nemotron 3 Super runs through Nebius Token Factory in the implemented model path. Verified local results become context for a structured model response. This dated two-call capture included the correct conditional answer in the assisted input. It proves integration, not independent reasoning superiority; replay makes no new call.” |
+| 155–170 | Safe export, limitations and actual build access if published | “The result is an inspectable chain: observe, choose, act, verify, retain and continue. This bounded edition preserves failures, ties and authority limits. Source, test build and evidence are linked only where actually available.” |
+
+Capture the completed live job and result, not a fake progress animation. Cuts may shorten waiting, but must not change outcomes or conceal failure. If the integrated run is blocked, say so and show dated authentic evidence instead of presenting a mock as current execution. Record spoken NVIDIA/Nebius involvement as well as visible labels. Check total playable duration below 180 seconds and caption legibility before owner review/upload.

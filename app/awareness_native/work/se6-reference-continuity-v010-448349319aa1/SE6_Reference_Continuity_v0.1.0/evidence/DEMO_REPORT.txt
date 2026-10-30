@@ -1,0 +1,29 @@
+SE6 REFERENCE CONTINUITY — LOCAL DEVELOPMENT DEMONSTRATION
+Scope: LOCAL_DEVELOPMENT_VERIFIED
+Canonical acceptance: NOT_EVALUATED; no Alpha score change claimed.
+
+Entity: instance_35c1ab2514ee05bc2a84c5de1df8b77e005c9187631b58795f1b512816c4a00d
+Fresh engine processes: 14
+Task interfaces: 3
+Actual owned-file moves / verified renewals: 3 / 3
+Native actions used: 13
+Action reservations used: 3
+
+task-a-delivery: east; base ['0', '0'] -> ['1', '0']; prediction verified; squared goal distance 9; goal reached = False.
+task-b-maintenance: forward; base ['1', '0'] -> ['2', '0']; prediction verified; squared goal distance 4; goal reached = False.
+task-c-inspection: arrive; base ['2', '0'] -> ['4', '0']; prediction verified; squared goal distance 0; goal reached = True.
+
+The original destination claim affected task B and task C without target coordinates being resupplied.
+Entity and Native identity survived every fresh process and all three roles/interfaces.
+The final interpretive expansion changed Theta while preserving exactly the same X.
+Elapsed wall time: 5.327741 seconds.
+Engine-child CPU time: 4.614845 seconds; startup/teardown outside child timers excluded.
+Host CPU is reported separately. Account/model usage for creating this package was not measured.
+
+Limits:
+- Host-owned files and host-issued development grants; no physical or production action.
+- Third-task keys are generated after code freeze, but host supplies their coordinate meaning.
+- One retained two-dimensional destination across three declared interfaces; not general awareness.
+- Only the third task reaches the final destination; earlier moves verify predicted intermediate consequences.
+- No outside-grammar discovery, independent canonical admission, or Alpha PASS is established.
+- Native counts are runtime resource counts, not ChatGPT or Codex account-usage measurements.

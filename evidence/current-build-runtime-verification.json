@@ -1,0 +1,37 @@
+{
+  "actual_provider_calls": 2,
+  "completion_tokens": 134,
+  "extra_calls": 0,
+  "invoice_usd": null,
+  "lanes": {
+    "baseline": {
+      "completion_tokens": 67,
+      "conditional_answer_correct": false,
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "prompt_tokens": 359,
+      "reasoning_tokens": 0,
+      "response_id": "chatcmpl-84060cd19adc9754",
+      "tariff_estimate_usd": "0.000168",
+      "wall_seconds": 1.4697357999975793
+    },
+    "se6": {
+      "completion_tokens": 67,
+      "conditional_answer_correct": true,
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "prompt_tokens": 477,
+      "reasoning_tokens": 0,
+      "response_id": "chatcmpl-9db2c1784971dcd8",
+      "tariff_estimate_usd": "0.0002034",
+      "wall_seconds": 1.9641941000008956
+    }
+  },
+  "limitation": "One previously used synthetic runtime-integration question; not fresh generalization or a broad model/architecture superiority result",
+  "model_role": "Assisted reader consumes already-derived conditional Native/HOST quantities; baseline independently answers same synthetic premises",
+  "packet_sha256": "18b84d921b3bf420200fc01e866c7b08d8b03f5a1bfbd8fb89846b096d52b478",
+  "prompt_tokens": 836,
+  "retries": 0,
+  "source_manifest_sha256": "cde739e3823b84e44085621a9737f0af19b7452acf628c8cfc07519e17f5445c",
+  "status": "VERIFIED_TWO_REAL_NEBIUS_NVIDIA_RUNTIME_CALLS",
+  "tariff_estimate_usd": "0.0003714",
+  "verified_at_utc": "2026-10-29T23:38:48.017694+00:00"
+}

@@ -1,0 +1,85 @@
+{
+  "campaign": "mission-v11-dashboard-pair-v2",
+  "lanes": {
+    "baseline": {
+      "actual_final_json": {
+        "business": {
+          "original": {
+            "allocations": {
+              "deep": "6",
+              "routine": "7"
+            },
+            "budget_exceeded": true,
+            "budget_variance": "-1",
+            "gross_contribution": "1141",
+            "materials_cost": "241",
+            "revenue": "1382"
+          }
+        },
+        "execution_receipts": [],
+        "world_facts_verified": false
+      },
+      "actual_final_text": "{\"business\": {\"original\": {\"allocations\": {\"routine\": \"7\", \"deep\": \"6\"}, \"revenue\": \"1382\", \"materials_cost\": \"241\", \"gross_contribution\": \"1141\", \"budget_variance\": \"-1\", \"budget_exceeded\": true}}, \"world_facts_verified\": false, \"execution_receipts\": []}",
+      "independent_assessment": {
+        "checks": {
+          "conditional_scope": true,
+          "original:allocation": false,
+          "original:budget_exceeded": false,
+          "original:budget_variance": false,
+          "original:gross_contribution": false,
+          "original:materials_cost": false,
+          "original:revenue": false
+        },
+        "maximum": 7,
+        "scope": "Exact supplied allocation/money subset; recommendations/signatures/code/prose unscored",
+        "score": 1,
+        "status": "ASSESSABLE"
+      },
+      "request_sha256": "cba50bbc1c8d580c2b8c2059d014202376bce7826bb9dd1af91614313666a132",
+      "response_sha256": "55f5fa2eee8b41c1bf732e7297e9cc475b05452665afa36231684ba7efe64409"
+    },
+    "se6": {
+      "actual_final_json": {
+        "business": {
+          "original": {
+            "allocations": {
+              "deep": "5",
+              "routine": "8"
+            },
+            "budget_exceeded": false,
+            "budget_variance": "-7",
+            "gross_contribution": "1053",
+            "materials_cost": "233",
+            "revenue": "1286"
+          }
+        },
+        "execution_receipts": [],
+        "world_facts_verified": false
+      },
+      "actual_final_text": "{\"business\": {\"original\": {\"allocations\": {\"routine\": \"8\", \"deep\": \"5\"}, \"revenue\": \"1286\", \"materials_cost\": \"233\", \"gross_contribution\": \"1053\", \"budget_variance\": \"-7\", \"budget_exceeded\": false}}, \"world_facts_verified\": false, \"execution_receipts\": []}",
+      "independent_assessment": {
+        "checks": {
+          "conditional_scope": true,
+          "original:allocation": true,
+          "original:budget_exceeded": true,
+          "original:budget_variance": true,
+          "original:gross_contribution": true,
+          "original:materials_cost": true,
+          "original:revenue": true
+        },
+        "maximum": 7,
+        "scope": "Exact supplied allocation/money subset; recommendations/signatures/code/prose unscored",
+        "score": 7,
+        "status": "ASSESSABLE"
+      },
+      "request_sha256": "2d4f3e52eb74f297940b68be9402568d96a537cc07fc40fdb8ec1e1dae8d82c1",
+      "response_sha256": "b56f37e60457875ebad501c150ee4faa028c9ba794692f881d08fb19c27dce29"
+    }
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "overall_general_winner": null,
+  "provider": "Nebius Token Factory",
+  "result": "WIN_ON_SEVEN_SCORED_CONDITIONAL_BUSINESS_CHECKS",
+  "schema": "se6-v11-v2-sanitized-actual-answers",
+  "scope": "Actual final provider texts, not simulations or repaired outputs. Seven exact supplied-fact checks; no general superiority claim."
+}

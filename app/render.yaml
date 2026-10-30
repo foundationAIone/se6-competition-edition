@@ -1,0 +1,32 @@
+# Unapplied deployment blueprint. No account/resource/service has been created.
+services:
+  - type: web
+    name: se6-competition-edition
+    runtime: docker
+    plan: 2c-4g
+    region: virginia
+    numInstances: 1
+    autoDeployTrigger: off
+    dockerfilePath: ./Dockerfile.native
+    dockerContext: .
+    healthCheckPath: /healthz
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: FROZEN_REVIEW_PATH
+        value: /app/public-review.json
+      - key: FROZEN_REVIEW_SHA256
+        value: 2b38a612b5833f4e40880259222f9f6e94fd985ef3ab0f92efe510ce831f8b9b
+      - key: PUBLIC_ORIGIN
+        sync: false
+      - key: SE6_PAIR_STORE
+        value: /var/lib/se6-competition
+    disk:
+      name: competition-private-runtime
+      mountPath: /var/lib/se6-competition
+      sizeGB: 10
+# Proposed 2c-4g sizing: 2CPU/4GB, always on, single process instance.
+# Plan identifier verified in official Render schema; current price/account budget unapproved.
+# No API/provider credentials or paid activation are declared. Full private
+# native source is included in this candidate; source rights must be cleared
+# before any public build. Blueprint remains unapplied.

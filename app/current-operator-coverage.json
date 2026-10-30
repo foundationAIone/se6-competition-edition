@@ -1,0 +1,121 @@
+[
+  {
+    "id": "[{01*}]",
+    "status": "CONCEPTUAL",
+    "source": "docs/SYMBOLIC_EQUATION_V6.md",
+    "description": "Persistent generative reference is specified; task namespace is not its formal realization.",
+    "skip_reason": "Binary expansion/seed-to-total-state operator not defined."
+  },
+  {
+    "id": "C",
+    "status": "NATIVE_EXECUTED",
+    "source": "se666_core/realization_frame.py:create_source_observation/create_realization_state/create_realization_frame",
+    "description": "Actual source/frame/state models and hash bindings in isolated SHADOW copies.",
+    "skip_reason": "Not a universal identity/authority/total-state center."
+  },
+  {
+    "id": "F_FoL",
+    "status": "NATIVE_EXECUTED",
+    "source": "se666_core/universal_mapper.py:create_flower_center/recenter_flower",
+    "description": "Actual plan terminals and immutable terminal-to-center topological lineage.",
+    "skip_reason": "No physical Flower geometry or general semantic expansion."
+  },
+  {
+    "id": "D_substrate",
+    "status": "NATIVE_EXECUTED",
+    "source": "canonical_operators/component_layer.py and private_source/se666_core/universal_mapper.py",
+    "description": "V8 actually constructs one typed SYMBOLIC_ONLY periodic dimension for all actual plan terminals, roundtrip verified with provenance/invariants retained. Earlier frozen mapper values remain unchanged.",
+    "skip_reason": "Full substrate transformation and physical observation unavailable."
+  },
+  {
+    "id": "K_Merkabah",
+    "status": "NATIVE_EXECUTED",
+    "source": "se666_core/merkabah_traversal.py:traverse_merkabah",
+    "description": "Actual center-to-terminal and verified returned-center models, bound to exact task checkpoint hashes.",
+    "skip_reason": "Full authoritative field coupling is unspecified. Existing eight perspective prompts are advisory; they are not numerical rotations or physical field generation."
+  },
+  {
+    "id": "T",
+    "status": "CONCEPTUAL",
+    "source": "docs/SYMBOLIC_EQUATION_V6.md:Full-form operator contract",
+    "description": "Native linear transforms exist separately; constructing QPRE TransformationStep does not execute full-form T.",
+    "skip_reason": "Exact full-form typed domain/invariant/budget missing."
+  },
+  {
+    "id": "Q_QPRE",
+    "status": "NATIVE_EXECUTED",
+    "source": "se666_core/qpre.py:build_possibility_field/render_qpre",
+    "description": "Actual finite batch possibility rendering; outputs remain nonactual and nonauthorizing.",
+    "skip_reason": "No quantum backend or multihorizon inference."
+  },
+  {
+    "id": "S",
+    "status": "NATIVE_EXECUTED",
+    "source": "se666_core/universal_mapper.py:create_perspective_view/extract_common_denominator",
+    "description": "Actual owner/dependency-verifier views and shared source/provenance invariant.",
+    "skip_reason": "No semantic truth inference; legacy eight prompts are not geometry."
+  },
+  {
+    "id": "P",
+    "status": "CONCEPTUAL",
+    "source": "docs/SYMBOLIC_EQUATION_V6.md:Full-form operator contract",
+    "description": "Full outer possibility projection remains distinct from the legacy classifier P.",
+    "skip_reason": "Missing exact decorated projection domain and preservation proof."
+  },
+  {
+    "id": "Pi_B",
+    "status": "HOST_VERIFIED",
+    "source": "hosted_judge/canonical_bridge.py:begin/finish + copied native kernel boundary",
+    "description": "Route/dependency preflight and exact effect/ancestry bindings; original kernel gates execute inside supported operations.",
+    "skip_reason": "Full Master Boundary family and stage-bound Four Pillars proof not established."
+  },
+  {
+    "id": "argmax_A_B",
+    "status": "HOST_VERIFIED",
+    "source": "private canonical_operators/operator_executor.py + native_bridge.py",
+    "description": "Standalone finite integer fixture policy computed and tied competent control; runtime selects one validated batch or PAUSE.",
+    "skip_reason": "No empirical value distribution or complete expected-utility optimizer."
+  },
+  {
+    "id": "World",
+    "status": "NATIVE_EXECUTED",
+    "source": "private native AutoIntake/Orchestrator + TaskStore",
+    "description": "Actual conditional mathematics/relations, local consequence receipts and atomic task-state files. HOST finance separately verified.",
+    "skip_reason": "No external world fact, signature, production action or model inference."
+  },
+  {
+    "id": "VerifyAssimilate",
+    "status": "HOST_VERIFIED",
+    "source": "hosted_judge/canonical_bridge.py:verify_native_checkpoint + original kernel verifier",
+    "description": "Exact new math/relational journal delta, task identity, append prefix, current node order and independently reconstructed proofs.",
+    "skip_reason": "External facts and arbitrary prose quality remain unassessed; trusted echo callback alone is insufficient."
+  },
+  {
+    "id": "I_return^-1",
+    "status": "NATIVE_EXECUTED",
+    "source": "se666_core/merkabah_traversal.py:traverse_merkabah",
+    "description": "Typed return advances only on host-replayed scoped native consequence; no callback/flags alone leave it unchanged.",
+    "skip_reason": "Not a formally specified universal inverse return operator."
+  },
+  {
+    "id": "R_renew",
+    "status": "NATIVE_EXECUTED",
+    "source": "copied traversal/frame contracts + TaskStore",
+    "description": "Actual successor hash/lineage and durable task reconstruction in fresh backend processes.",
+    "skip_reason": "No universal total-state atomic commit, model-weight learning or production Three-Loop activation."
+  },
+  {
+    "id": "K_Merkabah 3D toroidal candidate",
+    "status": "HOST_VERIFIED",
+    "source": "canonical_operators/toroidal_field_realization.py + hosted_judge/toroidal_pipeline.py",
+    "description": "Centered3D tetrahedra, explicit candidate polarities and source motion; separate quasi-static diagnostics and divergence-free computational toroidal/poloidal law, independent numeric replay, actual finite QPRE/views and bounded verified audit feedback.",
+    "skip_reason": "Polarity/coupling not established as canonical or physical; field-line closure only specific controls; no demonstrated model/cognitive gain."
+  },
+  {
+    "id": "Field-guided Flower navigation",
+    "status": "HOST_VERIFIED",
+    "source": "canonical_operators/field_navigation.py + hosted_judge/toroidal_pipeline.py",
+    "description": "Actual typed map relationships are traversed using measured field alignment and candidate metric geometry, independently replayed. Native recursive Flower centers follow actual edges after mandatory proof; separate navigation state is retained.",
+    "skip_reason": "19-circle metric overlay and directional policy are evaluated candidates; reverse dependency arcs inspect relationships; no physical movement, canonical numerical equivalence or cognitive gain."
+  }
+]

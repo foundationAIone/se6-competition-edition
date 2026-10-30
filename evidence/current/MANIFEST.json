@@ -1,0 +1,9 @@
+{
+  "files": {
+    "agent-realization.json": "faba13865c00549ee74e96676307a24c63a44ee269e201f92717413426199060",
+    "model-workflow.json": "ffcd02125736f0a682fe6cfbe7361054f5b85fcf6ff6337a632f0824433bd3f0",
+    "research-result.json": "6d696d6c0c2e123d235e8623682f10dd48731061103af66be012b38784924a82"
+  },
+  "schema": "se6-final-display-inputs-v1",
+  "scope": "Saved dated evidence, not new executions or permits"
+}

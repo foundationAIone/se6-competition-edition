@@ -1,0 +1,37 @@
+{
+  "canonical-v7-math-0": {
+    "kind": "math",
+    "variables": [
+      "am",
+      "bm",
+      "cm"
+    ],
+    "n": 14,
+    "k": 2,
+    "v": 5
+  },
+  "canonical-v7-relation-0": {
+    "kind": "relation",
+    "subject": "service21446",
+    "other": "queue91392"
+  },
+  "canonical-v7-business-0": {
+    "kind": "business",
+    "jobs": 10,
+    "deep": 4,
+    "hours": 18,
+    "prices": [
+      48,
+      137
+    ],
+    "costs": [
+      12,
+      34
+    ],
+    "budget": 208
+  },
+  "canonical-v7-technical-0": {
+    "kind": "technical",
+    "subject": "verifier43554"
+  }
+}

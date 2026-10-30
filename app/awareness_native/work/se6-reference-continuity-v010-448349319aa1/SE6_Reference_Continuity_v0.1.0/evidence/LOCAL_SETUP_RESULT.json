@@ -1,0 +1,21 @@
+{
+  "actual_local_file_moves": 3,
+  "canonical_acceptance": "NOT_EVALUATED",
+  "demo_exit_code": 0,
+  "final_event_head": "0d80fce00e1c45876371f2dcdb7cc381c56d95babb06474a9f13baf3ed409728",
+  "final_position_m": [
+    "4",
+    "0"
+  ],
+  "fresh_engine_processes": 14,
+  "native_actions_used": 13,
+  "production_changes": false,
+  "pydantic": "2.14.0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "schema": "se6-reference-local-setup-v1",
+  "source_manifest_sha256": "4f674c973ba5d9b8f492ccd20917c8ac9a9bb07913d857c55c1f8cb2620ae36a",
+  "status": "LOCAL_DEVELOPMENT_VERIFIED",
+  "task_count": 3,
+  "test_exit_code": 0,
+  "verified_local_renewals": 3
+}

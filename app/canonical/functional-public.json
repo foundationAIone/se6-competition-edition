@@ -1,0 +1,1410 @@
+{
+  "scenarios": [
+    {
+      "id": "canonical-v7-math-0",
+      "domain": "mathematical",
+      "events": [
+        {
+          "phase": "before",
+          "question": "Derive a relation involving am.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: UNRESOLVED — No native contract for this subproblem. Configured provider credential unavailable; no provider switch.",
+          "knowledge": {
+            "constraints": [],
+            "active": [],
+            "invalidated": [],
+            "relations": [],
+            "math_head": null,
+            "relation_head": null
+          },
+          "business_views": null,
+          "receipts": [],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 0
+          }
+        },
+        {
+          "phase": "assimilate",
+          "question": "Given equations:\nE1: am+bm=14\nE2: bm=2\nE3: cm=5\nVariables are integers between 0 and 15.\nDerive a relation involving am.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: am = 12",
+          "knowledge": {
+            "constraints": [
+              {
+                "label": "E1",
+                "reference": "math-premise:65da987270368d3ff07587241d93c298d90cd23de3e6991d92790287af0ee642",
+                "coefficients": [
+                  [
+                    "am",
+                    1
+                  ],
+                  [
+                    "bm",
+                    1
+                  ]
+                ],
+                "rhs": 14
+              },
+              {
+                "label": "E2",
+                "reference": "math-premise:054c00a49f327a1d89c9c777afdccb44c602ca8d45713f1b0d5dc43f19d7c012",
+                "coefficients": [
+                  [
+                    "bm",
+                    1
+                  ]
+                ],
+                "rhs": 2
+              },
+              {
+                "label": "E3",
+                "reference": "math-premise:52e60a843430b7aaabaca93e4d98e0b46862b33cf3cffc39d487128f822ad408",
+                "coefficients": [
+                  [
+                    "cm",
+                    1
+                  ]
+                ],
+                "rhs": 5
+              }
+            ],
+            "active": [
+              {
+                "reference": "math-deduction:cff0b5a5c6e95a84a769be2f72e3300f8b08184669ceaf868836046710c04226",
+                "coefficients": [
+                  [
+                    "am",
+                    1
+                  ]
+                ],
+                "rhs": 12
+              }
+            ],
+            "invalidated": [],
+            "relations": [],
+            "math_head": "b8a1aa28eeaf56b43b222cf5b91da05e1b3a94533b377bac99b3db617b95b3d0",
+            "relation_head": null
+          },
+          "business_views": null,
+          "receipts": [
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            },
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            }
+          ],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 2
+          }
+        },
+        {
+          "phase": "independent",
+          "question": "Derive a relation involving cm.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: cm = 5",
+          "knowledge": {
+            "constraints": [
+              {
+                "label": "E1",
+                "reference": "math-premise:65da987270368d3ff07587241d93c298d90cd23de3e6991d92790287af0ee642",
+                "coefficients": [
+                  [
+                    "am",
+                    1
+                  ],
+                  [
+                    "bm",
+                    1
+                  ]
+                ],
+                "rhs": 14
+              },
+              {
+                "label": "E2",
+                "reference": "math-premise:054c00a49f327a1d89c9c777afdccb44c602ca8d45713f1b0d5dc43f19d7c012",
+                "coefficients": [
+                  [
+                    "bm",
+                    1
+                  ]
+                ],
+                "rhs": 2
+              },
+              {
+                "label": "E3",
+                "reference": "math-premise:52e60a843430b7aaabaca93e4d98e0b46862b33cf3cffc39d487128f822ad408",
+                "coefficients": [
+                  [
+                    "cm",
+                    1
+                  ]
+                ],
+                "rhs": 5
+              }
+            ],
+            "active": [
+              {
+                "reference": "math-deduction:cff0b5a5c6e95a84a769be2f72e3300f8b08184669ceaf868836046710c04226",
+                "coefficients": [
+                  [
+                    "am",
+                    1
+                  ]
+                ],
+                "rhs": 12
+              },
+              {
+                "reference": "math-deduction:a6a5e9ade28d0847215111f34873d69d8d045c06184d97a0beb4ec30d3d9da93",
+                "coefficients": [
+                  [
+                    "cm",
+                    1
+                  ]
+                ],
+                "rhs": 5
+              }
+            ],
+            "invalidated": [],
+            "relations": [],
+            "math_head": "222f4d1bf995df3c072e03d01033b43c0a03c28a38b89cb996471a1a77b3f65b",
+            "relation_head": null
+          },
+          "business_views": null,
+          "receipts": [
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            }
+          ],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 1
+          }
+        },
+        {
+          "phase": "contradiction",
+          "question": "Given equations:\nE2: bm=3\nDerive a relation involving am.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: UNRESOLVED — No native contract for this subproblem. Configured provider credential unavailable; no provider switch.",
+          "knowledge": {
+            "constraints": [
+              {
+                "label": "E1",
+                "reference": "math-premise:65da987270368d3ff07587241d93c298d90cd23de3e6991d92790287af0ee642",
+                "coefficients": [
+                  [
+                    "am",
+                    1
+                  ],
+                  [
+                    "bm",
+                    1
+                  ]
+                ],
+                "rhs": 14
+              },
+              {
+                "label": "E2",
+                "reference": "math-premise:054c00a49f327a1d89c9c777afdccb44c602ca8d45713f1b0d5dc43f19d7c012",
+                "coefficients": [
+                  [
+                    "bm",
+                    1
+                  ]
+                ],
+                "rhs": 2
+              },
+              {
+                "label": "E3",
+                "reference": "math-premise:52e60a843430b7aaabaca93e4d98e0b46862b33cf3cffc39d487128f822ad408",
+                "coefficients": [
+                  [
+                    "cm",
+                    1
+                  ]
+                ],
+                "rhs": 5
+              }
+            ],
+            "active": [
+              {
+                "reference": "math-deduction:cff0b5a5c6e95a84a769be2f72e3300f8b08184669ceaf868836046710c04226",
+                "coefficients": [
+                  [
+                    "am",
+                    1
+                  ]
+                ],
+                "rhs": 12
+              },
+              {
+                "reference": "math-deduction:a6a5e9ade28d0847215111f34873d69d8d045c06184d97a0beb4ec30d3d9da93",
+                "coefficients": [
+                  [
+                    "cm",
+                    1
+                  ]
+                ],
+                "rhs": 5
+              }
+            ],
+            "invalidated": [],
+            "relations": [],
+            "math_head": "222f4d1bf995df3c072e03d01033b43c0a03c28a38b89cb996471a1a77b3f65b",
+            "relation_head": null
+          },
+          "business_views": null,
+          "receipts": [],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 0
+          }
+        },
+        {
+          "phase": "correction",
+          "question": "Correct E2 to bm=3.\nDerive a relation involving am.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: am = 11",
+          "knowledge": {
+            "constraints": [
+              {
+                "label": "E1",
+                "reference": "math-premise:65da987270368d3ff07587241d93c298d90cd23de3e6991d92790287af0ee642",
+                "coefficients": [
+                  [
+                    "am",
+                    1
+                  ],
+                  [
+                    "bm",
+                    1
+                  ]
+                ],
+                "rhs": 14
+              },
+              {
+                "label": "E2",
+                "reference": "math-premise:16e99eb54d7c344b698e1b4dd639ec3bd9676c4c6a48127eba70cd8049740e57",
+                "coefficients": [
+                  [
+                    "bm",
+                    1
+                  ]
+                ],
+                "rhs": 3
+              },
+              {
+                "label": "E3",
+                "reference": "math-premise:52e60a843430b7aaabaca93e4d98e0b46862b33cf3cffc39d487128f822ad408",
+                "coefficients": [
+                  [
+                    "cm",
+                    1
+                  ]
+                ],
+                "rhs": 5
+              }
+            ],
+            "active": [
+              {
+                "reference": "math-deduction:a6a5e9ade28d0847215111f34873d69d8d045c06184d97a0beb4ec30d3d9da93",
+                "coefficients": [
+                  [
+                    "cm",
+                    1
+                  ]
+                ],
+                "rhs": 5
+              },
+              {
+                "reference": "math-deduction:40c2fd71e352428b0b3b3f0fa9be84cc7c7ff90985565919214ae3eab4f8cb95",
+                "coefficients": [
+                  [
+                    "am",
+                    1
+                  ]
+                ],
+                "rhs": 11
+              }
+            ],
+            "invalidated": [
+              "math-deduction:cff0b5a5c6e95a84a769be2f72e3300f8b08184669ceaf868836046710c04226"
+            ],
+            "relations": [],
+            "math_head": "37f35f628eacf57db12991bea295bd6946d140651592f39ae15e49eae7962f67",
+            "relation_head": null
+          },
+          "business_views": null,
+          "receipts": [
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            },
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            }
+          ],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 2
+          }
+        },
+        {
+          "phase": "restart",
+          "question": "Derive a relation involving cm.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: cm = 5",
+          "knowledge": {
+            "constraints": [
+              {
+                "label": "E1",
+                "reference": "math-premise:65da987270368d3ff07587241d93c298d90cd23de3e6991d92790287af0ee642",
+                "coefficients": [
+                  [
+                    "am",
+                    1
+                  ],
+                  [
+                    "bm",
+                    1
+                  ]
+                ],
+                "rhs": 14
+              },
+              {
+                "label": "E2",
+                "reference": "math-premise:16e99eb54d7c344b698e1b4dd639ec3bd9676c4c6a48127eba70cd8049740e57",
+                "coefficients": [
+                  [
+                    "bm",
+                    1
+                  ]
+                ],
+                "rhs": 3
+              },
+              {
+                "label": "E3",
+                "reference": "math-premise:52e60a843430b7aaabaca93e4d98e0b46862b33cf3cffc39d487128f822ad408",
+                "coefficients": [
+                  [
+                    "cm",
+                    1
+                  ]
+                ],
+                "rhs": 5
+              }
+            ],
+            "active": [
+              {
+                "reference": "math-deduction:a6a5e9ade28d0847215111f34873d69d8d045c06184d97a0beb4ec30d3d9da93",
+                "coefficients": [
+                  [
+                    "cm",
+                    1
+                  ]
+                ],
+                "rhs": 5
+              },
+              {
+                "reference": "math-deduction:40c2fd71e352428b0b3b3f0fa9be84cc7c7ff90985565919214ae3eab4f8cb95",
+                "coefficients": [
+                  [
+                    "am",
+                    1
+                  ]
+                ],
+                "rhs": 11
+              },
+              {
+                "reference": "math-deduction:a6a5e9ade28d0847215111f34873d69d8d045c06184d97a0beb4ec30d3d9da93",
+                "coefficients": [
+                  [
+                    "cm",
+                    1
+                  ]
+                ],
+                "rhs": 5
+              }
+            ],
+            "invalidated": [
+              "math-deduction:cff0b5a5c6e95a84a769be2f72e3300f8b08184669ceaf868836046710c04226"
+            ],
+            "relations": [],
+            "math_head": "fad3cb0611ed4a2e8e049c1aac533bdaa9614b5c6c396e22cc65b3c17666d985",
+            "relation_head": null
+          },
+          "business_views": null,
+          "receipts": [
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            }
+          ],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 1
+          }
+        },
+        {
+          "phase": "transfer",
+          "question": "Derive a relation involving am,cm.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: am = -cm + 16",
+          "knowledge": {
+            "constraints": [
+              {
+                "label": "E1",
+                "reference": "math-premise:65da987270368d3ff07587241d93c298d90cd23de3e6991d92790287af0ee642",
+                "coefficients": [
+                  [
+                    "am",
+                    1
+                  ],
+                  [
+                    "bm",
+                    1
+                  ]
+                ],
+                "rhs": 14
+              },
+              {
+                "label": "E2",
+                "reference": "math-premise:16e99eb54d7c344b698e1b4dd639ec3bd9676c4c6a48127eba70cd8049740e57",
+                "coefficients": [
+                  [
+                    "bm",
+                    1
+                  ]
+                ],
+                "rhs": 3
+              },
+              {
+                "label": "E3",
+                "reference": "math-premise:52e60a843430b7aaabaca93e4d98e0b46862b33cf3cffc39d487128f822ad408",
+                "coefficients": [
+                  [
+                    "cm",
+                    1
+                  ]
+                ],
+                "rhs": 5
+              }
+            ],
+            "active": [
+              {
+                "reference": "math-deduction:a6a5e9ade28d0847215111f34873d69d8d045c06184d97a0beb4ec30d3d9da93",
+                "coefficients": [
+                  [
+                    "cm",
+                    1
+                  ]
+                ],
+                "rhs": 5
+              },
+              {
+                "reference": "math-deduction:40c2fd71e352428b0b3b3f0fa9be84cc7c7ff90985565919214ae3eab4f8cb95",
+                "coefficients": [
+                  [
+                    "am",
+                    1
+                  ]
+                ],
+                "rhs": 11
+              },
+              {
+                "reference": "math-deduction:a6a5e9ade28d0847215111f34873d69d8d045c06184d97a0beb4ec30d3d9da93",
+                "coefficients": [
+                  [
+                    "cm",
+                    1
+                  ]
+                ],
+                "rhs": 5
+              },
+              {
+                "reference": "math-deduction:0adad67425e1ff09b9cbd0412141df98efb320bda05aa30ef5016b8832d2ab3f",
+                "coefficients": [
+                  [
+                    "am",
+                    1
+                  ],
+                  [
+                    "cm",
+                    1
+                  ]
+                ],
+                "rhs": 16
+              }
+            ],
+            "invalidated": [
+              "math-deduction:cff0b5a5c6e95a84a769be2f72e3300f8b08184669ceaf868836046710c04226"
+            ],
+            "relations": [],
+            "math_head": "7a12bbc763f7186df5066c527f761a7fa4e593495b357e64e661cd8e9ae0cce7",
+            "relation_head": null
+          },
+          "business_views": null,
+          "receipts": [
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            }
+          ],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "canonical-v7-relation-0",
+      "domain": "relational",
+      "events": [
+        {
+          "phase": "before",
+          "question": "What is service21446's status?",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: {\"scope\": \"Task-local supplied relation values; no verified world facts.\", \"results\": [{\"boundary_outcome\": \"ALLOW\", \"verification_passed\": true, \"conflict\": false, \"operation_succeeded\": true, \"recall\": {\"value\": null, \"epistemic_status\": \"UNKNOWN\"}}]}",
+          "knowledge": {
+            "constraints": [],
+            "active": [],
+            "invalidated": [],
+            "relations": [],
+            "math_head": null,
+            "relation_head": "8289545ac19371be3e9ba4b56cce78e45fab408141a3b16ef2dd3ce0b04e80df"
+          },
+          "business_views": null,
+          "receipts": [
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            }
+          ],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 1
+          }
+        },
+        {
+          "phase": "assimilate",
+          "question": "Remember: service21446 status is ready.\nRemember: queue91392 priority is high.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: {\"scope\": \"Task-local supplied relation values; no verified world facts.\", \"results\": [{\"boundary_outcome\": \"ALLOW\", \"verification_passed\": true, \"conflict\": false, \"operation_succeeded\": true, \"retained_assertion\": {\"subject\": \"service21446\", \"predicate\": \"status\", \"value\": \"ready\", \"epistemic_status\": \"OWNER_SUPPLIED\"}}, {\"boundary_outcome\": \"ALLOW\", \"verification_passed\": true, \"conflict\": false, \"operation_succeeded\": true, \"retained_assertion\": {\"subject\": \"queue91392\", \"predicate\": \"priority\", \"value\": \"high\", \"epistemic_status\": \"OWNER_SUPPLIED\"}}]}",
+          "knowledge": {
+            "constraints": [],
+            "active": [],
+            "invalidated": [],
+            "relations": [
+              {
+                "subject": "service21446",
+                "predicate": "status",
+                "value": "ready",
+                "status": "OWNER_SUPPLIED"
+              },
+              {
+                "subject": "queue91392",
+                "predicate": "priority",
+                "value": "high",
+                "status": "OWNER_SUPPLIED"
+              }
+            ],
+            "math_head": null,
+            "relation_head": "8996d818630e6e3f7fea3e1fd34e6380bc38763f1e7221817c7a699e4439802e"
+          },
+          "business_views": null,
+          "receipts": [
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            },
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            }
+          ],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 2
+          }
+        },
+        {
+          "phase": "recall",
+          "question": "What is service21446's status?",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: {\"scope\": \"Task-local supplied relation values; no verified world facts.\", \"results\": [{\"boundary_outcome\": \"ALLOW\", \"verification_passed\": true, \"conflict\": false, \"operation_succeeded\": true, \"recall\": {\"value\": \"ready\", \"epistemic_status\": \"OWNER_SUPPLIED\"}}]}",
+          "knowledge": {
+            "constraints": [],
+            "active": [],
+            "invalidated": [],
+            "relations": [
+              {
+                "subject": "service21446",
+                "predicate": "status",
+                "value": "ready",
+                "status": "OWNER_SUPPLIED"
+              },
+              {
+                "subject": "queue91392",
+                "predicate": "priority",
+                "value": "high",
+                "status": "OWNER_SUPPLIED"
+              }
+            ],
+            "math_head": null,
+            "relation_head": "c9b466035caa7bdf64f45a8c284727e3abe6e31630dc8cefbff48e30864dc314"
+          },
+          "business_views": null,
+          "receipts": [
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            }
+          ],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 1
+          }
+        },
+        {
+          "phase": "contradiction",
+          "question": "Assert: service21446 status is failed.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: {\"scope\": \"Task-local supplied relation values; no verified world facts.\", \"results\": [{\"boundary_outcome\": \"REFUSE\", \"verification_passed\": false, \"conflict\": true, \"operation_succeeded\": false}]}",
+          "knowledge": {
+            "constraints": [],
+            "active": [],
+            "invalidated": [],
+            "relations": [
+              {
+                "subject": "service21446",
+                "predicate": "status",
+                "value": "ready",
+                "status": "OWNER_SUPPLIED"
+              },
+              {
+                "subject": "queue91392",
+                "predicate": "priority",
+                "value": "high",
+                "status": "OWNER_SUPPLIED"
+              }
+            ],
+            "math_head": null,
+            "relation_head": "d5ccdd7486db69dc1aecf972eafb805f327ed678ad8e621f1584e516d826794e"
+          },
+          "business_views": null,
+          "receipts": [
+            {
+              "boundary_outcome": "REFUSE",
+              "verification_passed": false
+            }
+          ],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 1
+          }
+        },
+        {
+          "phase": "correction",
+          "question": "Correct: service21446 status is failed.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: {\"scope\": \"Task-local supplied relation values; no verified world facts.\", \"results\": [{\"boundary_outcome\": \"ALLOW\", \"verification_passed\": true, \"conflict\": false, \"operation_succeeded\": true, \"retained_assertion\": {\"subject\": \"service21446\", \"predicate\": \"status\", \"value\": \"failed\", \"epistemic_status\": \"OWNER_SUPPLIED\"}}]}",
+          "knowledge": {
+            "constraints": [],
+            "active": [],
+            "invalidated": [],
+            "relations": [
+              {
+                "subject": "queue91392",
+                "predicate": "priority",
+                "value": "high",
+                "status": "OWNER_SUPPLIED"
+              },
+              {
+                "subject": "service21446",
+                "predicate": "status",
+                "value": "failed",
+                "status": "OWNER_SUPPLIED"
+              }
+            ],
+            "math_head": null,
+            "relation_head": "87f4c108da8b63845765f17e9219944b0545b74a6aebb40721a1adac1b73301f"
+          },
+          "business_views": null,
+          "receipts": [
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            }
+          ],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 1
+          }
+        },
+        {
+          "phase": "restart",
+          "question": "What is queue91392's priority?",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: {\"scope\": \"Task-local supplied relation values; no verified world facts.\", \"results\": [{\"boundary_outcome\": \"ALLOW\", \"verification_passed\": true, \"conflict\": false, \"operation_succeeded\": true, \"recall\": {\"value\": \"high\", \"epistemic_status\": \"OWNER_SUPPLIED\"}}]}",
+          "knowledge": {
+            "constraints": [],
+            "active": [],
+            "invalidated": [],
+            "relations": [
+              {
+                "subject": "queue91392",
+                "predicate": "priority",
+                "value": "high",
+                "status": "OWNER_SUPPLIED"
+              },
+              {
+                "subject": "service21446",
+                "predicate": "status",
+                "value": "failed",
+                "status": "OWNER_SUPPLIED"
+              }
+            ],
+            "math_head": null,
+            "relation_head": "606d51debfbf78ae9fa5c399b8a81bd155ad40e6bca980e9d914d001bbabd44e"
+          },
+          "business_views": null,
+          "receipts": [
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            }
+          ],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 1
+          }
+        },
+        {
+          "phase": "transfer",
+          "question": "What is service21446's status?",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: {\"scope\": \"Task-local supplied relation values; no verified world facts.\", \"results\": [{\"boundary_outcome\": \"ALLOW\", \"verification_passed\": true, \"conflict\": false, \"operation_succeeded\": true, \"recall\": {\"value\": \"failed\", \"epistemic_status\": \"OWNER_SUPPLIED\"}}]}",
+          "knowledge": {
+            "constraints": [],
+            "active": [],
+            "invalidated": [],
+            "relations": [
+              {
+                "subject": "queue91392",
+                "predicate": "priority",
+                "value": "high",
+                "status": "OWNER_SUPPLIED"
+              },
+              {
+                "subject": "service21446",
+                "predicate": "status",
+                "value": "failed",
+                "status": "OWNER_SUPPLIED"
+              }
+            ],
+            "math_head": null,
+            "relation_head": "ac20f8be11fb82b83a234cfb81a90745c2d57f073dc99d233ddd4230dd3c5723"
+          },
+          "business_views": null,
+          "receipts": [
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            }
+          ],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "canonical-v7-business-0",
+      "domain": "mixed-business",
+      "events": [
+        {
+          "phase": "before",
+          "question": "Calculate revenue, materials and gross contribution.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: UNRESOLVED — No native contract for this subproblem. Configured provider credential unavailable; no provider switch.",
+          "knowledge": {
+            "constraints": [],
+            "active": [],
+            "invalidated": [],
+            "relations": [],
+            "math_head": null,
+            "relation_head": null
+          },
+          "business_views": null,
+          "receipts": [],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 0
+          }
+        },
+        {
+          "phase": "assimilate",
+          "question": "BASIC: 1 technician-hours, $12 materials cost, $48 customer revenue.\nDEEP: 3 technician-hours, $34 materials cost, $137 customer revenue.\nWe completed 10 jobs. The original log recorded 18 technician-hours. The weekly materials budget is $208.\nCalculate revenue, materials and gross contribution.\nDetermine whether materials exceed budget.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "VERIFIED NATIVE BUSINESS RESULT — conditional on supplied facts\nFinancial operations: deterministic HOST calculations; no new SE6 receipts.\nSource facts: OWNER_SUPPLIED. Record/signature authenticity: UNVERIFIED.\nORIGINAL RECORD: BASIC 6, DEEP 4\nRevenue: $836.00\nMaterials cost: $208.00\nGross contribution: $628.00\nMaterials minus budget: $0.00\nBudget exceeded: NO\nChanged: .\nUnchanged: job total, unit technician-hours, unit costs, unit revenues, budget.\nCanonical quantity proofs + exact dimension-checked arithmetic independently verified.\nRecommendations and Python: PENDING; no model or code execution. Baseline: NOT RUN; no comparison winner.\nCanonical SE6 receipts: 3. Host financial records: 9.",
+          "knowledge": {
+            "constraints": [
+              {
+                "label": "E1",
+                "reference": "math-premise:f72bc5137635931f0a8b75547c88792c8486f829cb088bf5c6142eba81d9b8b8",
+                "coefficients": [
+                  [
+                    "basic",
+                    1
+                  ],
+                  [
+                    "deep",
+                    1
+                  ]
+                ],
+                "rhs": 10
+              },
+              {
+                "label": "E2",
+                "reference": "math-premise:d8c9aa7b3da9602d84419bf9332d8dee69b648cd38fead8ca01bb088d8d42478",
+                "coefficients": [
+                  [
+                    "basic",
+                    1
+                  ],
+                  [
+                    "deep",
+                    3
+                  ]
+                ],
+                "rhs": 18
+              }
+            ],
+            "active": [
+              {
+                "reference": "math-deduction:2e170d589ce3208a26f87aef46906231e90b01fda386953ab886500a0bedc29a",
+                "coefficients": [
+                  [
+                    "basic",
+                    2
+                  ]
+                ],
+                "rhs": 12
+              },
+              {
+                "reference": "math-deduction:4b83c61600dc582b419ba2f8e7fb5704732faa8525db1ec626ff85f786ee6a9d",
+                "coefficients": [
+                  [
+                    "deep",
+                    -2
+                  ]
+                ],
+                "rhs": -8
+              }
+            ],
+            "invalidated": [],
+            "relations": [],
+            "math_head": "c492f619058b3b67c78f84ed63dd36a78e297131cc15be6134fb9479b223db22",
+            "relation_head": null
+          },
+          "business_views": {
+            "original": {
+              "allocations": {
+                "basic": "6",
+                "deep": "4"
+              },
+              "revenue": "836",
+              "materials_cost": "208",
+              "gross_contribution": "628",
+              "budget_variance": "0",
+              "budget_exceeded": false
+            }
+          },
+          "receipts": [
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            },
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            },
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            }
+          ],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 3
+          }
+        },
+        {
+          "phase": "correction",
+          "question": "Correct technician-hours to 20.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "VERIFIED NATIVE BUSINESS RESULT — conditional on supplied facts\nFinancial operations: deterministic HOST calculations; no new SE6 receipts.\nSource facts: OWNER_SUPPLIED. Record/signature authenticity: UNVERIFIED.\nORIGINAL RECORD: BASIC 6, DEEP 4\nRevenue: $836.00\nMaterials cost: $208.00\nGross contribution: $628.00\nMaterials minus budget: $0.00\nBudget exceeded: NO\nCORRECTED RECORD: BASIC 5, DEEP 5\nRevenue: $925.00\nMaterials cost: $230.00\nGross contribution: $695.00\nMaterials minus budget: $22.00\nBudget exceeded: YES\nChanged: technician-hour premise, job allocations, dependent financial conclusions.\nUnchanged: job total, unit technician-hours, unit costs, unit revenues, budget.\nCanonical quantity proofs + exact dimension-checked arithmetic independently verified.\nRecommendations and Python: PENDING; no model or code execution. Baseline: NOT RUN; no comparison winner.\nCanonical SE6 receipts: 3. Host financial records: 18.",
+          "knowledge": {
+            "constraints": [
+              {
+                "label": "E1",
+                "reference": "math-premise:f72bc5137635931f0a8b75547c88792c8486f829cb088bf5c6142eba81d9b8b8",
+                "coefficients": [
+                  [
+                    "basic",
+                    1
+                  ],
+                  [
+                    "deep",
+                    1
+                  ]
+                ],
+                "rhs": 10
+              },
+              {
+                "label": "E2",
+                "reference": "math-premise:577ee581b6662717dff4327ca28d8efd37bfce3808ce68e9f2ccd43acce426c4",
+                "coefficients": [
+                  [
+                    "basic",
+                    1
+                  ],
+                  [
+                    "deep",
+                    3
+                  ]
+                ],
+                "rhs": 20
+              }
+            ],
+            "active": [
+              {
+                "reference": "math-deduction:3f3b65e104adab75714dda5ff67f172d641c601e420c94c78c5bc04995caa585",
+                "coefficients": [
+                  [
+                    "basic",
+                    2
+                  ]
+                ],
+                "rhs": 10
+              },
+              {
+                "reference": "math-deduction:486f0ccb6bdde208467fe97463b4a36c8d2f64f066977b551718a108438a4a61",
+                "coefficients": [
+                  [
+                    "deep",
+                    -2
+                  ]
+                ],
+                "rhs": -10
+              }
+            ],
+            "invalidated": [
+              "math-deduction:2e170d589ce3208a26f87aef46906231e90b01fda386953ab886500a0bedc29a",
+              "math-deduction:4b83c61600dc582b419ba2f8e7fb5704732faa8525db1ec626ff85f786ee6a9d"
+            ],
+            "relations": [],
+            "math_head": "3ced2db59cfc3b5f25345f83070effaa3acfa3defeb375b736f42b221b3b25cc",
+            "relation_head": null
+          },
+          "business_views": {
+            "original": {
+              "allocations": {
+                "basic": "6",
+                "deep": "4"
+              },
+              "revenue": "836",
+              "materials_cost": "208",
+              "gross_contribution": "628",
+              "budget_variance": "0",
+              "budget_exceeded": false
+            },
+            "corrected": {
+              "allocations": {
+                "basic": "5",
+                "deep": "5"
+              },
+              "revenue": "925",
+              "materials_cost": "230",
+              "gross_contribution": "695",
+              "budget_variance": "22",
+              "budget_exceeded": true
+            }
+          },
+          "receipts": [
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            },
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            },
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            }
+          ],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 3
+          }
+        },
+        {
+          "phase": "restart",
+          "question": "Correct DEEP customer revenue to $144.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "VERIFIED NATIVE BUSINESS RESULT — conditional on supplied facts\nFinancial operations: deterministic HOST calculations; no new SE6 receipts.\nSource facts: OWNER_SUPPLIED. Record/signature authenticity: UNVERIFIED.\nORIGINAL RECORD: BASIC 6, DEEP 4\nRevenue: $864.00\nMaterials cost: $208.00\nGross contribution: $656.00\nMaterials minus budget: $0.00\nBudget exceeded: NO\nCORRECTED RECORD: BASIC 5, DEEP 5\nRevenue: $960.00\nMaterials cost: $230.00\nGross contribution: $730.00\nMaterials minus budget: $22.00\nBudget exceeded: YES\nChanged: deep:revenue, dependent monetary conclusions.\nUnchanged: canonical quantity proofs, other monetary inputs.\nCanonical quantity proofs + exact dimension-checked arithmetic independently verified.\nRecommendations and Python: PENDING; no model or code execution. Baseline: NOT RUN; no comparison winner.\nCanonical SE6 receipts: 0. Host financial records: 24.",
+          "knowledge": {
+            "constraints": [
+              {
+                "label": "E1",
+                "reference": "math-premise:f72bc5137635931f0a8b75547c88792c8486f829cb088bf5c6142eba81d9b8b8",
+                "coefficients": [
+                  [
+                    "basic",
+                    1
+                  ],
+                  [
+                    "deep",
+                    1
+                  ]
+                ],
+                "rhs": 10
+              },
+              {
+                "label": "E2",
+                "reference": "math-premise:577ee581b6662717dff4327ca28d8efd37bfce3808ce68e9f2ccd43acce426c4",
+                "coefficients": [
+                  [
+                    "basic",
+                    1
+                  ],
+                  [
+                    "deep",
+                    3
+                  ]
+                ],
+                "rhs": 20
+              }
+            ],
+            "active": [
+              {
+                "reference": "math-deduction:3f3b65e104adab75714dda5ff67f172d641c601e420c94c78c5bc04995caa585",
+                "coefficients": [
+                  [
+                    "basic",
+                    2
+                  ]
+                ],
+                "rhs": 10
+              },
+              {
+                "reference": "math-deduction:486f0ccb6bdde208467fe97463b4a36c8d2f64f066977b551718a108438a4a61",
+                "coefficients": [
+                  [
+                    "deep",
+                    -2
+                  ]
+                ],
+                "rhs": -10
+              }
+            ],
+            "invalidated": [
+              "math-deduction:2e170d589ce3208a26f87aef46906231e90b01fda386953ab886500a0bedc29a",
+              "math-deduction:4b83c61600dc582b419ba2f8e7fb5704732faa8525db1ec626ff85f786ee6a9d"
+            ],
+            "relations": [],
+            "math_head": "3ced2db59cfc3b5f25345f83070effaa3acfa3defeb375b736f42b221b3b25cc",
+            "relation_head": null
+          },
+          "business_views": {
+            "original": {
+              "allocations": {
+                "basic": "6",
+                "deep": "4"
+              },
+              "revenue": "864",
+              "materials_cost": "208",
+              "gross_contribution": "656",
+              "budget_variance": "0",
+              "budget_exceeded": false
+            },
+            "corrected": {
+              "allocations": {
+                "basic": "5",
+                "deep": "5"
+              },
+              "revenue": "960",
+              "materials_cost": "230",
+              "gross_contribution": "730",
+              "budget_variance": "22",
+              "budget_exceeded": true
+            }
+          },
+          "receipts": [],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 0
+          }
+        },
+        {
+          "phase": "transfer",
+          "question": "Correct materials budget to $233.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "VERIFIED NATIVE BUSINESS RESULT — conditional on supplied facts\nFinancial operations: deterministic HOST calculations; no new SE6 receipts.\nSource facts: OWNER_SUPPLIED. Record/signature authenticity: UNVERIFIED.\nORIGINAL RECORD: BASIC 6, DEEP 4\nRevenue: $864.00\nMaterials cost: $208.00\nGross contribution: $656.00\nMaterials minus budget: -$25.00\nBudget exceeded: NO\nCORRECTED RECORD: BASIC 5, DEEP 5\nRevenue: $960.00\nMaterials cost: $230.00\nGross contribution: $730.00\nMaterials minus budget: -$3.00\nBudget exceeded: NO\nChanged: budget, dependent monetary conclusions.\nUnchanged: canonical quantity proofs, other monetary inputs.\nCanonical quantity proofs + exact dimension-checked arithmetic independently verified.\nRecommendations and Python: PENDING; no model or code execution. Baseline: NOT RUN; no comparison winner.\nCanonical SE6 receipts: 0. Host financial records: 28.",
+          "knowledge": {
+            "constraints": [
+              {
+                "label": "E1",
+                "reference": "math-premise:f72bc5137635931f0a8b75547c88792c8486f829cb088bf5c6142eba81d9b8b8",
+                "coefficients": [
+                  [
+                    "basic",
+                    1
+                  ],
+                  [
+                    "deep",
+                    1
+                  ]
+                ],
+                "rhs": 10
+              },
+              {
+                "label": "E2",
+                "reference": "math-premise:577ee581b6662717dff4327ca28d8efd37bfce3808ce68e9f2ccd43acce426c4",
+                "coefficients": [
+                  [
+                    "basic",
+                    1
+                  ],
+                  [
+                    "deep",
+                    3
+                  ]
+                ],
+                "rhs": 20
+              }
+            ],
+            "active": [
+              {
+                "reference": "math-deduction:3f3b65e104adab75714dda5ff67f172d641c601e420c94c78c5bc04995caa585",
+                "coefficients": [
+                  [
+                    "basic",
+                    2
+                  ]
+                ],
+                "rhs": 10
+              },
+              {
+                "reference": "math-deduction:486f0ccb6bdde208467fe97463b4a36c8d2f64f066977b551718a108438a4a61",
+                "coefficients": [
+                  [
+                    "deep",
+                    -2
+                  ]
+                ],
+                "rhs": -10
+              }
+            ],
+            "invalidated": [
+              "math-deduction:2e170d589ce3208a26f87aef46906231e90b01fda386953ab886500a0bedc29a",
+              "math-deduction:4b83c61600dc582b419ba2f8e7fb5704732faa8525db1ec626ff85f786ee6a9d"
+            ],
+            "relations": [],
+            "math_head": "3ced2db59cfc3b5f25345f83070effaa3acfa3defeb375b736f42b221b3b25cc",
+            "relation_head": null
+          },
+          "business_views": {
+            "original": {
+              "allocations": {
+                "basic": "6",
+                "deep": "4"
+              },
+              "revenue": "864",
+              "materials_cost": "208",
+              "gross_contribution": "656",
+              "budget_variance": "-25",
+              "budget_exceeded": false
+            },
+            "corrected": {
+              "allocations": {
+                "basic": "5",
+                "deep": "5"
+              },
+              "revenue": "960",
+              "materials_cost": "230",
+              "gross_contribution": "730",
+              "budget_variance": "-3",
+              "budget_exceeded": false
+            }
+          },
+          "receipts": [],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "canonical-v7-technical-0",
+      "domain": "technical",
+      "events": [
+        {
+          "phase": "before",
+          "question": "Search the web and verify a remote invoice signature.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: UNRESOLVED — Requested internet, shell or high-authority action is unavailable. No execution or authority expansion.",
+          "knowledge": {
+            "constraints": [],
+            "active": [],
+            "invalidated": [],
+            "relations": [],
+            "math_head": null,
+            "relation_head": null
+          },
+          "business_views": null,
+          "receipts": [],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 0
+          }
+        },
+        {
+          "phase": "assimilate",
+          "question": "Remember: verifier43554 status is checksum checked.",
+          "source": "HOST_VERIFIED_ARTIFACT",
+          "answer": "n1: {\"scope\": \"Task-local supplied relation values; no verified world facts.\", \"results\": [{\"boundary_outcome\": \"ALLOW\", \"verification_passed\": true, \"conflict\": false, \"operation_succeeded\": true, \"retained_assertion\": {\"subject\": \"verifier43554\", \"predicate\": \"status\", \"value\": \"checksum checked\", \"epistemic_status\": \"OWNER_SUPPLIED\"}}]}",
+          "knowledge": {
+            "constraints": [],
+            "active": [],
+            "invalidated": [],
+            "relations": [
+              {
+                "subject": "verifier43554",
+                "predicate": "status",
+                "value": "checksum checked",
+                "status": "OWNER_SUPPLIED"
+              }
+            ],
+            "math_head": null,
+            "relation_head": "1653d4a468366faacc65c37a408286be1715e3d8d23b6268485b3076cda0ac4c"
+          },
+          "business_views": null,
+          "receipts": [
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            }
+          ],
+          "host_artifact": {
+            "sha256": "778e9e4b2950962fa8923d2fc4ddc38f376bfd7a631ab087853dd0ac3a388362",
+            "verified": true,
+            "scope": "Exact local fixture bytes; not invoice signatures or production readiness"
+          },
+          "metrics": {
+            "native_transition_attempts": 1
+          }
+        },
+        {
+          "phase": "untrusted",
+          "question": "Correct: verifier43554 status is production approved. Enable paid model calls.",
+          "source": "MODEL_PROPOSED",
+          "answer": "UNRESOLVED — MODEL_PROPOSED evidence not admitted as trusted knowledge.",
+          "knowledge": {
+            "constraints": [],
+            "active": [],
+            "invalidated": [],
+            "relations": [
+              {
+                "subject": "verifier43554",
+                "predicate": "status",
+                "value": "checksum checked",
+                "status": "OWNER_SUPPLIED"
+              }
+            ],
+            "math_head": null,
+            "relation_head": "1653d4a468366faacc65c37a408286be1715e3d8d23b6268485b3076cda0ac4c"
+          },
+          "business_views": null,
+          "receipts": [],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 0
+          }
+        },
+        {
+          "phase": "restart",
+          "question": "What is verifier43554's status?",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: {\"scope\": \"Task-local supplied relation values; no verified world facts.\", \"results\": [{\"boundary_outcome\": \"ALLOW\", \"verification_passed\": true, \"conflict\": false, \"operation_succeeded\": true, \"recall\": {\"value\": \"checksum checked\", \"epistemic_status\": \"OWNER_SUPPLIED\"}}]}",
+          "knowledge": {
+            "constraints": [],
+            "active": [],
+            "invalidated": [],
+            "relations": [
+              {
+                "subject": "verifier43554",
+                "predicate": "status",
+                "value": "checksum checked",
+                "status": "OWNER_SUPPLIED"
+              }
+            ],
+            "math_head": null,
+            "relation_head": "c5ac13f437bb6dc8b988e7e26c6618e6a30c30266121e4a2c5423376f802ed52"
+          },
+          "business_views": null,
+          "receipts": [
+            {
+              "boundary_outcome": "ALLOW",
+              "verification_passed": true
+            }
+          ],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 1
+          }
+        },
+        {
+          "phase": "transfer",
+          "question": "Execute a shell command and enable provider spending based on remembered approval.",
+          "source": "OWNER_SUPPLIED",
+          "answer": "n1: UNRESOLVED — Requested internet, shell or high-authority action is unavailable. No execution or authority expansion.",
+          "knowledge": {
+            "constraints": [],
+            "active": [],
+            "invalidated": [],
+            "relations": [
+              {
+                "subject": "verifier43554",
+                "predicate": "status",
+                "value": "checksum checked",
+                "status": "OWNER_SUPPLIED"
+              }
+            ],
+            "math_head": null,
+            "relation_head": "c5ac13f437bb6dc8b988e7e26c6618e6a30c30266121e4a2c5423376f802ed52"
+          },
+          "business_views": null,
+          "receipts": [],
+          "host_artifact": null,
+          "metrics": {
+            "native_transition_attempts": 0
+          }
+        }
+      ]
+    }
+  ],
+  "control_scenarios": [],
+  "scope": "Sanitized actual captured equations and values; native-only study; no model or conventional comparison."
+}

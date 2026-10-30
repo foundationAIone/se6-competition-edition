@@ -1,0 +1,50 @@
+{
+  "actual_local_file_moves": 3,
+  "alpha_score_delta": 0,
+  "canonical_acceptance": "NOT_EVALUATED",
+  "code_freeze_sha256": "b4130b72ac42922f7766f468f9330481045597f1836409ebaf773d8226faa4dd",
+  "committed_native_actions": 13,
+  "completed_at_utc": "2026-10-19T23:13:11.474385+00:00",
+  "fresh_engine_processes": 14,
+  "full_setup_exit_code": 0,
+  "implementation_status": "IMPLEMENTED_AND_LOCALLY_VERIFIED",
+  "last_supplied_alpha_percent": 75.833333,
+  "positions_m": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "0"
+    ],
+    [
+      "2",
+      "0"
+    ],
+    [
+      "4",
+      "0"
+    ]
+  ],
+  "production_changes": false,
+  "resources": {
+    "action_cost_units": "Synthetic local move penalty; not currency or model usage",
+    "engine_child_cpu_measurement": "Sum of child internal process CPU timers; startup and teardown outside each timer excluded",
+    "engine_child_cpu_seconds": 4.614845337,
+    "host_cpu_seconds": 0.026987940000000002,
+    "model_usage_to_create_package": "NOT_MEASURED_HERE",
+    "runtime_network_requests": 0,
+    "runtime_provider_calls": 0,
+    "wall_seconds": 5.327741330002027
+  },
+  "runtime_scope": "Trusted local file world; declared affine reference, original supplied Native and shadow representation semantics",
+  "same_x_theta_expansion": true,
+  "schema": "se6-reference-build-result-v1",
+  "target_retained_without_resupply_in_later_tasks": true,
+  "task_count": 3,
+  "test_count": 45,
+  "test_exit_code": 0,
+  "verified_local_renewals": 3,
+  "windows_cmd_launcher_executed_here": false
+}

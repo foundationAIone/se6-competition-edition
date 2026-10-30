@@ -1,0 +1,14 @@
+{
+  "schema": "se6-reference-upstream-source-pins-v1",
+  "origin": "Supplied SE6_Runtime_Sources_e0fe80b1de2540ed920002b3040a3040.zip",
+  "files": {
+    "vendor/se_core/__init__.py": "be25b3311502fce970f13f7a936af672f7b754a104336dcb2d2a49c6f3f9a3c5",
+    "vendor/se_core/kernel.py": "7c6b48b11dcffb1a2524f5475167768a438af03245ad57cf58b52db05a643674",
+    "vendor/se_core/mathematics.py": "853bf994f5db6f61f20381a39dcef9f3db81be1f3eeedab029e2df3a7d7c7f14",
+    "vendor/se_core/realization.py": "265f0b0173b8e5b2f7bdd8aca8b9cb9577aebe6f50eabae77e34318999754a64",
+    "vendor/se666_core/canonical_contracts.py": "b02e53f72f01dce53b2faed91ced6fbe52564bdf9c32838c9ce5d5a22f88b62a",
+    "vendor/se666_core/epistemic_status.py": "7ea23f22945cd03d2ca15a0ace7c03d79de46a7a62956069cfb1b32d983a278f",
+    "vendor/se666_core/realization_frame.py": "42f16bf5497623044a07d5541876d817ae815d4de8abfef902d37cfdb71dc561",
+    "vendor/se666_core/universal_mapper.py": "a8d07450f4e36ea844c6ca098a51e23e169f5eafd2c3782d3a6b67524f804fd7"
+  }
+}

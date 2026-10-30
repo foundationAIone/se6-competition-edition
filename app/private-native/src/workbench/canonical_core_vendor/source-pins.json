@@ -1,0 +1,10 @@
+{
+  "files": {
+    "__init__.py": "be25b3311502fce970f13f7a936af672f7b754a104336dcb2d2a49c6f3f9a3c5",
+    "kernel.py": "7c6b48b11dcffb1a2524f5475167768a438af03245ad57cf58b52db05a643674",
+    "mathematics.py": "853bf994f5db6f61f20381a39dcef9f3db81be1f3eeedab029e2df3a7d7c7f14",
+    "realization.py": "265f0b0173b8e5b2f7bdd8aca8b9cb9577aebe6f50eabae77e34318999754a64"
+  },
+  "revision": "canonical-realization-v1",
+  "schema": "se6-competition-core-pins-v1"
+}

@@ -1,0 +1,179 @@
+{
+  "schema": "se6-release-model-verification-v1",
+  "status": "VERIFIED_BOUNDED_LIVE_PAIR",
+  "packet_sha256": "b36bc6c348701fabfb69286b70b9ecf29c1a5fe2c0430f9b0120e08b236107ea",
+  "source_manifest_sha256": "62a2184d2b08fea49b27cb22b2eedad7545ae5c0ddd2961e510d5421f99ef5c8",
+  "started_at_utc": "2026-10-28T13:48:16.973428+00:00",
+  "finished_at_utc": "2026-10-28T13:48:21.306810+00:00",
+  "question": "ROUTINE: 1 technician-hours, $11 materials cost, $65 customer revenue.\nDEEP: 3 technician-hours, $27 materials cost, $145 customer revenue.\nWe completed 12 jobs. The original log recorded 20 technician-hours. The materials budget is $210.\nCalculate revenue, materials and gross contribution.\nDetermine whether materials exceed budget.",
+  "provider": "Nebius Token Factory",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "model_settings": {
+    "automatic_retries": 0,
+    "max_output_tokens": 2048,
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "provider": "Nebius Token Factory",
+    "provider_reasoning_control": {
+      "acceptance": "STOP_SINGLE_FINAL_JSON_OBJECT; reported reasoning must be zero, missing remains unknown",
+      "documentation": [
+        "https://docs.tokenfactory.nebius.com/api-reference/inference/create-chat-completion",
+        "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3-super-120b-a12b-infer"
+      ],
+      "final_token_reservation": "NOT_GUARANTEED",
+      "id": "NEBIUS_NEMOTRON_V11_COMPLETE_PAIR_V1",
+      "live_enforcement": "UNVERIFIED",
+      "maximum_completion_tokens": 2048,
+      "maximum_final_content_bytes": 32768,
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "model_specific_support": "LIVE_UNVERIFIED",
+      "new_sessions_only": true,
+      "provider": "Nebius Token Factory",
+      "provider_fields": {
+        "reasoning_effort": "none",
+        "response_format": {
+          "type": "json_object"
+        }
+      },
+      "scope": "ONE_NEW_MATCHED_PAIR_ONLY; separate exact capped authorization required",
+      "separate_reasoning_budget": "NOT_REQUESTED",
+      "serialization": "DOCUMENTED_GENERIC_API_FIELDS",
+      "temperature": 0
+    },
+    "reasoning": null,
+    "reasoning_policy": "New scoped effort-none JSON pair; request documented, actual enforcement UNVERIFIED until response accounting",
+    "store": null,
+    "temperature": 0,
+    "tools": []
+  },
+  "provider_calls": 2,
+  "calls_per_lane": 1,
+  "retries": 0,
+  "native_context_reused_from_prior_verified_release_execution": true,
+  "new_native_execution_in_this_pair": false,
+  "complete_local_cpu_cost": null,
+  "expected_conditional_answer_independently_recomputed": {
+    "allocations": {
+      "routine": "8",
+      "deep": "4"
+    },
+    "revenue": "1100",
+    "materials_cost": "196",
+    "gross_contribution": "904",
+    "budget_variance": "-14",
+    "budget_exceeded": false
+  },
+  "lanes": {
+    "se6": {
+      "exact_response": "{\"allocations\": {\"routine\": \"8\", \"deep\": \"4\"}, \"revenue\": \"1100\", \"materials_cost\": \"196\", \"gross_contribution\": \"904\", \"budget_variance\": \"-14\", \"budget_exceeded\": false}",
+      "assessment": {
+        "schema": "se6-prospective-common-answer-evaluation-v1",
+        "schema_compliance": true,
+        "semantic_correctness": true,
+        "evidence_status": "NOT_ASSESSED",
+        "end_to_end": "PASS",
+        "user_answer_status": "PASS",
+        "unsupported": false,
+        "reason": null,
+        "status": "ASSESSABLE",
+        "score": 1,
+        "maximum": 1,
+        "checks": {
+          "schema_compliance": true,
+          "semantic_correctness": true
+        },
+        "scope": "One current conditional public user answer; provenance scored separately."
+      },
+      "usage": {
+        "completion_tokens": 67,
+        "prompt_tokens": 477,
+        "total_tokens": 544,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0,
+          "created_cache_tokens": 0,
+          "multimodal_tokens": null
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 477
+      },
+      "returned_model": "nvidia/nemotron-3-super-120b-a12b",
+      "finish_reason": "stop",
+      "transport_and_parse_seconds": 1.9333662999561056,
+      "request_intent_file_created_at_utc": "2026-10-28T13:48:16.986861+00:00",
+      "response_file_created_at_utc": "2026-10-28T13:48:18.925480+00:00",
+      "wire_bytes": 2373,
+      "request_sha256": "2b23578ec8d4062a5ef16383bb1fb77185138e69957234872929359d8af4281f",
+      "raw_provider_response_sha256": "ba8f78c73beb203a83f8fccd9aa672e148dcd572518cd1c3ed54ac276661ebba",
+      "tariff_estimate_usd": 0.0002034,
+      "actual_billed_usd": null
+    },
+    "baseline": {
+      "exact_response": "{\"allocations\": {\"routine\": 8, \"deep\": 4}, \"revenue\": 1140, \"materials_cost\": 196, \"gross_contribution\": 944, \"budget_variance\": -14, \"budget_exceeded\": false}",
+      "assessment": {
+        "schema": "se6-prospective-common-answer-evaluation-v1",
+        "schema_compliance": true,
+        "semantic_correctness": false,
+        "evidence_status": "NOT_ASSESSED",
+        "end_to_end": "FAIL",
+        "user_answer_status": "FAIL",
+        "unsupported": false,
+        "reason": null,
+        "status": "ASSESSABLE",
+        "score": 0,
+        "maximum": 1,
+        "checks": {
+          "schema_compliance": true,
+          "semantic_correctness": false
+        },
+        "scope": "One current conditional public user answer; provenance scored separately."
+      },
+      "usage": {
+        "completion_tokens": 67,
+        "prompt_tokens": 359,
+        "total_tokens": 426,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0,
+          "created_cache_tokens": 0,
+          "multimodal_tokens": null
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 359
+      },
+      "returned_model": "nvidia/nemotron-3-super-120b-a12b",
+      "finish_reason": "stop",
+      "transport_and_parse_seconds": 2.0044682000298053,
+      "request_intent_file_created_at_utc": "2026-10-28T13:48:18.965627+00:00",
+      "response_file_created_at_utc": "2026-10-28T13:48:20.970155+00:00",
+      "wire_bytes": 1885,
+      "request_sha256": "0ff22796ec5430421289643eb19140f1deda8f56724b5b6f066647b6784d4fd7",
+      "raw_provider_response_sha256": "379d3160c57b37a3c9068646069ef39363d7911842487a5b4cc573509173e9f7",
+      "tariff_estimate_usd": 0.000168,
+      "actual_billed_usd": null
+    }
+  },
+  "tariff": {
+    "input_usd_per_million": "0.30",
+    "output_usd_per_million": "0.90",
+    "verified_date": "2026-10-28",
+    "source": "https://nebius.com/services/token-factory/models/nvidia-nemotron-models-inference"
+  },
+  "actual_billed_usd": null,
+  "overall_winner": null,
+  "common_user_answer_winner": "se6",
+  "scope": "One previously used synthetic business fixture; the assisted lane received the complete verified conditional answer from Native/HOST tools plus additional prior local computation. This is a functioning model-path check, not an unseen benchmark, a general advantage, causal field benefit, full equation proof or cryptographic provider attestation. No public spending authority is granted.",
+  "combined_tariff_estimate_usd": 0.0003714,
+  "combined_tokens": 970
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "se6-public-frozen-score-review-v1",
+  "records": [
+    {
+      "campaign": "mission-first-linear-v1",
+      "scorer_sha256": "333b1dd94a3871a9379c242db3a54012227e9b69b4dc204923e96a1277492121",
+      "public_evidence_manifest_sha256": "616a0e416a86cf55bed1e7a363a0c9b3a341d8e8972651f8fa19a98dd4cdbf27",
+      "scores": [
+        {
+          "case": "first-linear",
+          "se6": null,
+          "baseline": 0,
+          "maximum": 3,
+          "winner": null,
+          "correction_retention": null
+        }
+      ],
+      "measurements": {
+        "captured_requests": 2,
+        "tariff_estimate_usd": 0.0008922,
+        "actual_billed_usd": null
+      }
+    },
+    {
+      "campaign": "mission-successor-v2",
+      "scorer_sha256": "333b1dd94a3871a9379c242db3a54012227e9b69b4dc204923e96a1277492121",
+      "public_evidence_manifest_sha256": "616a0e416a86cf55bed1e7a363a0c9b3a341d8e8972651f8fa19a98dd4cdbf27",
+      "scores": [
+        {
+          "case": "linear-correction/0",
+          "se6": 3,
+          "baseline": 3,
+          "maximum": 3,
+          "winner": "TIE",
+          "correction_retention": null
+        },
+        {
+          "case": "linear-correction/1",
+          "se6": 3,
+          "baseline": 3,
+          "maximum": 3,
+          "winner": "TIE",
+          "correction_retention": {
+            "se6": true,
+            "baseline": true
+          }
+        },
+        {
+          "case": "mixed-business/0",
+          "se6": 16,
+          "baseline": 3,
+          "maximum": 16,
+          "winner": "se6",
+          "correction_retention": null
+        }
+      ],
+      "measurements": {
+        "captured_requests": 6,
+        "tariff_estimate_usd": 0.0037671,
+        "actual_billed_usd": null
+      }
+    }
+  ]
+}

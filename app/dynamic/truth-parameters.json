@@ -1,0 +1,72 @@
+{
+  "heldout-math-0": {
+    "kind": "math",
+    "variables": [
+      "am",
+      "bm",
+      "cm"
+    ],
+    "n": 14,
+    "k": 3,
+    "v": 3
+  },
+  "heldout-relation-0": {
+    "kind": "relation",
+    "subject": "service52904",
+    "other": "queue52466"
+  },
+  "heldout-business-0": {
+    "kind": "business",
+    "jobs": 9,
+    "deep": 4,
+    "hours": 17,
+    "prices": [
+      54,
+      123
+    ],
+    "costs": [
+      13,
+      31
+    ],
+    "budget": 189
+  },
+  "heldout-technical-0": {
+    "kind": "technical",
+    "subject": "verifier96531"
+  },
+  "heldout-math-1": {
+    "kind": "math",
+    "variables": [
+      "an",
+      "bn",
+      "cn"
+    ],
+    "n": 12,
+    "k": 2,
+    "v": 4
+  },
+  "heldout-relation-1": {
+    "kind": "relation",
+    "subject": "service54122",
+    "other": "queue75931"
+  },
+  "heldout-business-1": {
+    "kind": "business",
+    "jobs": 9,
+    "deep": 2,
+    "hours": 13,
+    "prices": [
+      43,
+      131
+    ],
+    "costs": [
+      14,
+      35
+    ],
+    "budget": 168
+  },
+  "heldout-technical-1": {
+    "kind": "technical",
+    "subject": "verifier52189"
+  }
+}

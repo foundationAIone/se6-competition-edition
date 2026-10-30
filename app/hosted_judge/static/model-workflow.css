@@ -1,0 +1,10 @@
+.model-workflow-card{margin:1.5rem 0;padding:1.5rem;border:1px solid #c8d7d0;border-radius:1rem;background:#f9fcfa;color:#15382c}
+.model-workflow-card .model-workflow-note{max-width:85ch;color:#435b50;line-height:1.6}
+.model-workflow-card .model-workflow-controls{display:flex;flex-wrap:wrap;gap:.75rem;margin:1rem 0}
+.model-workflow-card [role=status]{padding:.8rem 1rem;border-left:3px solid #386f58;background:#edf5ef;overflow-wrap:anywhere}
+.model-workflow-card p{overflow-wrap:anywhere}.model-workflow-card h3{margin-top:1.5rem}.model-workflow-card h4{margin:.8rem 0}.model-workflow-card h5{font-size:1rem;margin:.25rem 0 .8rem}
+.model-workflow-card pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:.8rem;max-height:24rem;overflow:auto;padding:.75rem;background:#f2f5f2;border-radius:.4rem}
+.model-workflow-card details{margin:.6rem 0}.model-workflow-card summary{cursor:pointer;font-weight:600}
+.model-workflow-project{padding:1rem 0;border-top:1px solid #d8e2dc}.model-workflow-stage{margin:1rem 0}
+.model-workflow-arms{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.model-workflow-arm{min-width:0;padding:1rem;background:#fff;border:1px solid #dce6df;border-radius:.6rem}
+@media(max-width:760px){.model-workflow-card{padding:1rem}.model-workflow-arms{grid-template-columns:1fr}}

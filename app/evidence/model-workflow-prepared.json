@@ -1,0 +1,38 @@
+{
+  "schema": "se6-model-workflow-view-v1",
+  "status": "BLOCKED_PENDING_EXACT_BUDGET",
+  "record_kind": "PREPARED",
+  "responses_committed": false,
+  "protocol_sha256": "6c0b12ec17303b73b9b3b617c187679c0daff3fd9d5b94fbe748f937e2aa877e",
+  "source_manifest_sha256": null,
+  "model": {
+    "provider": "Nebius Token Factory",
+    "identifier": "nvidia/nemotron-3-super-120b-a12b",
+    "settings": {
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "temperature": 0,
+      "max_tokens": 2048,
+      "reasoning_effort": "none",
+      "response_format": {
+        "type": "json_object"
+      }
+    }
+  },
+  "limits": {
+    "max_requests": 36,
+    "input_tokens": 262144,
+    "output_tokens": 2048,
+    "tool_turns": 3,
+    "usd_cap": "3.00",
+    "max_wire_input_bytes": 24576,
+    "max_disposable_effects": 12
+  },
+  "aggregate": null,
+  "projects": [],
+  "scope": [
+    "No fresh model comparison has executed. All earlier provider permits are spent.",
+    "Three projects are independent units; two stages each. Model receives only permitted public evidence and its own verified history.",
+    "Native already solves the affine mathematics deterministically. This tests a model proposer with Native validation/retention, not mathematical necessity or general learning.",
+    "No production connection, public spending, source adoption or Alpha change. Actual invoice and child CPU remain UNKNOWN."
+  ]
+}

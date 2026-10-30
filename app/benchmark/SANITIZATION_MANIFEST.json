@@ -1,0 +1,18 @@
+{
+  "schema": "se6-public-sanitization-v1",
+  "state": "DERIVED_DRAFT_NOT_PUBLISHED",
+  "target_repository": "foundationAIone/se6-competition-edition",
+  "source_categories": ["completed first linear campaign", "completed successor correction and mixed business campaign"],
+  "output_pairs": 4,
+  "output_model_captures": 8,
+  "included": ["sanitized request messages", "selected model settings", "sanitized final model response content", "usage counts", "observed elapsed times", "tariff estimates", "original public hash anchors", "independently computed public scorecard"],
+  "excluded": ["approval text", "private authorization records", "credentials", "response identifiers", "exact timestamps", "absolute local paths", "agent conversations", "personal data", "native checkpoints", "native journals", "full raw private capture files", "private answer keys", "inherited vendor source"],
+  "transformations": ["remove metadata-sensitive JSON keys from model context", "replace long native identifiers and fingerprints in messages with redaction placeholders", "replace absolute path patterns", "normalize parseable message JSON whitespace", "select provider response content and limited usage rather than copying raw provider files", "retain math quantities and prior response claims without schema repair"],
+  "fingerprint_exception": "Only explicitly labeled original_hash_anchors and new derived-manifest hashes retain digests. They do not expose the referenced private originals.",
+  "original_files_mutated": false,
+  "new_network_or_inference_calls": 0,
+  "loss_of_provenance": "This projection supports public arithmetic and declared history consistency only. It cannot independently validate original exact wire bytes, native source/receipt authenticity, owner approval or pre-capture answer-key isolation. Those were checked in private read-only review; originals stay private.",
+  "public_release_authorized": false,
+  "extractor_included": false,
+  "scorer_dependencies": "Python standard library only; optional pytest for public tests"
+}

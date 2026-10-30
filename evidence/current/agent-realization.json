@@ -1,0 +1,161 @@
+{
+  "alpha_changed": false,
+  "completion_repair": {
+    "description": "The same controller for both arms now requires current source/root/goal-bound CLI evidence before finish; current506 vsgoal116 rejects stale finish and continues within remaining original budget. Valid current no-change success is accepted.",
+    "independent_checks": 3,
+    "regrade": false,
+    "tests": 34
+  },
+  "conditions": [
+    {
+      "name": "retained-bridge",
+      "phases": [
+        {
+          "actual_effects": 1,
+          "agent_implementation": "DependencyRepairAgent",
+          "candidate_count": 2,
+          "capability_status": "IMPLEMENTED_REQUIRES_CONSEQUENCE_VERIFICATION",
+          "cold_restored": false,
+          "configuration_mode": "CURRENT_SOURCE_DERIVATION",
+          "configured_candidates": [
+            "set:active-settings.json",
+            "set:other-settings.json"
+          ],
+          "entity_receipt_id": "entity_commit_receipt_24909279a07246911054d7db8fccbff174428d30e9e05887441f91b5b677f9ef",
+          "entity_version": 4,
+          "goal": true,
+          "memory_consumed": false,
+          "native_receipt_hash": "ecdb7106de681235a1eee1f339d6849ebafaf3e0a6a83f794091f5933400991f",
+          "peak_traced_python_bytes": 5706798,
+          "phase": 1,
+          "pid": 22164,
+          "public_goal": 20,
+          "retained_state_sha256": "e3f842a4b7333e7b069392ca8ec6719f9b6ac42e3c31f201bf50c97c177a6c20",
+          "verified_memory_id": null,
+          "witness_sha256": "d3ce91038c2f6eec8819df6b77227a9acbb355e8bdfe068b9d463c53338273d7",
+          "worker_cpu_seconds": 1.859375,
+          "worker_wall_seconds": 7.239784400037024
+        },
+        {
+          "actual_effects": 1,
+          "agent_implementation": "DependencyRepairAgent",
+          "candidate_count": 1,
+          "capability_status": "VERIFIED_IN_EXACT_APPLICABILITY",
+          "cold_restored": true,
+          "configuration_mode": "REVALIDATED_RETAINED_SPECIALISM",
+          "configured_candidates": [
+            "set:active-settings.json"
+          ],
+          "entity_receipt_id": "entity_commit_receipt_27e95692192a2b4617e8d826a88ae5ac202498f05a3ab01fe764794387b8f37e",
+          "entity_version": 11,
+          "goal": true,
+          "memory_consumed": true,
+          "native_receipt_hash": "2d77ffe580a746d00cf3c9bfe38dec88c8656bd96b654af270993e7faae38e22",
+          "peak_traced_python_bytes": 6656010,
+          "phase": 2,
+          "pid": 17852,
+          "public_goal": 26,
+          "retained_state_sha256": "fe0e3b4611e199e634c5bf3b23faa5cae972e462e1d919201a95a97970617bc8",
+          "verified_memory_id": "entity_memory_5973d7852af41e65c38568a57497fccaa685c237eeaa7723e647c5ff27465f5f",
+          "witness_sha256": "fbdea1e6b64a2bb521066e5ba31579327d3154108b83a8d7f5a10be8bb863ad9",
+          "worker_cpu_seconds": 3.078125,
+          "worker_wall_seconds": 9.295892300026026
+        }
+      ]
+    },
+    {
+      "name": "bridge-disabled",
+      "phases": [
+        {
+          "actual_effects": 1,
+          "agent_implementation": "DependencyRepairAgent",
+          "candidate_count": 2,
+          "capability_status": "IMPLEMENTED_REQUIRES_CONSEQUENCE_VERIFICATION",
+          "cold_restored": false,
+          "configuration_mode": "CURRENT_SOURCE_DERIVATION",
+          "configured_candidates": [
+            "set:active-settings.json",
+            "set:other-settings.json"
+          ],
+          "entity_receipt_id": "entity_commit_receipt_f8c2433d40e2e1a40990e4828ee794100fa4e96af94333033dcce6ffcb2009c0",
+          "entity_version": 4,
+          "goal": true,
+          "memory_consumed": false,
+          "native_receipt_hash": "e60da94215341d83cf7358d647b655a950d47159c9a3d3eddfa7121822349d28",
+          "peak_traced_python_bytes": 5705079,
+          "phase": 1,
+          "pid": 8372,
+          "public_goal": 20,
+          "retained_state_sha256": "7df95ef1b71fffec8f961557c292f2214bf5c0149e524858856354b0aa581359",
+          "verified_memory_id": null,
+          "witness_sha256": "8a8ab20daa495f24c58fa3d5fb83f39828bda396f415243a7bf9eca0fbe3deb3",
+          "worker_cpu_seconds": 1.8125,
+          "worker_wall_seconds": 8.471321600023657
+        },
+        {
+          "actual_effects": 1,
+          "agent_implementation": "DependencyRepairAgent",
+          "candidate_count": 2,
+          "capability_status": "IMPLEMENTED_REQUIRES_CONSEQUENCE_VERIFICATION",
+          "cold_restored": true,
+          "configuration_mode": "CURRENT_SOURCE_DERIVATION",
+          "configured_candidates": [
+            "set:active-settings.json",
+            "set:other-settings.json"
+          ],
+          "entity_receipt_id": "entity_commit_receipt_8054dc24991154ffe8cbe1230c6ec91efdda7bddfabd80ee4ddea350c02f0b0a",
+          "entity_version": 11,
+          "goal": true,
+          "memory_consumed": false,
+          "native_receipt_hash": "5ed6790ffb9d2bb7bc60277b5df4ceccf2fe6516c8287a4e855c49c304958901",
+          "peak_traced_python_bytes": 6655386,
+          "phase": 2,
+          "pid": 12900,
+          "public_goal": 26,
+          "retained_state_sha256": "d22746071ddedcb0cc05eee852fc09e6cfc60d5ec62ed79a1c8b0528391d29e5",
+          "verified_memory_id": null,
+          "witness_sha256": "83d693935c499e60796ef2d5749fc43d613d1788e8c35869d3b4cbcda4484e15",
+          "worker_cpu_seconds": 2.609375,
+          "worker_wall_seconds": 7.711780900019221
+        }
+      ]
+    }
+  ],
+  "independent_review_sha256": "351b1f52aa72ebdd2c004984634c6c906f69546fb91d15b9267908e7a0be1ed8",
+  "limitations": [
+    "Both conditions succeeded twice; mechanism ablation is not a scored benchmark, live-model reasoning result or demonstrated performance/general learning advantage.",
+    "Current relation_index is recomputed/revalidated; no skipped-map/speed claim. Source-equal retained edges supply conditional structure, not cached old answer.",
+    "Actual Native Core selection receipt authenticates conditional computation; real World effect and capability assimilation are separately witnessed/committed. Core receipt assimilation list alone is not the capability memory.",
+    "One specialized existing Native consumer is configured; no general candidate nursery, autonomous agent-code synthesis or production promotion.",
+    "Unknown owner-equation semantics/full canonical transformation remain unresolved; no Alpha change or production effect.",
+    "Same fixture identity strings appear in separate test stores; no cross-condition Entity ancestry is merged.",
+    "This is actual Native generation without a model, not a new live NVIDIA comparison. Recorded finish replies were replayed only in separate development regressions.",
+    "Presence, Awareness and Becoming remain the existing three temporal loops within each fixture Entity; separate test-store namespaces are not merged.",
+    "Conditions ran sequentially once. Candidate evaluations changed, but no speed or resource superiority is established. Codex usage is not quantified."
+  ],
+  "production_connected": false,
+  "provider_calls": 0,
+  "raw_result_sha256": "66243000c7cdcc2cf5f40e7c64000c3d278250263ca6c5bf3f17bb03a534a783",
+  "record_kind": "ACTUAL_DISPOSABLE_DEVELOPMENT_NO_MODEL",
+  "resources": {
+    "actual_effects": 4,
+    "local_monetary_cost": null,
+    "network_calls": 0,
+    "observed_cli_processes": 24,
+    "outer_child_process_wall_seconds_by_condition": {
+      "bridge-disabled": 18.673488200001884,
+      "retained-bridge": 19.220052399963606
+    },
+    "outer_child_process_wall_seconds_total": 37.89354059996549,
+    "overlap_rule": "Outer child times include worker/nested CLI wall; do not add to worker wall. Full run initialization/coordinator time remains separate/unmeasured here.",
+    "peak_process_rss_bytes": null,
+    "project_provider_calls": 0,
+    "scope": "Worker function components; includes nested CLI wall but excludes process/import setup CPU and descendant CPU. No causal/performance superiority inferred.",
+    "total_descendant_cpu_seconds": null,
+    "worker_cpu_seconds": 9.359375,
+    "worker_wall_seconds": 32.71877920010593
+  },
+  "schema": "se6-agent-realization-development-view-v1",
+  "source_manifest_sha256": "897714b78da2d72952679ce2e588270158c99dbc946634d59b33c0fbcc1683cf",
+  "status": "VERIFIED_DEVELOPMENT_CONNECTION"
+}

@@ -1,0 +1,21 @@
+# Unapplied private build plan, no live authority or production mounts.
+services:
+  judge:
+    build: .
+    environment:
+      PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:?Exact HTTPS origin required}
+      SE6_PAIR_STORE: /var/lib/se6-competition
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - competition-runtime:/var/lib/se6-competition
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m
+    security_opt:
+      - no-new-privileges:true
+    cap_drop: [ALL]
+    mem_limit: 2g
+    cpus: 1.0
+volumes:
+  competition-runtime:

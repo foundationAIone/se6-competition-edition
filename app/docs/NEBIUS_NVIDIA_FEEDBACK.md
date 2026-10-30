@@ -1,0 +1,11 @@
+# Actual Nebius/NVIDIA use and feedback
+
+The application used Nebius TokenFactory runtime calls to `nvidia/nemotron-3-super-120b-a12b` for approved independent comparisons. No weights were downloaded or redistributed. Identical public question/settings and separate contexts make assistance visible; exact usage, captured transport/parser windows, tariff estimates and errors are retained. Native CPU/artifact/verification work adds resources and is not billed model inference.
+
+Observed default-reasoning1024-cap output truncated and remained unassessable. A separately approved none-reasoning2048/JSON-object pair completed both responses with zero reported reasoning. The later16-call pilot also stopped normally, but valid JSON did not ensure required fields or correct equations. Application-level exact semantic and scope checks are necessary; output syntax is not truth.
+
+Primary documentation is inconsistent: the structured-output guide describes model-dependent JSON Schema mode, while the chat-completion reference lists JSON-object/text only. The official guided-JSON example uses GPT-OSS, not the exact Super deployment. Super/account JSON-schema enforcement remains UNVERIFIED; no new capability probe occurred. [Structured-output guide](https://docs.tokenfactory.nebius.com/ai-models-inference/json), [API reference](https://docs.tokenfactory.nebius.com/api-reference/inference/create-chat-completion), [official notebook](https://github.com/nebius/token-factory-cookbook/blob/main/guided_json.ipynb).
+
+Useful feedback is to make model-specific constrained-output support, schema envelope/dialect and exact served revision/quantization explicit and auditable. That is a request for clearer reproducibility, not an assertion that a documented feature is absent. Independent provider signature, invoice/discounts and exact transport latency on older exception paths remain unknown. Historical captured behavior is not a provider-wide reliability benchmark.
+
+No new paid campaign is requested. The latest12-call allowance expired unspent with no store/calls; earlier allowances are spent. Public key/spending access remains disabled pending a separately approved exact qualifying runtime configuration.

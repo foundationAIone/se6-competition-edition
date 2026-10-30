@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:15,000
+SE6 Competition Edition: bounded decisions with inspectable evidence.
+Follow the active dependency, verify what changed, and continue.
+
+2
+00:00:15,000 --> 00:00:35,000
+Raw manifest, configuration and command evidence.
+The observer supplies no correct repair. Actual working context matters.
+
+3
+00:00:35,000 --> 00:01:00,000
+Entry → profile → configuration → conditional prediction → permitted choice.
+Authored finite Native operators; full symbolic equation not claimed.
+
+4
+00:01:00,000 --> 00:01:25,000
+One bounded setting change, independently observed CLI consequence.
+Witness, Native decision, Entity commit and renewal remain cross-referenced.
+
+5
+00:01:25,000 --> 00:01:50,000
+Cold continuation after changed dependency and working root.
+Show retained evidence, invalidation and the actual next choice.
+
+6
+00:01:50,000 --> 00:02:10,000
+Preserved comparison: retained 3/3, ablation 3/3, conventional 3/3.
+MEASURED ADVANTAGE: NOT ESTABLISHED. Worker CPU is not total CPU.
+
+7
+00:02:10,000 --> 00:02:35,000
+NVIDIA Nemotron 3 Super through Nebius Token Factory — authentic recorded pair.
+Assisted input contained the full conditional answer. Integration, not reasoning superiority.
+
+8
+00:02:35,000 --> 00:02:50,000
+Observe → choose → act → verify → retain → continue.
+Bounded edition. Ties, failures and authority limits stay visible.

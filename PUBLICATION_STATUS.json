@@ -1,0 +1,16 @@
+{
+  "alpha_changed": false,
+  "application_modified": false,
+  "devpost": "NOT_SUBMITTED",
+  "invoice_usd": null,
+  "judge_model_access": "NOT_OPERATIONAL; authenticated access and shared spending enforcement unresolved",
+  "license": "MIT; upstream notices retained",
+  "production_connected": false,
+  "repository": "https://github.com/foundationAIone/se6-competition-edition",
+  "reviewed_release_manifest_sha256": "c141c6275b4ef83a85ed597c26661569e129154059a5073a542263da0f4a01c2",
+  "runtime_tariff_estimate_usd": "0.0003714",
+  "runtime_verification": "TWO_REAL_NEBIUS_NVIDIA_CALLS_COMPLETED; spent permit",
+  "schema": "se6-competition-publication-status-v1",
+  "source_manifest_sha256": "cde739e3823b84e44085621a9737f0af19b7452acf628c8cfc07519e17f5445c",
+  "youtube": "NOT_UPLOADED; destination unresolved"
+}

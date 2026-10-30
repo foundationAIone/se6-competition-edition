@@ -1,0 +1,235 @@
+{
+  "schema": "se6-research-repair-result-view-v2",
+  "status": "COMPLETED_FRESH_REPAIR_AND_SAVED_GRADING",
+  "provider_calls": 30,
+  "production_connected": false,
+  "alpha_changed": false,
+  "historical": {
+    "identity": "original-s-retrieval-20261029",
+    "label": "Custom LongMemEval-S retrieval subset — SE6 versus BM25 — no answering model.",
+    "selection": {
+      "selected": 20,
+      "attempted": 20
+    },
+    "scores": {
+      "se6": {
+        "cases": 20,
+        "recall_at_5": 0.845,
+        "all_evidence_success": 0.8,
+        "successfully_processed": 20,
+        "failures": 0,
+        "empty_retrievals": 0
+      },
+      "bm25": {
+        "cases": 20,
+        "recall_at_5": 0.93,
+        "all_evidence_success": 0.9,
+        "successfully_processed": 20,
+        "failures": 0,
+        "empty_retrievals": 0
+      }
+    }
+  },
+  "fresh_evaluation": {
+    "identity": "repair-fresh-v2-20261029",
+    "label": "Custom fresh LongMemEval-S subset — SE6-governed BM25 versus flat BM25 — no answering model.",
+    "selection": {
+      "selected": 20,
+      "attempted": 20,
+      "exact_rational_mean": "109/120",
+      "required_text_overlap_with_exposed": 0,
+      "all_history_id_components": 12,
+      "all_history_text_components": 10,
+      "shared_old_filler_ids": 21,
+      "shared_old_filler_texts": 23
+    },
+    "scores": {
+      "se6": {
+        "cases": 20,
+        "recall_at_5": 0.9083333333333334,
+        "all_evidence_success": 0.8,
+        "successfully_processed": 20,
+        "failures": 0,
+        "empty_retrievals": 0
+      },
+      "bm25": {
+        "cases": 20,
+        "recall_at_5": 0.9083333333333334,
+        "all_evidence_success": 0.8,
+        "successfully_processed": 20,
+        "failures": 0,
+        "empty_retrievals": 0
+      }
+    }
+  },
+  "development": {
+    "scope": "Original24 cases exposed; no development superiority claim. Fixed20 regression both93.0percent,18of20complete,20ties.",
+    "causal_cases": [
+      {
+        "case": "011",
+        "legacy_recall": 0.5,
+        "repaired_recall": 1.0
+      },
+      {
+        "case": "013",
+        "legacy_recall": 0,
+        "repaired_recall": 1.0
+      },
+      {
+        "case": "024",
+        "legacy_recall": 0.4,
+        "repaired_recall": 0.6,
+        "remaining": "Incomplete; BM25 does not retrieve all required evidence."
+      }
+    ],
+    "cause": "Unweighted overlap ranking, not truncated indexing, historical filtering or lost provenance.",
+    "retention": "Source-pinned aggregate development report retained as actual PROVISIONAL/REPORTED Entity memory; cold policy state chooses BM25. Unknown, withdrawn or wrong-task policy does not receive invented authority."
+  },
+  "reader_recovery": {
+    "grading_status": "RECOVERED_PARTIAL_SEMANTIC_GRADING_COMPLETE",
+    "completed_responses": 30,
+    "complete_pairs": 15,
+    "truncated_responses": 1,
+    "unattempted_items": 9,
+    "new_provider_calls": 30,
+    "historical_provider_calls": 31,
+    "historical_grader_calls": 0,
+    "historical_tariff_estimate_usd": "0.0485715",
+    "actual_invoice": "UNKNOWN",
+    "cause": "Request31 reached2048completion tokens,1412reasoning; original global-stop policy correctly stopped.",
+    "software_repair": "Versioned final-content classifier and crash-safe saved-response recovery; item incomplete distinct from global authority/cost/transport/integrity failure. Saved outputs can be graded independently without reader regeneration.",
+    "reader_profile": "Concise120-word instruction prepared/offline-tested; no new reader inference, no verified Nebius reasoning-control extension.",
+    "new_reader_calls": 0,
+    "grade_result_sha256": "43cc80d3605b0700c924f48be04c2dcda2c8c8b8d1101bcaad571d42adaf6335",
+    "paired_accuracy": {
+      "bm25": {
+        "accuracy": 0.5333333333333333,
+        "correct": 8,
+        "denominator": 15
+      },
+      "se6": {
+        "accuracy": 0.4,
+        "correct": 6,
+        "denominator": 15
+      }
+    },
+    "paired_wins_losses_ties": {
+      "se6_wins": 1,
+      "se6_losses": 3,
+      "ties": 11
+    },
+    "new_grading_tariff_estimate_usd": "0.0037407",
+    "new_grader_input_tokens": 6505,
+    "new_grader_completion_tokens": 1988,
+    "new_grader_reasoning_tokens": 1868,
+    "original20case_accuracy": "UNMEASURED;15savedpairedcases only",
+    "repaired_retriever_response_quality": "UNMEASURED;no newreader inference"
+  },
+  "architecture": [
+    {
+      "intended": "Source observation and faithful representation",
+      "executed": "SessionMemory.ingest/_payload_checked; sessions_format.validate_history/history_spans/render_session",
+      "values": "Complete ordered role/content/date reports, chunk and full-source SHA256, UTF-8 session/turn spans",
+      "consumer": "SessionMemory._collections -> retrieve",
+      "effect": "Every source occurrence remains available; exact corrupt bytes rejected. No summaries replace source."
+    },
+    {
+      "intended": "Relationship/applicability and epistemic scope",
+      "executed": "EntityMemoryState.active_at -> SessionMemory._collections/_selected_method",
+      "values": "Actual PROVISIONAL/REPORTED MemoryRecord source events, active collection and development policy; declared dataset task provenance",
+      "consumer": "Candidate corpus and method selection",
+      "effect": "Withdrawn source blocks retrieval; withdrawn or inapplicable policy returns explicit legacy. Historical reports are not World facts."
+    },
+    {
+      "intended": "Candidate generation and selection",
+      "executed": "session_selection.bm25_candidates -> existing research_controls.official_bm25_s.rank; retrieve source mapping/dedup",
+      "values": "Same conventional flat-BM25 scores/native ordering over ALL complete session text; at most five unique IDs",
+      "consumer": "Task-specific retrieval result and reader context (not the general Native selector)",
+      "effect": "Retained aggregate report changes actual ranker; healthy-source BM25 equality is no enhancement claim. Source lifecycle can block unjustified retrieval."
+    },
+    {
+      "intended": "Observed development outcome and retained next-use",
+      "executed": "Independently recomputed C development report -> read_admitted_development_report -> actual MemoryPayload.CANDIDATE -> EntityStore SQLite save/cold load",
+      "values": "Exact report pin and immutable old capture/result/source pins; actual policy memory/source-event IDs",
+      "consumer": "Cold-restored _selected_method",
+      "effect": "Absent policy uses legacy; valid active policy uses shared BM25 after restart. No gold session IDs/answers retained and no verified World witness claimed."
+    },
+    {
+      "intended": "Temporal/Sphere/owner-equation perspectives",
+      "executed": "No source-defined semantic temporal, contradiction or Sphere rank operator executed on this path",
+      "values": "Dates preserved as evidence; query date deliberately not used for ranking",
+      "consumer": "None",
+      "effect": "Not claimed as realized; no logged labels counted as mathematical or causal contribution."
+    }
+  ],
+  "resources": {
+    "se6": {
+      "setup_wall_seconds": 228.12516605299993,
+      "cold_restore_wall_seconds": 23.93087643699981,
+      "query_including_index_wall_seconds": 44.68918297900005,
+      "enclosing_child_wall_seconds": 326.8965810000227,
+      "metered_worker_cpu_seconds": 169.978263324,
+      "peak_worker_rss_bytes": 124588032,
+      "final_store_bytes": 37096711,
+      "returned_evidence_bytes": 1589250.0
+    },
+    "bm25": {
+      "setup_wall_seconds": 2.8773039569999455,
+      "cold_restore_wall_seconds": 0.668149082000042,
+      "query_including_index_wall_seconds": 39.76934066899999,
+      "enclosing_child_wall_seconds": 61.15860500000781,
+      "metered_worker_cpu_seconds": 22.59787843099999,
+      "peak_worker_rss_bytes": 68050944,
+      "final_store_bytes": 10414361,
+      "returned_evidence_bytes": 1588550.0
+    },
+    "batch_outer_wall_seconds": 392.1897628000006,
+    "selection_wall_seconds": 9.837693200002832,
+    "scope": "Same complete ingest/save/cold-restore/query boundaries. Query includes actual BM25 index construction in BOTH arms. Source/init, policy admission and namespace costs charged. Worker CPU/RSS only; total engineering/Codex/OS/energy costs UNKNOWN."
+  },
+  "limitations": [
+    "Fresh result is a tie between the same BM25 foundation with and without SE6 governance, not enhancement.",
+    "Provisional historical reports are not independently verified World truth.",
+    "Temporal/entity/relation/contradiction reasoning, QPRE/Sphere/full-equation realization and broad general learning are not demonstrated by this ranking task.",
+    "Exact required-evidence text disjoint from exposed cases; filler and semantic/domain dependencies remain.",
+    "SE6 remains slower; reduced filesystem operations do not establish an end-to-end speed advantage.",
+    "Original20-case final-response accuracy remains unmeasured;15completepairs recovered under blinded Nemotron semantic judgments. Same model family reader/judge;not human-verified truth."
+  ],
+  "paid_proposal": {
+    "status": "APPROVED_EXECUTED_COMPLETE_NO_FURTHER_CALLS",
+    "purpose": "Grade only30original complete saved outputs/15pairs;0reader regeneration. Not a measure of repaired-retriever final-response quality.",
+    "spec_sha256": "1374acd5ee8f3823749c695904fe546dcec67d231d598901044da59754b0c7e5",
+    "source_manifest_sha256": "b1e955f922fbcd3f0ad476e730e589f9178faaf9da97586268bf93462314a4ea",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "destination": "Nebius Token Factory chat completions endpoint declared in the frozen local specification.",
+    "max_calls": 30,
+    "max_output_tokens": 512,
+    "max_wire_input_bytes": 24576,
+    "input_token_reserve_per_call": 262144,
+    "conservative_total_usd": "2.373120",
+    "hard_cap_usd": "2.40",
+    "request_deadline_seconds": 30,
+    "batch_deadline_seconds": 1800,
+    "retries": 0,
+    "extra_calibration_calls": 0,
+    "calibration": "First2fixedblinditems within30; both incomplete causes systemic stop.",
+    "reasoning_controls": "UNKNOWN; no unsupported NIM extensions emitted.",
+    "authority": "Exact programmerONE approval consumed bythis30call batch. No repeat/fallback/replacement authorized.",
+    "actual_provider_calls": 30,
+    "actual_reader_calls": 0,
+    "actual_tariff_estimate_usd": "0.0037407",
+    "actual_invoice": "UNKNOWN"
+  },
+  "evidence_pins": {
+    "SOURCE_MANIFEST.json": "b1e955f922fbcd3f0ad476e730e589f9178faaf9da97586268bf93462314a4ea",
+    "SOURCE_CHANGES.diff": "1076a1bf6ae3a55312246ecea4d4471691f1c1795426b24abb2c9bede06605b7",
+    "FRESH_INDEPENDENT_REGRADING.json": "06ed4e34daa18398997e7c7056ef909469c92600a10ed6c32c1c8f8e2c870f40",
+    "FRESH_PER_CASE_SUMMARY.json": "4df323d8ee16edb9d6ca3e1b71b483e7b7194d8c989e7e9aed0c2a63a27a67ba",
+    "worker-c/FRESH_COLD_LINEAGE_REVIEW.json": "19e887f89764a3e5246b110908df6ae0246ac4513f300cbd463ae65072497e44",
+    "worker-a/THREE_LOSS_BEFORE_AFTER.json": "e634e0e9af05a1c02c130c46d0635b8ff115fce715aa52b011db4ed429128e7d",
+    "worker-b/WORKER_B_FINAL_RESULT.json": "aa43072430c2243fa92966b7cbd25802812578e68a5c6b45e397e1e95ec5ec14",
+    "grader_result_sha256": "43cc80d3605b0700c924f48be04c2dcda2c8c8b8d1101bcaad571d42adaf6335",
+    "independent_grader_review_sha256": "44aeeae8bb7aea53752c4d44162abbde578e7b610e26b94f58826f9cf46da3dd",
+    "presentation_source_sha256": "b4a72bc48a897f4034ec7fafb59dd314c941e11425bc4f874fc0d67bae8c24c3"
+  }
+}

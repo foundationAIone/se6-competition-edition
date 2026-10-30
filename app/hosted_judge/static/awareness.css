@@ -1,0 +1,34 @@
+/* Configuration awareness extends the existing Competition Edition palette. */
+.awareness-card{background:#fff;border:1px solid var(--line);border-radius:13px;padding:25px;margin:0 0 24px;scroll-margin-top:20px}
+.awareness-card .eyebrow{margin-bottom:9px;font-size:10px}
+.awareness-card h2{font-size:25px}
+.awareness-card h3{font-size:17px;font-weight:600;letter-spacing:-.3px;margin:0 0 12px}
+.awareness-card h4{font-size:14px;margin:0 0 15px;font-weight:650}
+.awareness-card p{font-size:13px;color:var(--muted);line-height:1.7}
+.awareness-card .small-note{font-size:11px}
+.awareness-badge{padding:8px 10px;border-radius:5px;background:var(--soft-green);font-size:9px!important;letter-spacing:.8px;font-weight:650;white-space:normal}
+.awareness-scope{display:grid;gap:6px;padding:15px 17px;background:#f3f5ef;border:1px solid #e1e6db;border-radius:8px;font-size:12px;color:var(--muted);line-height:1.6}
+.awareness-scope strong{color:var(--ink);font-size:12px}
+.awareness-actions{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:19px 0 13px}
+.awareness-actions a{text-decoration:none}
+.awareness-status{padding:12px 14px;background:#f4f5f1;border-left:3px solid #abb6aa;border-radius:4px;overflow-wrap:anywhere}
+.awareness-status[data-status="RUNNING"]{border-left-color:#407394;background:#f0f5f8;color:#345f7a}
+.awareness-status[data-status="COMPLETE"]{border-left-color:var(--green);background:#eef5ef;color:#275d45}
+.awareness-status[data-status="FAILED_CLOSED"],.awareness-status[data-status="INTERRUPTED"]{border-left-color:#9b6044;background:#faf1ec;color:#8c4c34}
+.awareness-summary{margin-top:24px;padding:18px;border:1px solid #dbe5d9;border-radius:8px;background:#f7faf5}
+.awareness-summary p:last-child{margin-bottom:0}
+.awareness-phase{padding-top:23px;margin-top:23px;border-top:1px solid var(--line)}
+.awareness-columns{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:17px;margin-top:15px}
+.awareness-arm{border:1px solid #dbe4d9;border-top:3px solid var(--green);border-radius:8px;padding:18px;min-width:0;background:#fcfdfb}
+.awareness-conventional{border-top-color:#9c8056}
+.awareness-facts{display:grid;gap:0;margin:0;font-size:12px;min-width:0}
+.awareness-facts>div{display:grid;grid-template-columns:minmax(110px,.7fr) minmax(0,1.3fr);gap:12px;padding:10px 0;border-top:1px solid #e9ece5}
+.awareness-facts dt{font-weight:600;color:#4c5e53;line-height:1.6}
+.awareness-facts dd{margin:0;color:#354b3e;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.6;min-width:0}
+.awareness-card details{margin-top:15px;min-width:0}
+.awareness-card summary{font-size:12px;font-weight:600;cursor:pointer;line-height:1.65}
+.awareness-card pre{font:11px/1.7 Consolas,"SFMono-Regular",monospace;white-space:pre-wrap;overflow-wrap:anywhere;background:#f5f7f2;border:1px solid #e2e7dd;padding:13px;border-radius:6px;max-height:430px;overflow:auto}
+#awareness-recorded{border-top:1px solid var(--line);padding-top:15px;margin-top:22px}
+#awareness-evidence h3{margin-top:20px}
+@media(max-width:750px){.awareness-card{padding:19px}.awareness-columns{grid-template-columns:1fr}.awareness-facts>div{grid-template-columns:minmax(95px,.65fr) minmax(0,1.35fr)}.awareness-actions .button{white-space:normal;text-align:center;gap:6px}}
+@media(max-width:450px){.awareness-actions{align-items:stretch;flex-direction:column}.awareness-facts>div{grid-template-columns:1fr;gap:4px}.awareness-card .section-heading{align-items:flex-start}.awareness-badge{align-self:flex-start}}

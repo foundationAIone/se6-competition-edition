@@ -1,0 +1,3 @@
+# V8 submission changes — owner review
+
+Original Competition Dashboard restored as one RUN BOTH action with native automatic planning, independent guarded matched-pair runner, exact historical replay and accepted V7.2 progression on the main page. Complete native source is included privately; source rights are still blocked. Added actual bounded numerical field candidate with opposing rotations/source coupling, independent controls, selected extra binding audits and separate feedback persistence. Canonical source coupling is unspecified; no physical/canonical/solving improvement claimed. Prospective model inference remains unexecuted and unauthorized. Historical captures/equations unchanged.

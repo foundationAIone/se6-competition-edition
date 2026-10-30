@@ -1,0 +1,1157 @@
+{
+  "schema": "se6-v8-candidate-field-controls",
+  "physical_claim": false,
+  "canonical_equivalence": false,
+  "source_sha256": "e5e6f9391107e54bdb8b7848ce8bd85db91ba57954e6f4ad807d8ba8e1a0730b",
+  "source_reference_gap": "Precise canonical opposing-force/field coupling unspecified; this is a separately identified computational candidate.",
+  "formula": "F(x,t) = sum_s R(d_s*omega*t+phase_s) f_s / (1+||x-p_s||^2), d_s in {+1,-1}",
+  "units": "Dimensionless relational coordinates/source vectors. Squared norm is an algebraic measure, not physical energy.",
+  "controls": [
+    {
+      "name": "zero_source",
+      "parameters": {
+        "sources": [
+          {
+            "position": [
+              0,
+              0
+            ],
+            "force": [
+              0,
+              0
+            ],
+            "phase": 0,
+            "direction": 1
+          },
+          {
+            "position": [
+              0,
+              0
+            ],
+            "force": [
+              0,
+              0
+            ],
+            "phase": 0,
+            "direction": -1
+          }
+        ],
+        "omega": 1,
+        "dt": 0.25,
+        "decay": 1,
+        "learning_rate": 0
+      },
+      "frames": [
+        {
+          "step": 0,
+          "time": 0.0,
+          "samples": [
+            {
+              "id": "left",
+              "position": [
+                -1.0,
+                0.0
+              ],
+              "time": 0.0,
+              "field": [
+                0.0,
+                0.0
+              ],
+              "magnitude": 0.0,
+              "energy": 0.0,
+              "component_energy": 0.0,
+              "interference": 0.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 0.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "center",
+              "position": [
+                0.0,
+                0.0
+              ],
+              "time": 0.0,
+              "field": [
+                0.0,
+                0.0
+              ],
+              "magnitude": 0.0,
+              "energy": 0.0,
+              "component_energy": 0.0,
+              "interference": 0.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 0.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "right",
+              "position": [
+                1.0,
+                0.0
+              ],
+              "time": 0.0,
+              "field": [
+                0.0,
+                0.0
+              ],
+              "magnitude": 0.0,
+              "energy": 0.0,
+              "component_energy": 0.0,
+              "interference": 0.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 0.0,
+              "rotation_norm_error": 0.0
+            }
+          ],
+          "independent_oracle_max_error": 0
+        },
+        {
+          "step": 1,
+          "time": 0.25,
+          "samples": [
+            {
+              "id": "left",
+              "position": [
+                -1.0,
+                0.0
+              ],
+              "time": 0.25,
+              "field": [
+                0.0,
+                0.0
+              ],
+              "magnitude": 0.0,
+              "energy": 0.0,
+              "component_energy": 0.0,
+              "interference": 0.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 0.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "center",
+              "position": [
+                0.0,
+                0.0
+              ],
+              "time": 0.25,
+              "field": [
+                0.0,
+                0.0
+              ],
+              "magnitude": 0.0,
+              "energy": 0.0,
+              "component_energy": 0.0,
+              "interference": 0.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 0.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "right",
+              "position": [
+                1.0,
+                0.0
+              ],
+              "time": 0.25,
+              "field": [
+                0.0,
+                0.0
+              ],
+              "magnitude": 0.0,
+              "energy": 0.0,
+              "component_energy": 0.0,
+              "interference": 0.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 0.0,
+              "rotation_norm_error": 0.0
+            }
+          ],
+          "independent_oracle_max_error": 0
+        },
+        {
+          "step": 2,
+          "time": 0.5,
+          "samples": [
+            {
+              "id": "left",
+              "position": [
+                -1.0,
+                0.0
+              ],
+              "time": 0.5,
+              "field": [
+                0.0,
+                0.0
+              ],
+              "magnitude": 0.0,
+              "energy": 0.0,
+              "component_energy": 0.0,
+              "interference": 0.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 0.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "center",
+              "position": [
+                0.0,
+                0.0
+              ],
+              "time": 0.5,
+              "field": [
+                0.0,
+                0.0
+              ],
+              "magnitude": 0.0,
+              "energy": 0.0,
+              "component_energy": 0.0,
+              "interference": 0.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 0.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "right",
+              "position": [
+                1.0,
+                0.0
+              ],
+              "time": 0.5,
+              "field": [
+                0.0,
+                0.0
+              ],
+              "magnitude": 0.0,
+              "energy": 0.0,
+              "component_energy": 0.0,
+              "interference": 0.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 0.0,
+              "rotation_norm_error": 0.0
+            }
+          ],
+          "independent_oracle_max_error": 0
+        }
+      ]
+    },
+    {
+      "name": "zero_rotation",
+      "parameters": {
+        "sources": [
+          {
+            "position": [
+              0,
+              0
+            ],
+            "force": [
+              1,
+              0
+            ],
+            "phase": 0,
+            "direction": 1
+          },
+          {
+            "position": [
+              0,
+              0
+            ],
+            "force": [
+              1,
+              0
+            ],
+            "phase": 0,
+            "direction": -1
+          }
+        ],
+        "omega": 0,
+        "dt": 0.25,
+        "decay": 1,
+        "learning_rate": 0
+      },
+      "frames": [
+        {
+          "step": 0,
+          "time": 0.0,
+          "samples": [
+            {
+              "id": "left",
+              "position": [
+                -1.0,
+                0.0
+              ],
+              "time": 0.0,
+              "field": [
+                1.0,
+                0.0
+              ],
+              "magnitude": 1.0,
+              "energy": 1.0,
+              "component_energy": 0.5,
+              "interference": 0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "center",
+              "position": [
+                0.0,
+                0.0
+              ],
+              "time": 0.0,
+              "field": [
+                2.0,
+                0.0
+              ],
+              "magnitude": 2.0,
+              "energy": 4.0,
+              "component_energy": 2.0,
+              "interference": 2.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 2.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "right",
+              "position": [
+                1.0,
+                0.0
+              ],
+              "time": 0.0,
+              "field": [
+                1.0,
+                0.0
+              ],
+              "magnitude": 1.0,
+              "energy": 1.0,
+              "component_energy": 0.5,
+              "interference": 0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            }
+          ],
+          "independent_oracle_max_error": 0
+        },
+        {
+          "step": 1,
+          "time": 0.25,
+          "samples": [
+            {
+              "id": "left",
+              "position": [
+                -1.0,
+                0.0
+              ],
+              "time": 0.25,
+              "field": [
+                1.0,
+                0.0
+              ],
+              "magnitude": 1.0,
+              "energy": 1.0,
+              "component_energy": 0.5,
+              "interference": 0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "center",
+              "position": [
+                0.0,
+                0.0
+              ],
+              "time": 0.25,
+              "field": [
+                2.0,
+                0.0
+              ],
+              "magnitude": 2.0,
+              "energy": 4.0,
+              "component_energy": 2.0,
+              "interference": 2.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 2.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "right",
+              "position": [
+                1.0,
+                0.0
+              ],
+              "time": 0.25,
+              "field": [
+                1.0,
+                0.0
+              ],
+              "magnitude": 1.0,
+              "energy": 1.0,
+              "component_energy": 0.5,
+              "interference": 0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            }
+          ],
+          "independent_oracle_max_error": 0
+        },
+        {
+          "step": 2,
+          "time": 0.5,
+          "samples": [
+            {
+              "id": "left",
+              "position": [
+                -1.0,
+                0.0
+              ],
+              "time": 0.5,
+              "field": [
+                1.0,
+                0.0
+              ],
+              "magnitude": 1.0,
+              "energy": 1.0,
+              "component_energy": 0.5,
+              "interference": 0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "center",
+              "position": [
+                0.0,
+                0.0
+              ],
+              "time": 0.5,
+              "field": [
+                2.0,
+                0.0
+              ],
+              "magnitude": 2.0,
+              "energy": 4.0,
+              "component_energy": 2.0,
+              "interference": 2.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 2.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "right",
+              "position": [
+                1.0,
+                0.0
+              ],
+              "time": 0.5,
+              "field": [
+                1.0,
+                0.0
+              ],
+              "magnitude": 1.0,
+              "energy": 1.0,
+              "component_energy": 0.5,
+              "interference": 0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            }
+          ],
+          "independent_oracle_max_error": 0
+        }
+      ]
+    },
+    {
+      "name": "phase_cancellation",
+      "parameters": {
+        "sources": [
+          {
+            "position": [
+              0,
+              0
+            ],
+            "force": [
+              1,
+              0
+            ],
+            "phase": 0,
+            "direction": 1
+          },
+          {
+            "position": [
+              0,
+              0
+            ],
+            "force": [
+              1,
+              0
+            ],
+            "phase": 3.141592653589793,
+            "direction": -1
+          }
+        ],
+        "omega": 0,
+        "dt": 0.25,
+        "decay": 1,
+        "learning_rate": 0
+      },
+      "frames": [
+        {
+          "step": 0,
+          "time": 0.0,
+          "samples": [
+            {
+              "id": "left",
+              "position": [
+                -1.0,
+                0.0
+              ],
+              "time": 0.0,
+              "field": [
+                0.0,
+                6.123233995736766e-17
+              ],
+              "magnitude": 6.123233995736766e-17,
+              "energy": 3.749399456654644e-33,
+              "component_energy": 0.5,
+              "interference": -0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "center",
+              "position": [
+                0.0,
+                0.0
+              ],
+              "time": 0.0,
+              "field": [
+                0.0,
+                1.2246467991473532e-16
+              ],
+              "magnitude": 1.2246467991473532e-16,
+              "energy": 1.4997597826618576e-32,
+              "component_energy": 2.0,
+              "interference": -2.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 2.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "right",
+              "position": [
+                1.0,
+                0.0
+              ],
+              "time": 0.0,
+              "field": [
+                0.0,
+                6.123233995736766e-17
+              ],
+              "magnitude": 6.123233995736766e-17,
+              "energy": 3.749399456654644e-33,
+              "component_energy": 0.5,
+              "interference": -0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            }
+          ],
+          "independent_oracle_max_error": 0
+        },
+        {
+          "step": 1,
+          "time": 0.25,
+          "samples": [
+            {
+              "id": "left",
+              "position": [
+                -1.0,
+                0.0
+              ],
+              "time": 0.25,
+              "field": [
+                0.0,
+                6.123233995736766e-17
+              ],
+              "magnitude": 6.123233995736766e-17,
+              "energy": 3.749399456654644e-33,
+              "component_energy": 0.5,
+              "interference": -0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "center",
+              "position": [
+                0.0,
+                0.0
+              ],
+              "time": 0.25,
+              "field": [
+                0.0,
+                1.2246467991473532e-16
+              ],
+              "magnitude": 1.2246467991473532e-16,
+              "energy": 1.4997597826618576e-32,
+              "component_energy": 2.0,
+              "interference": -2.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 2.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "right",
+              "position": [
+                1.0,
+                0.0
+              ],
+              "time": 0.25,
+              "field": [
+                0.0,
+                6.123233995736766e-17
+              ],
+              "magnitude": 6.123233995736766e-17,
+              "energy": 3.749399456654644e-33,
+              "component_energy": 0.5,
+              "interference": -0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            }
+          ],
+          "independent_oracle_max_error": 0
+        },
+        {
+          "step": 2,
+          "time": 0.5,
+          "samples": [
+            {
+              "id": "left",
+              "position": [
+                -1.0,
+                0.0
+              ],
+              "time": 0.5,
+              "field": [
+                0.0,
+                6.123233995736766e-17
+              ],
+              "magnitude": 6.123233995736766e-17,
+              "energy": 3.749399456654644e-33,
+              "component_energy": 0.5,
+              "interference": -0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "center",
+              "position": [
+                0.0,
+                0.0
+              ],
+              "time": 0.5,
+              "field": [
+                0.0,
+                1.2246467991473532e-16
+              ],
+              "magnitude": 1.2246467991473532e-16,
+              "energy": 1.4997597826618576e-32,
+              "component_energy": 2.0,
+              "interference": -2.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 2.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "right",
+              "position": [
+                1.0,
+                0.0
+              ],
+              "time": 0.5,
+              "field": [
+                0.0,
+                6.123233995736766e-17
+              ],
+              "magnitude": 6.123233995736766e-17,
+              "energy": 3.749399456654644e-33,
+              "component_energy": 0.5,
+              "interference": -0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            }
+          ],
+          "independent_oracle_max_error": 0
+        }
+      ]
+    },
+    {
+      "name": "counter_rotation",
+      "parameters": {
+        "sources": [
+          {
+            "position": [
+              0,
+              0
+            ],
+            "force": [
+              1,
+              0
+            ],
+            "phase": 0,
+            "direction": 1
+          },
+          {
+            "position": [
+              0,
+              0
+            ],
+            "force": [
+              1,
+              0
+            ],
+            "phase": 0,
+            "direction": -1
+          }
+        ],
+        "omega": 1,
+        "dt": 0.7853981633974483,
+        "decay": 1,
+        "learning_rate": 0
+      },
+      "frames": [
+        {
+          "step": 0,
+          "time": 0.0,
+          "samples": [
+            {
+              "id": "left",
+              "position": [
+                -1.0,
+                0.0
+              ],
+              "time": 0.0,
+              "field": [
+                1.0,
+                0.0
+              ],
+              "magnitude": 1.0,
+              "energy": 1.0,
+              "component_energy": 0.5,
+              "interference": 0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "center",
+              "position": [
+                0.0,
+                0.0
+              ],
+              "time": 0.0,
+              "field": [
+                2.0,
+                0.0
+              ],
+              "magnitude": 2.0,
+              "energy": 4.0,
+              "component_energy": 2.0,
+              "interference": 2.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 2.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "right",
+              "position": [
+                1.0,
+                0.0
+              ],
+              "time": 0.0,
+              "field": [
+                1.0,
+                0.0
+              ],
+              "magnitude": 1.0,
+              "energy": 1.0,
+              "component_energy": 0.5,
+              "interference": 0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            }
+          ],
+          "independent_oracle_max_error": 0
+        },
+        {
+          "step": 1,
+          "time": 0.7853981633974483,
+          "samples": [
+            {
+              "id": "left",
+              "position": [
+                -1.0,
+                0.0
+              ],
+              "time": 0.7853981633974483,
+              "field": [
+                0.7071067811865476,
+                0.0
+              ],
+              "magnitude": 0.7071067811865476,
+              "energy": 0.5000000000000001,
+              "component_energy": 0.5000000000000001,
+              "interference": 0.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "center",
+              "position": [
+                0.0,
+                0.0
+              ],
+              "time": 0.7853981633974483,
+              "field": [
+                1.4142135623730951,
+                0.0
+              ],
+              "magnitude": 1.4142135623730951,
+              "energy": 2.0000000000000004,
+              "component_energy": 2.0000000000000004,
+              "interference": 0.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 2.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "right",
+              "position": [
+                1.0,
+                0.0
+              ],
+              "time": 0.7853981633974483,
+              "field": [
+                0.7071067811865476,
+                0.0
+              ],
+              "magnitude": 0.7071067811865476,
+              "energy": 0.5000000000000001,
+              "component_energy": 0.5000000000000001,
+              "interference": 0.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            }
+          ],
+          "independent_oracle_max_error": 0
+        },
+        {
+          "step": 2,
+          "time": 1.5707963267948966,
+          "samples": [
+            {
+              "id": "left",
+              "position": [
+                -1.0,
+                0.0
+              ],
+              "time": 1.5707963267948966,
+              "field": [
+                6.123233995736766e-17,
+                0.0
+              ],
+              "magnitude": 6.123233995736766e-17,
+              "energy": 3.749399456654644e-33,
+              "component_energy": 0.5,
+              "interference": -0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "center",
+              "position": [
+                0.0,
+                0.0
+              ],
+              "time": 1.5707963267948966,
+              "field": [
+                1.2246467991473532e-16,
+                0.0
+              ],
+              "magnitude": 1.2246467991473532e-16,
+              "energy": 1.4997597826618576e-32,
+              "component_energy": 2.0,
+              "interference": -2.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 2.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "right",
+              "position": [
+                1.0,
+                0.0
+              ],
+              "time": 1.5707963267948966,
+              "field": [
+                6.123233995736766e-17,
+                0.0
+              ],
+              "magnitude": 6.123233995736766e-17,
+              "energy": 3.749399456654644e-33,
+              "component_energy": 0.5,
+              "interference": -0.5,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            }
+          ],
+          "independent_oracle_max_error": 0
+        }
+      ]
+    },
+    {
+      "name": "changed_source",
+      "parameters": {
+        "sources": [
+          {
+            "position": [
+              0,
+              0
+            ],
+            "force": [
+              1,
+              0
+            ],
+            "phase": 0,
+            "direction": 1
+          },
+          {
+            "position": [
+              0,
+              0
+            ],
+            "force": [
+              0,
+              1
+            ],
+            "phase": 0,
+            "direction": -1
+          }
+        ],
+        "omega": 1,
+        "dt": 0.25,
+        "decay": 1,
+        "learning_rate": 0
+      },
+      "frames": [
+        {
+          "step": 0,
+          "time": 0.0,
+          "samples": [
+            {
+              "id": "left",
+              "position": [
+                -1.0,
+                0.0
+              ],
+              "time": 0.0,
+              "field": [
+                0.5,
+                0.5
+              ],
+              "magnitude": 0.7071067811865476,
+              "energy": 0.5,
+              "component_energy": 0.5,
+              "interference": 0.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "center",
+              "position": [
+                0.0,
+                0.0
+              ],
+              "time": 0.0,
+              "field": [
+                1.0,
+                1.0
+              ],
+              "magnitude": 1.4142135623730951,
+              "energy": 2.0,
+              "component_energy": 2.0,
+              "interference": 0.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 2.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "right",
+              "position": [
+                1.0,
+                0.0
+              ],
+              "time": 0.0,
+              "field": [
+                0.5,
+                0.5
+              ],
+              "magnitude": 0.7071067811865476,
+              "energy": 0.5,
+              "component_energy": 0.5,
+              "interference": 0.0,
+              "energy_identity_error": 0.0,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            }
+          ],
+          "independent_oracle_max_error": 0
+        },
+        {
+          "step": 1,
+          "time": 0.25,
+          "samples": [
+            {
+              "id": "left",
+              "position": [
+                -1.0,
+                0.0
+              ],
+              "time": 0.25,
+              "field": [
+                0.6081581904825838,
+                0.6081581904825838
+              ],
+              "magnitude": 0.8600655610487501,
+              "energy": 0.7397127693021014,
+              "component_energy": 0.49999999999999994,
+              "interference": 0.2397127693021015,
+              "energy_identity_error": 5.551115123125783e-17,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "center",
+              "position": [
+                0.0,
+                0.0
+              ],
+              "time": 0.25,
+              "field": [
+                1.2163163809651676,
+                1.2163163809651676
+              ],
+              "magnitude": 1.7201311220975002,
+              "energy": 2.9588510772084056,
+              "component_energy": 1.9999999999999998,
+              "interference": 0.958851077208406,
+              "energy_identity_error": 2.220446049250313e-16,
+              "analytic_norm_bound": 2.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "right",
+              "position": [
+                1.0,
+                0.0
+              ],
+              "time": 0.25,
+              "field": [
+                0.6081581904825838,
+                0.6081581904825838
+              ],
+              "magnitude": 0.8600655610487501,
+              "energy": 0.7397127693021014,
+              "component_energy": 0.49999999999999994,
+              "interference": 0.2397127693021015,
+              "energy_identity_error": 5.551115123125783e-17,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            }
+          ],
+          "independent_oracle_max_error": 0
+        },
+        {
+          "step": 2,
+          "time": 0.5,
+          "samples": [
+            {
+              "id": "left",
+              "position": [
+                -1.0,
+                0.0
+              ],
+              "time": 0.5,
+              "field": [
+                0.6785040502472879,
+                0.6785040502472879
+              ],
+              "magnitude": 0.9595496299847904,
+              "energy": 0.9207354924039484,
+              "component_energy": 0.5,
+              "interference": 0.42073549240394825,
+              "energy_identity_error": 1.1102230246251565e-16,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "center",
+              "position": [
+                0.0,
+                0.0
+              ],
+              "time": 0.5,
+              "field": [
+                1.3570081004945758,
+                1.3570081004945758
+              ],
+              "magnitude": 1.9190992599695809,
+              "energy": 3.6829419696157935,
+              "component_energy": 2.0,
+              "interference": 1.682941969615793,
+              "energy_identity_error": 4.440892098500626e-16,
+              "analytic_norm_bound": 2.0,
+              "rotation_norm_error": 0.0
+            },
+            {
+              "id": "right",
+              "position": [
+                1.0,
+                0.0
+              ],
+              "time": 0.5,
+              "field": [
+                0.6785040502472879,
+                0.6785040502472879
+              ],
+              "magnitude": 0.9595496299847904,
+              "energy": 0.9207354924039484,
+              "component_energy": 0.5,
+              "interference": 0.42073549240394825,
+              "energy_identity_error": 1.1102230246251565e-16,
+              "analytic_norm_bound": 1.0,
+              "rotation_norm_error": 0.0
+            }
+          ],
+          "independent_oracle_max_error": 0
+        }
+      ]
+    }
+  ],
+  "scope": "Offline captured numerical controls, independently checked by complex-number formula. Not native/model answer-performance evidence."
+}
